@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home 
 title: "Home"
 ---
-Welcome to my Jekyll-powered website!
+Welcome to my website!

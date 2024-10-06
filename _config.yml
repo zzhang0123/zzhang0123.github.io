@@ -1,5 +1,22 @@
-title: "Zheng Zhang - astrophysicist and cosmologist"
-description: "My personal website"
-baseurl: "" # Base URL for the site
-url: "https://zh-zhang.com"
-theme: minima # Using the Minima theme (can be changed)
+## The example of _config.yml can be found here: https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml
+
+title                    : "Zheng Zhang / Astrophysicist and cosmologist"
+title_separator          : "-"
+name                     : &name "Zheng Zhang"
+description              : &description "I am a physicist who thrives on the beauty of mathematics and a keen observer drawn to the power of theory."
+baseurl                  : "" # Base URL for the site
+url                      : "https://zh-zhang.com/"
+
+author:
+  # Biographic information
+  avatar                 : "profile.png"
+  pronouns               : "he/him"
+  bio                    : "Physicist. Lover of math, observer of theory."
+  
+  arxiv                  :
+  googlescholar          :
+  orcid                  :
+
+  github                 :
+  
+
