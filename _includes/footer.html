@@ -1,0 +1,58 @@
+<footer>
+  <div class="footer-content">
+    <p>&copy; {{ site.title }} {{ 'now' | date: "%Y" }}. All rights reserved.</p>
+    
+    <!-- Social media links (Optional) -->
+    <div class="social-media">
+      <a href="https://github.com/zzhang0123" target="_blank" rel="noopener">GitHub</a> |
+    </div>
+    
+    <!-- Link to go back to the top of the page -->
+    <div class="back-to-top">
+      <a href="#top">Back to top</a>
+    </div>
+  </div>
+</footer>
+
+<style>
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+  }
+  
+  .footer-content p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+  }
+
+  .social-media {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .social-media a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .social-media a:hover {
+    text-decoration: underline;
+  }
+  
+  .back-to-top {
+    margin-top: 15px;
+  }
+
+  .back-to-top a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .back-to-top a:hover {
+    text-decoration: underline;
+  }
+</style>
