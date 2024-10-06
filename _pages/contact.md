@@ -1,6 +1,9 @@
 ---
-layout: default
+layout: page
 title: "Contact"
+tagline: What I'm doing now
+ref: contact
+order: 2
 permalink: /contact/
 ---
 
