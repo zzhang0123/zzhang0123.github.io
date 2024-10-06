@@ -1,4 +1,5 @@
-title: "My Jekyll Website"
-description: "A simple site built with Jekyll"
+title: "Zheng Zhang - astrophysicist and cosmologist"
+description: "My personal website"
 baseurl: "" # Base URL for the site
+url: "https://zh-zhang.com"
 theme: minima # Using the Minima theme (can be changed)
