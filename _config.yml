@@ -1,0 +1,4 @@
+title: "My Jekyll Website"
+description: "A simple site built with Jekyll"
+baseurl: "" # Base URL for the site
+theme: minima # Using the Minima theme (can be changed)
