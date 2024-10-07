@@ -2,3 +2,79 @@
 ---
 
 @import 'jekyll-theme-cayman-blog';
+
+/* General Wrapper for Centering Content */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Site Title (Visible on non-home pages) */
+  .site-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  /* Navigation Menu Styles */
+  .site-nav {
+    position: relative;
+  }
+  
+  .menu-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .menu-icon svg {
+    fill: #333;  /* Customize the icon color */
+  }
+  
+  /* Navigation Links */
+  .nav-links-container {
+    text-align: center;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;  /* Inline-block to center the items */
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin: 0 15px;  /* Spacing between menu items */
+  }
+  
+  .page-link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .page-link:hover {
+    color: #0073e6;  /* Hover color */
+  }
+  
+  /* For Mobile and Small Screens */
+  @media (max-width: 768px) {
+    .nav-links li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    .menu-icon svg {
+      width: 30px;
+      height: 20px;
+    }
+  }
