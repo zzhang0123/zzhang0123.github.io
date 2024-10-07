@@ -1,13 +1,13 @@
 <header class="site-header" role="banner">
   <div class="wrapper">
-    <!-- Site title (shown on non-home pages) -->
-    {% if page.layout != 'home' %}
-      <a class="site-title" href="{{ "/" | absolute_url }}">
-        <!-- Add profile photo next to the site title -->
-        <img src="{{ "/assets/images/zzhang1.jpg" | relative_url }}" alt="Zheng Zhang's Photo" class="header-photo">
-        {{ site.title | escape }}
-      </a>
-    {% endif %}
+    <!-- Centered name and optional additional information -->
+    <div class="header-content">
+      <img src="{{ "/assets/images/zzhang1.jpg" | relative_url }}" alt="Zheng Zhang's Photo" class="header-photo">
+      <div class="header-text">
+        <h1 class="name">Zheng Zhang</h1>
+        <p class="tagline">Cosmologist & Physicist</p>
+      </div>
+    </div>
 
     <!-- Navigation Bar -->
     <nav class="site-nav">

@@ -1,5 +1,6 @@
 ---
 layout: home 
+title: Zheng Zhang - astrophysicist and cosmologist
 ---
 # Hi, there!
 
