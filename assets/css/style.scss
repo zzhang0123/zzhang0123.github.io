@@ -1,79 +1,75 @@
----
----
-
 @import 'jekyll-theme-cayman-blog';
-
-/* Style for profile photo */
-.profile-photo {
-  width: 150px; /* Adjust the size to fit your design */
-  height: auto;
-  border-radius: 50%; /* Makes the image circular */
-  display: block;
-  margin: 0 auto 20px; /* Center the image and add some space below */
-}
 
 /* General Wrapper for Centering Content */
 .wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  /* Site Title (Visible on non-home pages) */
-  .site-title {
-    font-size: 1.8rem;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 1rem;
-    color: #333;
-  }
-  
-  /* Navigation Menu Styles */
-  .site-nav {
-    position: relative;
-  }
-  
-  .menu-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  
-  .menu-icon svg {
-    fill: #333;  /* Customize the icon color */
-  }
-  
-  /* Navigation Links */
-  .nav-links-container {
-    text-align: center;
-  }
-  
-  
-
-  /* For Mobile and Small Screens */
-  @media (max-width: 768px) {
-    .nav-links li {
-      display: block;
-      margin: 10px 0;
-    }
-  
-    .menu-icon svg {
-      width: 30px;
-      height: 20px;
-    }
-  }
-
-
-  /* Smooth scrolling */
-html {
-  scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-/* Style the navigation icons */
+/* Site Title */
+.site-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Profile Photo */
+.profile-photo {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+/* Fixed Header Styling */
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+/* Prevent Content from Hiding Under Header */
+body {
+  padding-top: 70px; /* Adjust based on header height */
+}
+
+/* Navigation Menu */
+.site-nav {
+  position: relative;
+}
+
+.menu-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+/* Customize Menu Icon Color */
+.menu-icon svg {
+  fill: #333;
+}
+
+.menu-icon:hover svg {
+  fill: #0073e6;
+}
+
+/* Navigation Links */
+.nav-links-container {
+  text-align: center;
+}
+
 .nav-links {
   list-style-type: none;
   padding: 0;
@@ -86,6 +82,7 @@ html {
   margin: 0 15px;
 }
 
+/* Link Styles */
 .page-link {
   text-decoration: none;
   font-size: 1.2rem;
@@ -97,10 +94,20 @@ html {
   color: #0073e6;
 }
 
-.menu-icon svg {
-  fill: #333;
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
 }
 
-.menu-icon:hover svg {
-  fill: #0073e6;
+/* Mobile and Small Screens */
+@media (max-width: 768px) {
+  .nav-links li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .menu-icon svg {
+    width: 30px;
+    height: 20px;
+  }
 }

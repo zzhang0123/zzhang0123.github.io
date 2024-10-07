@@ -3,7 +3,7 @@ layout: home
 ---
 # Hi, there!
 
-This is Zheng Zhang's personal website. I’m a cosmologist and physicist dedicated to unravelling the mysteries of the universe and exploring the mathematical principles of natural philosophy.
+This is Zheng Zhang's personal website. I’m an astrophysicist and cosmologist.
 
 This space also serves as my blog, where I share notes, ideas, and reflections on various topics.
 
