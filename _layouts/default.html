@@ -34,7 +34,12 @@
   <meta name="robots" content="noarchive">
 
   <!-- Link to your site's CSS file -->
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.scss' | relative_url }}">
+
+  <!-- Conditionally load about.css only for the About page -->
+  {% if page.permalink == "/about/" %}
+    <link rel="stylesheet" href="{{ '/assets/css/about.css' | relative_url }}">
+  {% endif %}
 </head>
 
 <body>
