@@ -1,9 +1,9 @@
 ## The example of _config.yml can be found here: https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml
 
-title                    : "Zheng Zhang / Astrophysicist and cosmologist"
+title                    : "Zheng Zhang"
 title_separator          : "-"
 name                     : &name "Zheng Zhang"
-description              : &description "I am a physicist who thrives on the beauty of mathematics and a keen observer drawn to the power of theory."
+description              : &description "Astrophysicist and cosmologist."
 show_downloads           : true
 
 baseurl                  : "" # Base URL for the site
