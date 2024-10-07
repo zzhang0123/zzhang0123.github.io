@@ -11,6 +11,10 @@ url                      : "https://zh-zhang.com/"
 
 date_format              : "%b %-d, %Y"
 
+theme                    :
+
+
+
 author:
   # Biographic information
   avatar                 : "profile.png"
@@ -29,4 +33,4 @@ plugins:
 # target-blank:
 #     rel: nofollow
 
-header_page_refs: ['now', 'about', 'contact']
+header_page_refs: ['', 'about', 'contact']

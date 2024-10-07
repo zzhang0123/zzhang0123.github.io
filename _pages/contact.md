@@ -3,8 +3,8 @@ layout: page
 title: "Contact"
 tagline: What I'm doing now
 ref: contact
-order: 2
-permalink: /contact/
+order: 1
+permalink: /contact.html
 ---
 
 # Contact Me
