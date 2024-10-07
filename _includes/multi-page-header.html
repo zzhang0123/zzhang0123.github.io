@@ -10,6 +10,9 @@
     {% endif %}
 
     <!-- Navigation Bar -->
+    {% assign default_refs = site.pages | sort:"order" | map: "ref" %}
+    {% assign page_refs = site.header_page_refs | default: default_refs %}
+
     <nav class="site-nav">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
       <label for="nav-trigger" class="menu-icon">
@@ -22,10 +25,13 @@
 
       <div class="nav-links-container">
         <ul class="nav-links">
-          <!-- Navigation links scrolling to sections within the same page -->
-          <li><a class="page-link" href="#about">About</a></li>
-          <li><a class="page-link" href="#research">Research</a></li>
-          <li><a class="page-link" href="#contact">Contact</a></li>
+          <!-- Navigation links pointing to separate pages -->
+          {% for ref in page_refs %}
+            {% assign my_page = site.pages | where: "ref", ref | first %}
+            {% if my_page.title and my_page.title != "404" %}
+              <li><a class="page-link" href="{{ my_page.url | absolute_url }}">{{ my_page.title | escape }}</a></li>
+            {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </nav>
