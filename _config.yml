@@ -4,8 +4,12 @@ title                    : "Zheng Zhang / Astrophysicist and cosmologist"
 title_separator          : "-"
 name                     : &name "Zheng Zhang"
 description              : &description "I am a physicist who thrives on the beauty of mathematics and a keen observer drawn to the power of theory."
+show_downloads           : true
+
 baseurl                  : "" # Base URL for the site
 url                      : "https://zh-zhang.com/"
+
+date_format              : "%b %-d, %Y"
 
 author:
   # Biographic information
@@ -19,4 +23,10 @@ author:
 
   github                 :
   
+plugins:
+  - jekyll-target-blank
 
+# target-blank:
+#     rel: nofollow
+
+header_page_refs: ['now', 'about', 'contact']
