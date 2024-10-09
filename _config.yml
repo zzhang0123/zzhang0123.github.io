@@ -1,7 +1,7 @@
 site: Journal Jekyll Theme
 
 url: 
-baseurl: 
+baseurl: "https://zh-zhang.com/"
 
 collections:
   pages:
