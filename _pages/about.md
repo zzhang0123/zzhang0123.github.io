@@ -9,9 +9,9 @@ featured_image: /images/me/zzhang1.jpg
 -->
 
 <div class="gallery" data-columns="3">
-	<img src="Lovell.jpg">
-	<img src="cosmology.jpg">
-	<img src="meerkat.jpg">
+	<img src="/images/demo/Lovell.jpg">
+	<img src="/images/demo/cosmology.jpg">
+	<img src="/images/demo/meerkat.jpg">
 </div>
 
 ## Features
