@@ -1,7 +1,7 @@
-site: Journal Jekyll Theme
+site: Zheng Zhang's Personal Website
 
-url: 
-baseurl: "https://zh-zhang.com"
+url: "https://zh-zhang.com"
+baseurl: 
 
 collections:
   pages:
