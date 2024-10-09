@@ -54,7 +54,7 @@ Journal is created and supported by [Jekyll Themes](https://jekyllthemes.io), an
 
 **Nationality**: Chinese
 
-**Personal Interests**: A passionate dog lover, nature person, and self-proclaimed “Citizen of the Universe”
+**Personal Interests**: A passionate dog lover, nature person, and self-proclaimed “citizen of the Universe”
 
 **Location**: Manchester, United Kingdom
 
@@ -76,7 +76,7 @@ graph TD
     E[Dr. Advisor 2's Advisor] --> C
     F[Dr. Advisor 1's Advisor's Advisor] --> D
     G[Dr. Advisor 2's Advisor's Advisor] --> E
-
+```
 
 
 
