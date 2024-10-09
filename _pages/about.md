@@ -13,12 +13,13 @@ featured_image: /images/me/zzhang1.jpg
 	<img src="/images/demo/cosmology.jpg">
 	<img src="/images/demo/meerkat.jpg">
 </div>
-
-## Features
+---
+### What I'm doing now 
 
 I am currently a Postdoctoral Researcher at JBCA, the University of Manchester, where I work on observational cosmology, with a focus on 
 * radio cosmology (HI intensity mapping, global 21cm sinal, Epoch of Reionisation tomography) and 
 * low-frequency foreground science (AME, RSB excess, high-dynamic-range behavior of the spectrum, Polarisation and Faraday rotation, etc.). 
+
 
 <p>
 My research focuses on formalizing detailed astrophysical processes and accounting for various observational effects — instrumental, dynamical, modified radiative tranfer, topological, and more — in cosmological observations. I also work on developing methods and tools to accurately characterize these effects.
@@ -37,3 +38,5 @@ Journal is created and supported by [Jekyll Themes](https://jekyllthemes.io), an
 
 <a href="https://jekyllthemes.io/theme/journal-personal-jekyll-theme" class="button button--large">Get This Theme</a>
 -->
+
+---

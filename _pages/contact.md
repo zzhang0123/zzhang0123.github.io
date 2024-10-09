@@ -1,10 +1,9 @@
 ---
 title: Contact
-subtitle: Get in touch!
+subtitle: 
 description: This is my contact information.
 featured_image: /images/me/zzhang2.jpg
 ---
-# Contact Me
 
 I’d love to hear from you! If you have any questions, collaboration ideas, or want to discuss research, feel free to get in touch using the information below.
 
