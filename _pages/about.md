@@ -47,10 +47,15 @@ Journal is created and supported by [Jekyll Themes](https://jekyllthemes.io), an
 
 ### Bio
 **Pronouns**: He/Him
+
 **Title**: Dr.
+
 **Marital Status**: Married to Yuyan Huang
+
 **Nationality**: Chinese
+
 **Personal Interests**: A passionate dog lover, nature person, and self-proclaimed “Citizen of the Universe”
+
 **Location**: Manchester, United Kingdom
 
 ### Life and Education Journey
