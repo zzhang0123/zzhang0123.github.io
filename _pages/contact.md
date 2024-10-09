@@ -1,10 +1,29 @@
 ---
 title: Contact
-subtitle: Journal comes with a built-in contact form, that's free and easy to set up.
-description: A stunning personal blog Jekyll theme with an image-focused design.
+subtitle: Get in touch!
+description: This is my contact information.
 featured_image: /images/me/zzhang2.jpg
 ---
+# Contact Me
+
+I’d love to hear from you! If you have any questions, collaboration ideas, or want to discuss research, feel free to get in touch using the information below.
+
+## Email
+You can email me at:  
+[zheng.zhang@manchester.ac.uk](mailto:zheng.zhang@manchester.ac.uk)
+
+## Office Location
+Office 3.208
+Jodrell Bank Centre for Astrophysics  
+The University of Manchester
+
+## Office Hours
+Feel free to visit me during my office hours:  
+**Monday to Friday:** 10:00 AM – 4:00 PM
+
+---
+## Contact Form
+Alternatively, you can fill out the form below to send me a message:
 
 {% include contact-form.html %}
 
-We've made a contact form that you can use with [Formspree](https://formspree.io/create/jekyllthemes) to handle up to 50 submissions per month for free. You could also easily switch out the end-point to use another contact form service.
