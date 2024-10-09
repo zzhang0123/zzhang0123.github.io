@@ -63,11 +63,12 @@ I completed my PhD in Physics of the Universe at the Astroparticle and Cosmology
 Prior to that, I earned my MSc in Physics from Brown University (2018–2020) and my undergraduate degree in Applied Physics from Shanghai University (2014–2018). My earlier education includes high school in Hai’an and primary school in Sunzhuang village, spanning from 2002 to 2014. I was born in 1996.
 
 ### Extra
+
+- Academic Gossips 
 My PhD supervisor Martin once told me that he and I have Italian ancestry in academia, and Nick, who is also my supervisor, once commented that my style is what Weinberg is good at - playing the violin with boxing gloves. This inspired my interest in studying academic gossip (or academic lineage, if you prefer)!
 
-<h2>Academic Lineage (Flowchart)</h2>
 
-<div class="mermaid">
+```mermaid
 graph TD
     A[Dr. Advisor 1] --> B[You - PhD Student]
     C[Dr. Advisor 2] --> B
@@ -75,8 +76,6 @@ graph TD
     E[Dr. Advisor 2's Advisor] --> C
     F[Dr. Advisor 1's Advisor's Advisor] --> D
     G[Dr. Advisor 2's Advisor's Advisor] --> E
-</div>
-
 
 
 
