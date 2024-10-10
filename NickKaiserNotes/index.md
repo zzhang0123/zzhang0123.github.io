@@ -40,17 +40,15 @@ Zheng Zhang, 2024
 
 </section>
 
-<hr>
+---
 
-<section>
 {% for project in site.posts reversed %}
 <a href="{{ project.url | relative_url }}" class="button button--large">
 {{ project.title }}
 </a>
 {% endfor %}
-</section>
 
-<hr>
+---
 
 <section>
 <p>
