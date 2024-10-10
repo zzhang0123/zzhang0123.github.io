@@ -34,20 +34,20 @@ Enjoy!
 </p>
 
 <p> 
-Zheng Zhang, 2024 
+Zheng Zhang, Oct 2024 
 </p> 
 
 </section>
 
 
 <section>
-<a href="{{ '/_NickKaiserNotes/astrophysics' | relative_url }}" class="button button--large">
+<a href="https://zh-zhang.com/NickKaiserNotes/astrophysics" class="button button--large">
   Astrophysics
 </a>
-<a href="{{ '/_NickKaiserNotes/cosmology' | relative_url }}" class="button button--large">
+<a href="https://zh-zhang.com/NickKaiserNotes/cosmology" class="button button--large">
   Cosmology
 </a>
-<a href="{{ '/_NickKaiserNotes/general' | relative_url }}" class="button button--large">
+<a href="https://zh-zhang.com/NickKaiserNotes/general" class="button button--large">
   General Relativity
 </a>
 </section>
