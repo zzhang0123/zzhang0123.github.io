@@ -65,7 +65,7 @@ Our little family includes myself and my wife, Mrs. Huang Yuyan, along with two 
 	<img src="/images/me/baobab.jpg">
 	<img src="/images/me/summer1.jpg">
 	<img src="/images/me/summer2.jpg">
-	<img src="/images/me/family.jpg>
+	<img src="/images/me/family.jpg">
 	<img src="/images/me/couple.jpg">
 </div>
 
