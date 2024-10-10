@@ -12,7 +12,7 @@ kaiser: true
 A comprehensive set of lecture notes by Nick Kaiser
 <a href="NKarchive/ElementsOfAstrophysicsByKaiserN.pdf" class="button button--large" target="_blank">
 {{ "Elements of Astrophysics" }}
-</div>
+</a>
 
 
 ### Lectures on Astrophysics
