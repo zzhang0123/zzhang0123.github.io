@@ -1,18 +1,10 @@
 ---
-title: 'Nick Kaiser Lecture Notes'
-subtitle: 'An online archive of lectures given by Nick Kaiser on astrophysics, cosmology and general relativity.'
-date: 2024-10-10 00:00:00
+title: 'Lectures on Astrophysics'
+subtitle: 'An online archive of lectures given by Nick Kaiser on astrophysics.'
 featured_image: '/images/Nick.jpg'
 ---
 
-Before Nick passed away, in addition to enjoying his retirement, he was also organizing his lecture notes. He had expressed to me that he hoped to sort them out and make them available to the public online. In particular, he felt that the world might need another textbook on General Relativity.
 
-Although he obviously intended to present a more polished version, unfortunately we never had the chance to see it. These lectures reflect his continuous reflection and refinement, from his time in Toronto to Hawaii, and finally to Paris.
-
-As Nick's last student, I fully understand his wishes and the value of his lectures. But I hope I won't be his last student, so I'm sharing all of his lecture materials with you. This is the online archive of Nick's lectures and I will do my best to maintain these notes.
-
-**Disclaimer**: I would like to note that I have previously tried to contact people with more resources to suggest the creation of a permanent Nick Kaiser online archive. However, having seen no progress for more than a year, it seems that there may be challenges beyond what I can imagine in achieving this. I have therefore decided to maintain these talks on my own website. I would be delighted if any institute would see this statement and continue my role of maintaining these lectures (in an official way), I would be most grateful.
----
 ### **Book**: Elements of Astrophysics
 A comprehensive set of lecture notes by Nick Kaiser.
 
