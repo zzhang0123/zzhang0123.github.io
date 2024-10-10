@@ -1,13 +1,11 @@
 ---
 ---
 
-.centered-container {
-    display: flex;
-    justify-content: flex-end; /* Aligns the content to the right */
-    align-items: center;       /* Keeps vertical centering */
-    height: 100vh;             /* Full viewport height */
-    padding-right: 20px;       /* Optional: Add padding to control spacing from the right edge */
+.flowchart-right {
+    float: right;
+    margin-left: 10px;
 }
+
 // - - - - - - - - - - Foundations
 
 @import "_reset";
