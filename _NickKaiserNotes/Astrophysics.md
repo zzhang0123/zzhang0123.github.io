@@ -2,6 +2,8 @@
 title: 'Lectures on Astrophysics'
 subtitle: 'An online archive of lectures given by Nick Kaiser on astrophysics.'
 featured_image: '/images/Nick.jpg'
+tags: [Kaiser]
+kaiser: true
 ---
 
 
@@ -9,7 +11,7 @@ featured_image: '/images/Nick.jpg'
 
 A comprehensive set of lecture notes by Nick Kaiser
 <a href="NKarchive/ElementsOfAstrophysicsByKaiserN.pdf" class="button button--large" target="_blank">
-{{ Elements of Astrophysics }}
+{{ "Elements of Astrophysics" }}
 </div>
 
 
