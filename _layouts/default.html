@@ -107,18 +107,42 @@
 	{{ site.data.settings.advanced_settings.footer_js }}
 	{% endif %}
 
-	<!-- Allow full page reload for all links by ensuring no AJAX handling -->
-	<script>
-		document.addEventListener('DOMContentLoaded', function() {
-			// Find all links and remove any AJAX-related behavior
-			document.querySelectorAll('a').forEach(function(link) {
-				link.addEventListener('click', function(event) {
-					// Allow full page reload for all links by ensuring no AJAX handling
-					this.setAttribute('target', '_self');
-				});
-			});
-		});
-	</script>
+	<!-- Your script should be added here -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Attach a click event listener to all links (assuming you're using AJAX-based navigation)
+            document.querySelectorAll('a').forEach(function(link) {
+                link.addEventListener('click', function(event) {
+                    event.preventDefault(); // Prevent the default page load
+                    const url = this.getAttribute('href');
+
+                    // Fetch the new page content
+                    fetch(url)
+                        .then(response => response.text())
+                        .then(html => {
+                            // Parse the HTML from the response
+                            const newPage = new DOMParser().parseFromString(html, 'text/html');
+
+                            // Replace the content section
+                            document.querySelector('.page__content').innerHTML = newPage.querySelector('.page__content').innerHTML;
+
+                            // Replace the header (to update the menu)
+                            document.querySelector('header').innerHTML = newPage.querySelector('header').innerHTML;
+
+                            // Optionally update the URL (to reflect the new page)
+                            history.pushState(null, '', url);
+
+                            // Reinitialize any required JS for the new menu or page
+                            initializeMenuLogic();
+                        });
+                });
+            });
+
+            function initializeMenuLogic() {
+                // Reinitialize any JS logic related to your menus or page content
+            }
+        });
+    </script>
 
 </body>
 

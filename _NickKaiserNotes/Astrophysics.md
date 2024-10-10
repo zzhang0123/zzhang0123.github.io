@@ -22,19 +22,19 @@ A comprehensive set of lecture notes by Nick Kaiser
 </a>
 
 Contents:
-    - Electromagnetic Radiation
-    - Telescopes and Detectors
-    - Description of Radiation.
+    * Electromagnetic Radiation
+    * Telescopes and Detectors
+    * Description of Radiation.
     
 <a href="{{ site.baseurl }}/NKarchive/Astrophysics/Astro-2.pdf" target="_blank">
             {{ "Lecture 2: Introduction 2" }}
 </a>
 
 Contents:
-    - Radiation Emission
-    - Radiation and absorption by atoms and molecules
-    - Steller atmospheres and spectra
-    - Saha's equation for equilibrium ionisation and excitation for a plasma
+    * Radiation Emission
+    * Radiation and absorption by atoms and molecules
+    * Steller atmospheres and spectra
+    * Saha's equation for equilibrium ionisation and excitation for a plasma
     
 
 <a href="{{ site.baseurl }}/NKarchive/Astrophysics/Astro-3.pdf" target="_blank">
@@ -42,35 +42,35 @@ Contents:
 </a>
 
 Contents:
-    - Hydrostatic Equilibrium
-    - The Main Sequence
-    - Stellar evolution
-    - White dwarfs
+    * Hydrostatic Equilibrium
+    * The Main Sequence
+    * Stellar evolution
+    * White dwarfs
     
 
 <a href="{{ site.baseurl }}/NKarchive/Astrophysics/Astro-4.pdf" target="_blank"> {{"Lecture 4: The Interstellar Medium"}}
 </a>
 
 Contents:
-    - The ISM: what is it? where is it found? what is its physical state?
-    - The 'two-phase medium' model
-    - Mapping the MW with neutral hydrogen 21cm emission
-    - Pulsar dispersion and Faraday rotation
-    - Kolmogorov theory of turbulence
-    - Scintillation
-    - Statistics of random fields
+    * The ISM: what is it? where is it found? what is its physical state?
+    * The 'two-phase medium' model
+    * Mapping the MW with neutral hydrogen 21cm emission
+    * Pulsar dispersion and Faraday rotation
+    * Kolmogorov theory of turbulence
+    * Scintillation
+    * Statistics of random fields
 
 <a href="{{ site.baseurl }}/NKarchive/Astrophysics/Astro-5.pdf" target="_blank">
 {{"Lecture 5: The Milky Way and the Local Group"}}
 </a>
 
 Contents: 
-    - Star Clusters and Stellar Populations
-    - Weighing the Disk
-    - Dark matter from the rotaion curve of the Milky Way
-    - Mass of Milky Way from the Local Group "timing argument"
-    - Peeble's dynamical analysis of the Local Group using the principle of least action
-    - What is the dark matter?
+    * Star Clusters and Stellar Populations
+    * Weighing the Disk
+    * Dark matter from the rotaion curve of the Milky Way
+    * Mass of Milky Way from the Local Group "timing argument"
+    * Peeble's dynamical analysis of the Local Group using the principle of least action
+    * What is the dark matter?
 
 
 
@@ -79,8 +79,8 @@ Contents:
 </a>
     
 Contents: 
-    - Type of Galaxies
-    - Newtonian Gravity
-    - Galactic Dynamics
-    - Galactic Evolution
+    * Type of Galaxies
+    * Newtonian Gravity
+    * Galactic Dynamics
+    * Galactic Evolution
 
