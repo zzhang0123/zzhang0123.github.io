@@ -16,17 +16,10 @@ A comprehensive set of lecture notes by Nick Kaiser
 
 ---
 
-<section>
-{% for project in site.posts reversed %}
-<a href="{{ project.url | relative_url }}" class="button button--large">
-{{ project.title }}
-</a>
-{% endfor %}
-</section>
 
 ### **Lectures on Astrophysics**
 
-<a href="{{'/NKarchive/Astro1.pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
+<a href="{{'/NKarchive/Astro1.pdf' | relative_url }}" class="button button--large" target="_blank" >
 {{ "Lecture 1: Introduction 1" }}
 </a>
 
