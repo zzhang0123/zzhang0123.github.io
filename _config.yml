@@ -16,6 +16,9 @@ collections:
   notes:
     output: true
     permalink: /notes/:slug
+  NickKaiserNotes:
+    output: true
+    permalink: /NickKaiserNotes/:slug
 
 defaults:
   -
