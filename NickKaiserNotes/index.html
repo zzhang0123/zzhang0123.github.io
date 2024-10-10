@@ -16,28 +16,40 @@ kaiser: true
 		</p>
 
 		<p>
-			Although he obviously intended to present a more polished version, unfortunately, we never had the chance to see it. These lectures reflect his continuous reflection and refinement, from his time in Toronto to Hawaii, and finally to Paris.
-			As Nick's last student, I understand his wishes and the value of his lectures. But I hope I won't be his last student, so I'm sharing all of his lecture materials with you. This is the online archive of Nick's lectures, and I will do my best to maintain these notes.
+			Although he obviously intended to present a more polished version, unfortunately we never had the chance to see it. 
+			These lectures reflect his constant reflection and refinement, from his time in Toronto to Hawaii and finally to Paris.</p>
+			
+		<p>
+            I may be the one who understands this wish best, who also realises the great value of these lecture notes. 
+			I hope I won't be the last student to benefit from these materials, so I'm sharing all of his lecture notes with you. 
+			This is the online archive of Nick's lectures and I will do my best to maintain these notes.
+        </p>
+
+		<p>
+			Should you have any questions or suggestions, don’t hesitate to reach out. You can visit my contact details directly at the root domain of this site.
 		</p>
+
+		<p>
+			Enjoy!
+		</p>
+
+		<p> 
+			Zheng Zhang, 2024 
 	</section>
 
 	<hr>
 
 	<section>
-		<h2>Lecture Notes</h2>
-		<div class="lecture-list">
 			{% for project in site.NickKaiserNotes reversed %}
 				<a href="{{ project.url | relative_url }}" class="button button--large">
 					{{ project.title }}
 				</a>
 			{% endfor %}
-		</div>
 	</section>
 
 	<hr>
 
 	<section>
-		<h2>Disclaimer</h2>
 		<p>
 			<strong>Disclaimer</strong>: I would like to note that I have previously reached out to individuals and organizations with greater resources to propose the creation of a permanent Nick Kaiser online archive. 
 			However, after more than a year without progress, I recognize that there may be challenges in realizing this project. 
@@ -46,8 +58,3 @@ kaiser: true
 			Should any institution wish to take on the responsibility of maintaining these materials in an official capacity, I would be deeply appreciative.
 		</p>
 	</section>
-
-
-<footer>
-	<p>&copy; {{ site.time | date: "%Y" }} Nick Kaiser Archive</p>
-</footer>
