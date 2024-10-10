@@ -1,0 +1,43 @@
+<header class="header">
+
+	<div class="header-image header-image--on" style="background-image: url({{ page.featured_image | relative_url }});"></div>
+	<div class="header-image"></div>
+
+	<div class="header-overlay"></div>
+
+	<div class="header__content">
+
+		{% if site.data.settings.header_settings.logo_image %}
+		<a href="{{ site.baseurl }}/" class="header__logo">
+			<img src="{{ site.data.settings.header_settings.logo_image | relative_url }}" class="header__logo__img">
+		</a>
+		{% else %}
+		<a href="{{ site.baseurl }}/NickKaiserNotes/index.md" class="header__title">
+			{{ "Nick's lecture notes" }}
+		</a>
+		{% endif %}
+
+		<p class="header__tagline">{{ Online archive of Nick Kaiser's lecture notes }}</p>
+
+		<div class="menu">
+			<div class="menu__toggle js-menu-toggle">
+				<div class="menu__toggle__icon"><span></span></div>
+			</div>
+			<div class="menu__wrap">
+				<ul class="menu__list">
+					<li class="menu__list__item">
+						<a href="{{ site.NickKaiserNotes.Astrophysics.url | relative_url }}" class="menu__list__item__link">{{ Astrophysics }}</a>
+					</li>
+				</ul>
+				{% include socials.html %}
+			</div>
+		</div>
+
+		<a href="{{ site.baseurl }}/" class="header__title">
+			{{ "Back to homepage" }}
+		</a>
+
+
+	</div>
+
+</header>

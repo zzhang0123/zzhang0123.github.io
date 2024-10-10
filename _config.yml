@@ -55,7 +55,7 @@ defaults:
       path: ""
       type: "NickKaiserNotes"
     values:
-      layout: "page"
+      layout: "NickNotes"
 
 markdown: kramdown
 

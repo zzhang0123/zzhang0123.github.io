@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: NickNotes
 title: Nick Kaiser Lectures 
 subtitle: Notes on Astrophysics, Cosmology and General Relativity.
 description: An online archive of lectures given by Nick Kaiser on astrophysics, cosmology and general relativity.
