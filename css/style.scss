@@ -1,16 +1,7 @@
 ---
 ---
-
-.flex-right {
-    display: flex;
-    justify-content: flex-end;   /* Align to the right */
-    padding-right: 20px;         /* Add some space between the chart and the edge */
-}
-
-.mermaid {
-    flex-basis: 50%;             /* Ensure the flowchart takes up half the width */
-    min-width: 300px;            /* Set a minimum width to prevent shrinking */
-    max-width: 600px;            /* Set a maximum width to control size */
+.menu__kaiserNotes {
+    margin-top: 20px; /* Adjust this value to add more or less space */
 }
 
 
