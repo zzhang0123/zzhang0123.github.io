@@ -206,11 +206,6 @@
 				// Reattach link event listeners for the newly loaded page
 				attachLinkEventListeners();
 
-				// If the page has Mermaid content, reinitialize it
-				{% if page.mermaid %}
-				mermaid.init();
-				{% endif %}
-
 				// Any other page-specific initialization logic
 			}
 		});

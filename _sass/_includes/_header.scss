@@ -307,7 +307,7 @@
 
 	@include mq(tabletl) {
 		padding: 0;
-		font-size: $menu-larger;
+		font-size: $menu-large;
 	}
 
 	@include mq(laptop) {
