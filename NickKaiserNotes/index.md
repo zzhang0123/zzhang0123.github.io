@@ -1,45 +1,15 @@
 ---
 layout: NickNotes
-title: Nick Kaiser Archive 
-subtitle: Lecture notes on Astrophysics, Cosmology and General Relativity.
-description: An online archive of lectures given by Nick Kaiser on astrophysics, cosmology and general relativity.
-featured_image: /images/Nick.jpg
+title: 'Nick Kaiser Archive'
+subtitle: 'Lecture notes on Astrophysics, Cosmology and General Relativity.'
+description: 'An online archive of lectures given by Nick Kaiser on astrophysics, cosmology and general relativity.'
+featured_image: '/images/Nick.jpg'
 tags: [Kaiser]
 kaiser: true
 ---
-<section>
-<h2>Preface</h2>
 
-<p>Before Nick passed away, in addition to enjoying his retirement, he was also organizing his lecture notes. He had expressed to me that he hoped to sort them out and make them available to the public online. In particular, he felt that the world might need another textbook on General Relativity.
-</p>
+### Preface
 
-<p>
-Although he obviously intended to present a more polished version, unfortunately we never had the chance to see it. 
-These lectures reflect his constant reflection and refinement, from his time in Toronto to Hawaii and finally to Paris.
-</p>
-
-
-<p>
-I may be the one who understands this wish best, who also realises the great value of these lecture notes. 
-I hope I won't be the last student to benefit from these materials, so I'm sharing all of his lecture notes with you. 
-This is the online archive of Nick's lectures and I will do my best to maintain these notes.
-</p>
-
-<p>
-Should you have any questions or suggestions, don't hesitate to reach out. You can visit my contact details directly at the root domain of this site.
-</p>
-
-<p>
-Enjoy!
-</p>
-
-<p> 
-Zheng Zhang, 2024 
-</p> 
-
-</section>
-
----
 
 {% for project in site.posts reversed %}
 <a href="{{ project.url | relative_url }}" class="button button--large">
@@ -49,12 +19,31 @@ Zheng Zhang, 2024
 
 ---
 
-<section>
-<p>
-<strong>Disclaimer</strong>: I would like to note that I have previously reached out to individuals and organizations with greater resources to propose the creation of a permanent Nick Kaiser online archive. 
+Before Nick passed away, in addition to enjoying his retirement, he was also organizing his lecture notes. He had expressed to me that he hoped to sort them out and make them available to the public online. In particular, he felt that the world might need another textbook on General Relativity.
+
+Although he obviously intended to present a more polished version, unfortunately we never had the chance to see it. 
+These lectures reflect his constant reflection and refinement, from his time in Toronto to Hawaii and finally to Paris.
+
+I may be the one who understands this wish best, who also realises the great value of these lecture notes. 
+I hope I won't be the last student to benefit from these materials, so I'm sharing all of his lecture notes with you. 
+This is the online archive of Nick's lectures and I will do my best to maintain these notes.
+
+
+Should you have any questions or suggestions, don't hesitate to reach out. You can visit my contact details directly at the root domain of this site.
+
+
+
+Enjoy!
+
+
+
+Zheng Zhang, 2024 
+
+
+---
+
+**Disclaimer**: I would like to note that I have previously reached out to individuals and organizations with greater resources to propose the creation of a permanent Nick Kaiser online archive. 
 However, after more than a year without progress, I recognize that there may be challenges in realizing this project. 
 (This is not to assign blame, as all those involved have been extremely gracious.) 
 As a result, I have decided to continue hosting these lecture notes on my personal website. 
 Should any institution wish to take on the responsibility of maintaining these materials in an official capacity, I would be deeply appreciative.
-</p>
-</section>
