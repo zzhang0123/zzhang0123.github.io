@@ -13,6 +13,9 @@ collections:
   projects:
     output: true
     permalink: /project/:slug
+  notes:
+    output: true
+    permalink: /notes/:slug
 
 defaults:
   -
