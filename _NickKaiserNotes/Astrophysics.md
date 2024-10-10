@@ -15,53 +15,43 @@ A comprehensive set of lecture notes by Nick Kaiser
 </a>
 
 
-### Lectures on Astrophysics
+### **Lectures on Astrophysics**
 
-<div class="notes-container">
-    <div class="note">
-        <a href="NKarchive/Astrophysics/Astro-1.pdf" target="_blank">
-            Lecture 1: Introduction 1 
-        </a>
-    </div>
-</div>
-    Contents:
+<a href="NKarchive/Astrophysics/Astro-1.pdf" class="button button--large" target="_blank">
+{{ "Lecture 1: Introduction 1" }}
+</a>
+
+Contents:
     - Electromagnetic Radiation
     - Telescopes and Detectors
     - Description of Radiation.
     
-<div class="notes-container">
-    <div class="note">
-        <a href="NKarchive/Astrophysics/Astro-2.pdf" target="_blank">
-            Lecture 2: Introduction 2 
-        </a>
-    </div>
-</div>
-    Contents:
+<a href="NKarchive/Astrophysics/Astro-2.pdf" target="_blank">
+            {{ "Lecture 2: Introduction 2" }}
+</a>
+
+Contents:
     - Radiation Emission
     - Radiation and absorption by atoms and molecules
     - Steller atmospheres and spectra
     - Saha's equation for equilibrium ionisation and excitation for a plasma
     
-<div class="notes-container">
-    <div class="note">
-        <a href="NKarchive/Astrophysics/Astro-3.pdf" target="_blank">
-            Lecture 3: Stars and Steller Evolution
-        </a>
-    </div>
-</div>
-    Contents:
+
+<a href="NKarchive/Astrophysics/Astro-3.pdf" target="_blank">
+{{ "Lecture 3: Stars and Steller Evolution" }}
+</a>
+
+Contents:
     - Hydrostatic Equilibrium
     - The Main Sequence
     - Stellar evolution
     - White dwarfs
     
-<div class="notes-container">
-    <div class="note">
-        <a href="NKarchive/Astrophysics/Astro-4.pdf" target="_blank">
-        </a>
-    </div>
-</div>
-    Contents:
+
+<a href="NKarchive/Astrophysics/Astro-4.pdf" target="_blank"> {{"Lecture 4: The Interstellar Medium"}}
+</a>
+
+Contents:
     - The ISM: what is it? where is it found? what is its physical state?
     - The 'two-phase medium' model
     - Mapping the MW with neutral hydrogen 21cm emission
@@ -70,14 +60,11 @@ A comprehensive set of lecture notes by Nick Kaiser
     - Scintillation
     - Statistics of random fields
 
-<div class="notes-container">
-    <div class="note">
-        <a href="NKarchive/Astrophysics/Astro-5.pdf" target="_blank">
-            Lecture 5: The Milky Way and the Local Group
-        </a>
-    </div>
-</div>
-    Contents: 
+<a href="NKarchive/Astrophysics/Astro-5.pdf" target="_blank">
+{{"Lecture 5: The Milky Way and the Local Group"}}
+</a>
+
+Contents: 
     - Star Clusters and Stellar Populations
     - Weighing the Disk
     - Dark matter from the rotaion curve of the Milky Way
@@ -87,15 +74,11 @@ A comprehensive set of lecture notes by Nick Kaiser
 
 
 
-
-<div class="notes-container">
-    <div class="note">
-        <a href="NKarchive/Astrophysics/Astro-6.pdf" target="_blank">
-            Lecture 6: Galaxies
-        </a>
-    </div>
-</div>
-    Contents: 
+<a href="NKarchive/Astrophysics/Astro-6.pdf" target="_blank">
+{{"Lecture 6: Galaxies"}}
+</a>
+    
+Contents: 
     - Type of Galaxies
     - Newtonian Gravity
     - Galactic Dynamics
