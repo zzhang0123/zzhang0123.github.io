@@ -1,6 +1,13 @@
 ---
 ---
 
+.centered-container {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center;     /* Vertically center */
+    height: 100vh;           /* Make the container height fill the viewport */
+}
+
 // - - - - - - - - - - Foundations
 
 @import "_reset";
