@@ -68,17 +68,16 @@ Prior to that, I earned my MSc in Physics from Brown University (2018–2020) an
 
 - Family
 
-In addition to myself and Mrs Huang Yuyan, our little family includes two little baobab trees, Jumbo and Zhuangzhuang, who were brought to Manchester from Paris. I raised a German Shepherd called Summer while I was in the US and he is now with my parents in my far away hometown in China.
+Our little family includes myself and my wife, Mrs. Huang Yuyan, along with two cherished baobab trees, Jumbo and Zhuangzhuang (壮壮), which we brought with us from Paris to Manchester. While living in the US, I raised a loving and loyal German Shepherd named Summer, who now enjoys life with my parents in my faraway hometown in China.
+
 <div class="gallery" data-columns="2">
 	<img src="/images/me/baobab.jpg">
 	<img src="/images/me/summerI.jpg">
-	<img src="/images/demo/meerkat.jpg">
 </div>
 
 - Academic Gossips 
 
 My PhD supervisor Martin once told me that he and I have Italian ancestry in academia, and Nick, who is also my supervisor, once commented that my style is what Weinberg is good at - playing the violin with boxing gloves. This inspired my interest in studying academic gossip (or academic lineage, if you prefer)!
-
 <div class="centered-container">
 <div class="mermaid">
 graph LR

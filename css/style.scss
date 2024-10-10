@@ -3,11 +3,11 @@
 
 .centered-container {
     display: flex;
-    justify-content: center; /* Horizontally center */
-    align-items: center;     /* Vertically center */
-    height: 100vh;           /* Make the container height fill the viewport */
+    justify-content: flex-end; /* Aligns the content to the right */
+    align-items: center;       /* Keeps vertical centering */
+    height: 100vh;             /* Full viewport height */
+    padding-right: 40px;       /* Optional: Add padding to control spacing from the right edge */
 }
-
 // - - - - - - - - - - Foundations
 
 @import "_reset";
