@@ -1,6 +1,6 @@
 ---
-title: 'Lectures on Cosmology'
-subtitle: 'An online archive of lectures given by Nick Kaiser on cosmology.'
+title: 'Lectures on General Relativity'
+subtitle: 'An online archive of lectures given by Nick Kaiser on GR.'
 featured_image: '/images/Nick.jpg'
 tags: [Kaiser]
 kaiser: true
