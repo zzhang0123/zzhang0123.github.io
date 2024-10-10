@@ -7,7 +7,6 @@ featured_image: /images/Nick.jpg
 tags: [Kaiser]
 kaiser: true
 ---
-<main>
 <section>
 <h2>Preface</h2>
 
@@ -59,4 +58,3 @@ As a result, I have decided to continue hosting these lecture notes on my person
 Should any institution wish to take on the responsibility of maintaining these materials in an official capacity, I would be deeply appreciative.
 </p>
 </section>
-</main>
