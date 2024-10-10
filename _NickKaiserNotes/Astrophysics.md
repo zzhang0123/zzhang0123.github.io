@@ -10,14 +10,14 @@ kaiser: true
 ### **Book**: Elements of Astrophysics
 
 A comprehensive set of lecture notes by Nick Kaiser
-<a href="{{ site.baseurl }}/NKarchive/ElementsOfAstrophysicsByKaiserN.pdf" class="button button--large" target="_blank" rel="noopener noreferrer">
+<a href="{{ '/NKarchive/ElementsOfAstrophysicsByKaiserN.pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
 {{ "Elements of Astrophysics" }}
 </a>
 
 
 ### **Lectures on Astrophysics**
 
-<a href="{{ site.baseurl }}/NKarchive/Astrophysics/Astro-1.pdf" class="button button--large" target="_blank" rel="noopener noreferrer">
+<a href="{{ '/NKarchive/Astrophysics/Astro-1.pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
 {{ "Lecture 1: Introduction 1" }}
 </a>
 
@@ -26,7 +26,7 @@ Contents:
     * Telescopes and Detectors
     * Description of Radiation.
     
-<a href="{{ site.baseurl }}/NKarchive/Astrophysics/Astro-2.pdf" target="_blank">
+<a href="{{ '/NKarchive/Astrophysics/Astro-2.pdf' | relative_url }}" target="_blank">
             {{ "Lecture 2: Introduction 2" }}
 </a>
 
@@ -37,7 +37,7 @@ Contents:
     * Saha's equation for equilibrium ionisation and excitation for a plasma
     
 
-<a href="{{ site.baseurl }}/NKarchive/Astrophysics/Astro-3.pdf" target="_blank">
+<a href="{{ '/NKarchive/Astrophysics/Astro-3.pdf' | relative_url }}" target="_blank">
 {{ "Lecture 3: Stars and Steller Evolution" }}
 </a>
 
@@ -48,7 +48,7 @@ Contents:
     * White dwarfs
     
 
-<a href="{{ site.baseurl }}/NKarchive/Astrophysics/Astro-4.pdf" target="_blank"> {{"Lecture 4: The Interstellar Medium"}}
+<a href="{{ '/NKarchive/Astrophysics/Astro-4.pdf' | relative_url }}" target="_blank"> {{"Lecture 4: The Interstellar Medium"}}
 </a>
 
 Contents:
@@ -60,7 +60,7 @@ Contents:
     * Scintillation
     * Statistics of random fields
 
-<a href="{{ site.baseurl }}/NKarchive/Astrophysics/Astro-5.pdf" target="_blank">
+<a href="{{ '/NKarchive/Astrophysics/Astro-5.pdf' | relative_url }}" target="_blank">
 {{"Lecture 5: The Milky Way and the Local Group"}}
 </a>
 
@@ -74,7 +74,7 @@ Contents:
 
 
 
-<a href="{{ site.baseurl }}/NKarchive/Astrophysics/Astro-6.pdf" target="_blank">
+<a href="{{ '/NKarchive/Astrophysics/Astro-6.pdf' | relative_url }}" target="_blank">
 {{"Lecture 6: Galaxies"}}
 </a>
     

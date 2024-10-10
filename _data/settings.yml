@@ -96,8 +96,9 @@ font_settings:
     small_size: 16
     medium_size: 17
     large_size: 18
-    larger_size: 21
+    larger_size: 23
     weight: 400
+    weight_larger: 550
     letter_spacing: 0
   h1:
     small_size: 25

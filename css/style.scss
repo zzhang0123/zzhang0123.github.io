@@ -102,6 +102,7 @@ $menu-medium: {{ site.data.settings.font_settings.menu.medium_size }}px;
 $menu-large: {{ site.data.settings.font_settings.menu.large_size }}px;
 $menu-larger: {{ site.data.settings.font_settings.menu.larger_size }}px;
 $menu-weight: {{ site.data.settings.font_settings.menu.weight }};
+$menu-weight-larger: {{ site.data.settings.font_settings.menu.weight_larger }};
 $menu-spacing: {{ site.data.settings.font_settings.menu.letter_spacing }}em;
 
 $h1-small: {{ site.data.settings.font_settings.h1.small_size }}px;

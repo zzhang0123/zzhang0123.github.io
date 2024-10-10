@@ -296,8 +296,8 @@
 }
 
 .menu__list__item__link_larger {
-	font-size: $menu-medium;
-	font-weight: $menu-weight;
+	font-size: $menu-large;
+	font-weight: $menu-weight-larger;
 	color: rgba($overlay-text-color, 0.7);
 	padding: 10px 0;
 
@@ -307,7 +307,7 @@
 
 	@include mq(tabletl) {
 		padding: 0;
-		font-size: $menu-large;
+		font-size: $menu-larger;
 	}
 
 	@include mq(laptop) {
