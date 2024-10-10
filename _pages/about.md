@@ -78,21 +78,6 @@ My PhD supervisor Martin once told me that he and I had Italian ancestors in aca
 
 
 
-// <div class="flex-center">
-//    <div class="mermaid">
-//        graph LR
-//            B[Martin Bucher] --> A(Zheng Zhang)
-//            C[Nick Kaiser]  --> A
-//            D[John Preskill] --> B
-//            E[Martin Rees] --> C
-//            F[Steven Weinberg] --> D
-//            G[Sam Treiman] --> F 
-//            H[Enrico Fermi] --> G
-//            I[Dennis W. Sciama] --> E
-//            J[Paul Dirac] --> I
-//    </div>
-//</div>
----
 
 
 

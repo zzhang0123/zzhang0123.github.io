@@ -40,11 +40,20 @@ kaiser: true
 	<hr>
 
 	<section>
-			{% for project in site.NickKaiserNotes reversed %}
-				<a href="{{ project.url | relative_url }}" class="button button--large">
-					{{ project.title }}
-				</a>
-			{% endfor %}
+		<div class="menu">
+			<div class="menu__toggle js-menu-toggle">
+				<div class="menu__toggle__icon"><span></span></div>
+			</div>
+			<div class="menu__wrap">
+				<ul class="menu__list">
+					{% for project in site.NickKaiserNotes reversed %}
+					<li class="menu__list__item">
+						<a href="{{ project.url | relative_url }}" class="menu__list__item__link_larger">{{ project.title }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
 	</section>
 
 	<hr>
