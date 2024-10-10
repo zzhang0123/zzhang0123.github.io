@@ -108,6 +108,7 @@
 	{% endif %}
 
 	<!-- AJAX Page Loading -->
+	<!--
 	<script>
 		document.addEventListener('DOMContentLoaded', function() {
 			// Attach a click event listener to all links
@@ -147,6 +148,70 @@
 				attachLinkEventListeners();
 	
 				// Additional logic to initialize any page-specific JavaScript (if needed)
+			}
+		});
+	</script> -->
+
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			// Attach click event listeners to links
+			attachLinkEventListeners();
+
+			function attachLinkEventListeners() {
+				document.querySelectorAll('a').forEach(function(link) {
+					link.addEventListener('click', function(event) {
+						const url = this.getAttribute('href');
+
+						// Ignore anchor, mailto, tel, and external links
+						if (url.startsWith('#') || url.startsWith('mailto:') || url.startsWith('tel:') || url.startsWith('http')) {
+							return; // Allow the browser to handle these links
+						}
+
+						// Prevent default behavior for internal links
+						event.preventDefault();
+
+						// Fetch the new page content
+						fetch(url)
+							.then(response => {
+								if (!response.ok) {
+									throw new Error('Network response was not ok.');
+								}
+								return response.text();
+							})
+							.then(html => {
+								// Parse the new HTML content
+								const newPage = new DOMParser().parseFromString(html, 'text/html');
+
+								// Replace the content section
+								document.querySelector('.page__content').innerHTML = newPage.querySelector('.page__content').innerHTML;
+
+								// Replace the header section
+								document.querySelector('header').innerHTML = newPage.querySelector('header').innerHTML;
+
+								// Update the URL in the browser's address bar
+								history.pushState(null, '', url);
+
+								// Reinitialize JS logic (like Mermaid) if needed
+								initializePageLogic();
+							})
+							.catch(error => {
+								console.error('Error fetching the page:', error);
+								window.location.href = url; // Fallback to normal navigation in case of error
+							});
+					});
+				});
+			}
+
+			function initializePageLogic() {
+				// Reattach link event listeners for the newly loaded page
+				attachLinkEventListeners();
+
+				// If the page has Mermaid content, reinitialize it
+				{% if page.mermaid %}
+				mermaid.init();
+				{% endif %}
+
+				// Any other page-specific initialization logic
 			}
 		});
 	</script>
