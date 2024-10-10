@@ -29,7 +29,7 @@
 				<ul class="menu__list">
 					{% for project in site.NickKaiserNotes reversed %}
 					<li class="menu__list__item">
-						<a href="{{ project.url | relative_url }}" class="menu__list__item__link">{{ project.title }}</a>
+						<a href="{{ project.url | relative_url }}" class="menu__list__item__link_larger">{{ project.title }}</a>
 					</li>
 					{% endfor %}
 				</ul>
@@ -40,7 +40,7 @@
 		<br> 
 		<br> 
 		
-		<a href="{{ site.baseurl }}/" class="header__title">
+		<a href="{{ site.baseurl }}/" class="header__content">
 			{{ "Maintainer: Zheng Zhang" }}
 		</a>
 
