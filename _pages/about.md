@@ -64,7 +64,7 @@ Journal is created and supported by [Jekyll Themes](https://jekyllthemes.io), an
 I completed my PhD in Physics of the Universe at the Astroparticle and Cosmology (APC) Laboratory, Université Paris Cité, from November 2020 to October 2023. During the first half of the program, I was based at the École Normale Supérieure (ENS, Paris).
 Prior to that, I earned my MSc in Physics from Brown University (2018–2020) and my undergraduate degree in Applied Physics from Shanghai University (2014–2018). My earlier education includes high school in Hai’an and primary school in Sunzhuang village, spanning from 2002 to 2014. I was born in 1996.
 
-### Extra
+### More
 
 - Family
 
