@@ -8,47 +8,8 @@ featured_image: '/images/Nick.jpg'
 ### **Book**: Elements of Astrophysics
 A comprehensive set of lecture notes by Nick Kaiser.
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lecture Notes</title>
-    <style>
-        /* Simple styling for your notes section */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f4f4f9;
-        }
-        h2 {
-            color: #333;
-        }
-        .notes-container {
-            display: flex;
-            flex-wrap: wrap;
-        }
-        .note {
-            background-color: #fff;
-            border: 1px solid #ddd;
-            padding: 15px;
-            margin: 10px;
-            width: 200px;
-            text-align: center;
-            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-        }
-        .note a {
-            text-decoration: none;
-            color: #007bff;
-        }
-        .note a:hover {
-            color: #0056b3;
-        }
-    </style>
-</head>
-<body>
 
-<h2>Lectures on Astrophysics</h2>
+### Lectures on Astrophysics
 
 <div class="notes-container">
     <div class="note">
@@ -115,6 +76,3 @@ A comprehensive set of lecture notes by Nick Kaiser.
 
     <!-- Add more notes as needed -->
 </div>
-
-</body>
-</html>

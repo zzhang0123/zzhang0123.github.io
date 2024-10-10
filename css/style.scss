@@ -13,6 +13,38 @@
     max-width: 600px;            /* Set a maximum width to control size */
 }
 
+
+/* Simple styling for your notes section */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+}
+h2 {
+    color: #333;
+}
+.notes-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.note {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+.note a {
+    text-decoration: none;
+    color: #007bff;
+}
+.note a:hover {
+    color: #0056b3;
+}
+
+
 // - - - - - - - - - - Foundations
 
 @import "_reset";
