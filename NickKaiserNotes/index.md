@@ -42,7 +42,7 @@ Zheng Zhang, 2024
 
 <section>
 <a href="{{ site.NickKaiserNotes.astrophysics.url | relative_url }}" class="button button--large">
-{{ project.title }}
+{{ site.NickKaiserNotes.astrophysics.title }}
 </a>
 </section>
 
