@@ -48,9 +48,17 @@ In addition to the areas mentioned, I have a strong interest and ongoing reflect
 
 **Nationality**: Chinese
 
+**Location**: Manchester, United Kingdom
+
 **Personal Interests**: A dog lover, nature person, and self-proclaimed “citizen of the Universe”
 
-**Location**: Manchester, United Kingdom
+**Rate of oral output**: ~ 1 Dirac
+
+**Sports**: Tennis, Table Tennis  
+
+**Outdoor Activities**: Hiking
+
+
 
 ### Life and Education Journey
 I completed my PhD in Physics of the Universe at the Astroparticle and Cosmology (APC) Laboratory, Université Paris Cité, from November 2020 to October 2023. During the first half of the program, I was based at the École Normale Supérieure (ENS, Paris).
