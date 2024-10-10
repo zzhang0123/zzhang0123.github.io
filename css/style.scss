@@ -167,3 +167,16 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 @import "_includes/_blog";
 
 
+.flex-center {
+    display: flex;
+    justify-content: center;  /* Center the flowchart horizontally */
+    padding: 20px;            /* Optional padding around the flowchart */
+}
+
+.mermaid {
+    flex-basis: 50%;          /* This ensures the flowchart takes up 50% of the container's width */
+    min-width: 300px;         /* Prevent the flowchart from getting too small */
+    max-width: 600px;         /* Limit the maximum width of the flowchart */
+}
+
+
