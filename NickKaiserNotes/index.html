@@ -21,11 +21,9 @@ As Nick's last student, I understand his wishes and the value of his lectures. B
 
 {% for project in site.NickKaiserNotes reversed %}
 
-<div class="portfolio-item">
+<a href="{{ project.url | relative_url }}" class="button button--large"> {{ project.title }}
+</a>
 
-<div href="{{ project.url | relative_url }}" class="button button--large"> {{ project.title }}
-</div>
-</div>
 
 {% endfor %}
 
