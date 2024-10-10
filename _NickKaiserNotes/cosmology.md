@@ -1,30 +1,14 @@
 ---
-title: 'Lectures on Astrophysics'
-subtitle: 'An online archive of lectures given by Nick Kaiser on astrophysics.'
+title: 'Lectures on Cosmology'
+subtitle: 'An online archive of lectures given by Nick Kaiser on cosmology.'
 featured_image: '/images/Nick.jpg'
 tags: [Kaiser]
 kaiser: true
 ---
 
 
-### **Book**: Elements of Astrophysics
 
-A comprehensive set of lecture notes by Nick Kaiser
-<a href="{{'/NKarchive/ElementsOfAstrophysicsByKaiserN.pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
-{{ "Elements of Astrophysics" }}
-</a>
-
----
-
-<section>
-{% for project in site.posts reversed %}
-<a href="{{ project.url | relative_url }}" class="button button--large">
-{{ project.title }}
-</a>
-{% endfor %}
-</section>
-
-### **Lectures on Astrophysics**
+### **Lectures on Cosmology**
 
 <a href="{{'/NKarchive/Astro1.pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
 {{ "Lecture 1: Introduction 1" }}
