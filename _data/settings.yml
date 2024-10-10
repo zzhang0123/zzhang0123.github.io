@@ -12,10 +12,12 @@ menu_settings:
   menu_items:
     - title: 'Latest'
       url: '/'
-    - title: 'About'
+    - title: 'About Me'
       url: '/about'
     - title: 'Projects'
       url: '/projects/'
+    - title: 'Contact'
+      url: '/contact'
     - title: 'Contact'
       url: '/contact'
 

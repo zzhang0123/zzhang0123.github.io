@@ -81,7 +81,8 @@ Our little family includes myself and my wife, Mrs. Huang Yuyan, along with two 
 
 My PhD supervisor Martin once told me that he and I have Italian ancestry in academia, and Nick, who is also my supervisor, once commented that my style is what Weinberg is good at - playing the violin with boxing gloves. This inspired my interest in studying academic gossip (or academic lineage, if you prefer)!
 
-<div class="mermaid flowchart-right">
+<div class="flex-right">
+<div class="mermaid">
 graph LR
     B[Martin Bucher] --> A(ZZ)
     C[Nick Kaiser]  --> A
@@ -92,6 +93,7 @@ graph LR
     H[Enrico Fermi] --> G
     I[Dennis W. Sciama] --> E
     J[Paul Dirac] --> I;
+</div>
 </div>
 
 

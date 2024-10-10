@@ -1,9 +1,10 @@
 ---
 ---
 
-.flowchart-right {
-    float: right;
-    margin-left: 60px;
+.flex-right {
+    display: flex;
+    justify-content: flex-end;  /* Align content to the right */
+    margin-right: 20px;         /* Adds space between the flowchart and page edge */
 }
 
 // - - - - - - - - - - Foundations
