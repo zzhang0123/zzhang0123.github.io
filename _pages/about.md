@@ -56,9 +56,7 @@ In addition to the areas mentioned, I have a strong interest and ongoing reflect
 I completed my PhD in Physics of the Universe at the Astroparticle and Cosmology (APC) Laboratory, Université Paris Cité, from November 2020 to October 2023. During the first half of the program, I was based at the École Normale Supérieure (ENS, Paris).
 Prior to that, I earned my MSc in Physics from Brown University (2018–2020) and my undergraduate degree in Applied Physics from Shanghai University (2014–2018). My earlier education includes high school in Hai’an and primary school in Sunzhuang village, spanning from 2002 to 2014. I was born in 1996.
 
-### More
-
-- The Home Team
+###  The Home Team
 
 Our little family includes myself and my wife, Mrs. Huang Yuyan, along with two cherished baobab trees, Jumbo and Zhuangzhuang (壮壮), which we brought with us from Paris to Manchester. While living in the US, I raised a loving and loyal German Shepherd named Summer, who now enjoys life with my parents in my faraway hometown in China.
 
@@ -68,7 +66,7 @@ Our little family includes myself and my wife, Mrs. Huang Yuyan, along with two 
     <!--<img src="/images/me/couple.jpg">>-->
 </div>
 
-- Academic Gossips 
+### Academic Gossips 
 
 My PhD supervisor Martin once told me that he and I had Italian ancestry in academia, and Nick, who was also my supervisor, once teased me that my style was what Steven Weinberg is good at - "playing the violin with boxing gloves." This inspired my interest in studying academic gossip (or academic lineage)!
 
