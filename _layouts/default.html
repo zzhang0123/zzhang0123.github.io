@@ -73,9 +73,9 @@
 <body class="loading{% if site.data.settings.advanced_settings.ajax_loading == true %} ajax-loading{% endif %}" data-site-url="{{ site.url }}" data-page-url="{{ page.url | replace: 'index.html', '' }}">
 
 	{% if page.kaiser %}
-	{% include header.html %}
-	{% else %}
 	{% include NKheader.html %}
+	{% else %}
+	{% include header.html %}
 	{% endif %}	
 
 
