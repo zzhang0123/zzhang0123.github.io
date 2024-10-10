@@ -80,8 +80,8 @@ My PhD supervisor Martin once told me that he and I had Italian ancestors in aca
 
 <div class="gallery" data-columns="1">
 	<img src="/images/demo/flowchart.png">
-	<figcaption>The arrows indicate the relationship from PhD advisor to student.</figcaption>
 </div>
+(The arrows indicate the relationship from PhD advisor to student.)
 
 ---
 
