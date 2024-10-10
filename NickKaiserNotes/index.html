@@ -1,37 +1,53 @@
 ---
 layout: NickNotes
-title: Nick Kaiser Lectures 
-subtitle: Notes on Astrophysics, Cosmology and General Relativity.
+title: Nick Kaiser Archive 
+subtitle: Lecture notes on Astrophysics, Cosmology and General Relativity.
 description: An online archive of lectures given by Nick Kaiser on astrophysics, cosmology and general relativity.
 featured_image: /images/Nick.jpg
 tags: [Kaiser]
 kaiser: true
 ---
 
+	<section>
+		<h2>Preface</h2>
 
-<h1>Preface</h1>
+		<p>
+			Before Nick passed away, in addition to enjoying his retirement, he was also organizing his lecture notes. He had expressed to me that he hoped to sort them out and make them available to the public online. In particular, he felt that the world might need another textbook on General Relativity.
+		</p>
 
-<p>
-Before Nick passed away, in addition to enjoying his retirement, he was also organizing his lecture notes. He had expressed to me that he hoped to sort them out and make them available to the public online. In particular, he felt that the world might need another textbook on General Relativity.
-</p>
-<p>
-Although he obviously intended to present a more polished version, unfortunately we never had the chance to see it. These lectures reflect his continuous reflection and refinement, from his time in Toronto to Hawaii, and finally to Paris.
-As Nick's last student, I understand his wishes and the value of his lectures. But I hope I won't be his last student, so I'm sharing all of his lecture materials with you. This is the online archive of Nick's lectures and I will do my best to maintain these notes.
-</p>
+		<p>
+			Although he obviously intended to present a more polished version, unfortunately, we never had the chance to see it. These lectures reflect his continuous reflection and refinement, from his time in Toronto to Hawaii, and finally to Paris.
+			As Nick's last student, I understand his wishes and the value of his lectures. But I hope I won't be his last student, so I'm sharing all of his lecture materials with you. This is the online archive of Nick's lectures, and I will do my best to maintain these notes.
+		</p>
+	</section>
 
-<hr>
+	<hr>
 
-{% for project in site.NickKaiserNotes reversed %}
-<a href="{{ project.url | relative_url }}" class="button button--large"> {{ project.title }}
-</a>
-{% endfor %}
+	<section>
+		<h2>Lecture Notes</h2>
+		<div class="lecture-list">
+			{% for project in site.NickKaiserNotes reversed %}
+				<a href="{{ project.url | relative_url }}" class="button button--large">
+					{{ project.title }}
+				</a>
+			{% endfor %}
+		</div>
+	</section>
 
-<hr>
+	<hr>
 
-<p>
-<strong>Disclaimer</strong>: I would like to note that I have previously reached out to individuals and organizations with greater resources to propose the creation of a permanent Nick Kaiser online archive. 
-However, after more than a year without progress, I recognize that there may be challenges in realizing this project. 
-(This is not to assign blame, as all those involved have been extremely gracious.) 
-As a result, I have decided to continue hosting these lecture notes on my personal website. 
-Should any institution wish to take on the responsibility of maintaining these materials in an official capacity, I would be deeply appreciative.
-</p>
+	<section>
+		<h2>Disclaimer</h2>
+		<p>
+			<strong>Disclaimer</strong>: I would like to note that I have previously reached out to individuals and organizations with greater resources to propose the creation of a permanent Nick Kaiser online archive. 
+			However, after more than a year without progress, I recognize that there may be challenges in realizing this project. 
+			(This is not to assign blame, as all those involved have been extremely gracious.) 
+			As a result, I have decided to continue hosting these lecture notes on my personal website. 
+			Should any institution wish to take on the responsibility of maintaining these materials in an official capacity, I would be deeply appreciative.
+		</p>
+	</section>
+
+
+<footer>
+	<p>&copy; {{ site.time | date: "%Y" }} Nick Kaiser Archive</p>
+</footer>
