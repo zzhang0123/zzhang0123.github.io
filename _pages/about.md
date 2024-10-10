@@ -79,21 +79,22 @@ Our little family includes myself and my wife, Mrs. Huang Yuyan, along with two 
 - Academic Gossips 
 
 My PhD supervisor Martin once told me that he and I have Italian ancestry in academia, and Nick, who is also my supervisor, once commented that my style is what Weinberg is good at - playing the violin with boxing gloves. This inspired my interest in studying academic gossip (or academic lineage, if you prefer)!
-
+<!-- 
 <div class="flex-center">
     <div class="mermaid">
-        graph TD
-            B[Martin Bucher] --> A(Zheng Zhang)
-            C[Nick Kaiser]  --> A
-            D[John Preskill] --> B
-            E[Martin Rees] --> C
-            F[Steven Weinberg] --> D
-            G[Sam Treiman] --> F 
-            H[Enrico Fermi] --> G
-            I[Dennis W. Sciama] --> E
-            J[Paul Dirac] --> I
+        graph TD-->
+            %% B[Martin Bucher] --> A(Zheng Zhang)
+            %% C[Nick Kaiser]  --> A
+            %% D[John Preskill] --> B
+            %% E[Martin Rees] --> C
+            %% F[Steven Weinberg] --> D
+            %% G[Sam Treiman] --> F 
+            %% H[Enrico Fermi] --> G
+            %% I[Dennis W. Sciama] --> E
+            %% J[Paul Dirac] --> I
+ <!-- 
     </div>
-</div>
+</div>-->
 
 
 <div class="gallery" data-columns="1">
