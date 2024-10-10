@@ -7,8 +7,7 @@ kaiser: true
 ---
 
 
-
-### **Lectures on Cosmology**
+---
 
 <a href="{{'/NKarchive/GR/GR-M1-1.pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
 {{ "Lecture 1: Review of Special Relativity" }}

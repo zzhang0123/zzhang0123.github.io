@@ -8,7 +8,7 @@ kaiser: true
 
 
 
-### **Lectures on Cosmology**
+---
 
 <a href="{{'/NKarchive/Cosmology/Cosmo-M1-1(scan).pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
 {{ "Lecture 1: The Newtonian Model" }}
