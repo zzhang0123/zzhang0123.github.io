@@ -83,7 +83,7 @@ My PhD supervisor Martin once told me that he and I have Italian ancestry in aca
 
 
 <div class="mermaid">
-graph DT
+graph TD
     B[Martin Bucher] --> A(ZZ)
     C[Nick Kaiser]  --> A
     D[John Preskill] --> B
