@@ -48,7 +48,7 @@ In addition to the areas mentioned, I have a strong interest and ongoing reflect
 
 **Nationality**: Chinese
 
-**Personal Interests**: A passionate dog lover, nature person, and self-proclaimed “citizen of the Universe”
+**Personal Interests**: A dog lover, nature person, and self-proclaimed “citizen of the Universe”
 
 **Location**: Manchester, United Kingdom
 
