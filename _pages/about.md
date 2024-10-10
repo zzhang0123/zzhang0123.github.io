@@ -78,8 +78,7 @@ Our little family includes myself and my wife, Mrs. Huang Yuyan, along with two 
 
 - Academic Gossips 
 
-My PhD supervisor Martin once told me that he and I have Italian ancestry in academia, and Nick, who is also my supervisor, once commented that my style is what Weinberg is good at - playing the violin with boxing gloves. This inspired my interest in studying academic gossip (or academic lineage, if you prefer)!
-
+My PhD supervisor Martin once told me that he and I had Italian ancestry in academia, and Nick, who was also my supervisor, once teased me that my style was what Steven Weinberg is good at - "playing the violin with boxing gloves." This inspired my interest in studying academic gossip (or academic lineage)!
 
 <div class="gallery" data-columns="1">
 	<img src="/images/demo/flowchart.png">
