@@ -44,6 +44,18 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+  -
+    scope:
+      path: ""
+      type: "notes"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "NickKaiserNotes"
+    values:
+      layout: "page"
 
 markdown: kramdown
 

@@ -20,7 +20,7 @@ menu_settings:
       url: '/publications'
     - title: 'My Notes'
       url: '/notes/'
-    - title:'Nick Kaiser Lectures'
+    - title: 'Nick Kaiser Lectures'
       url: '/NickKaiserNotes/'  
     - title: 'Contact'
       url: '/contact'
