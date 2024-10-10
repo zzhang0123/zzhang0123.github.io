@@ -3,8 +3,14 @@
 
 .flex-right {
     display: flex;
-    justify-content: flex-end;  /* Align content to the right */
-    margin-right: 20px;         /* Adds space between the flowchart and page edge */
+    justify-content: flex-end;   /* Align to the right */
+    padding-right: 20px;         /* Add some space between the chart and the edge */
+}
+
+.mermaid {
+    flex-basis: 50%;             /* Ensure the flowchart takes up half the width */
+    min-width: 300px;            /* Set a minimum width to prevent shrinking */
+    max-width: 600px;            /* Set a maximum width to control size */
 }
 
 // - - - - - - - - - - Foundations
