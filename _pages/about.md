@@ -25,8 +25,8 @@ I am currently a Postdoctoral Researcher at JBCA, the University of Manchester, 
 
 
 <p>
-My research focuses on formalizing detailed astrophysical processes and accounting for various observational effects — instrumental, dynamical, modified radiative tranfer, topological, and more — in cosmological observations. I also work on developing methods and tools to accurately characterize these effects.
-Recently, I have been fascinated by the use of perturbative statistical methods to understanding and characterising the ensemble behaviour of the models of astrophysical and cosmological processes, as well as ultra-high dimensional Bayesian inference using the Gibbs sampling method. As both a theorist and an observer, my approach is to model physical processes with high accuracy, while abstracting out as many environmental effects as possible. Methodologically, my goal is to fit models and summary statistics of systematic environmental effects through large joint posterior distribution functions.
+Specifically, my research interest is in formalising detailed astrophysical processes and accounting for various observational effects - instrumental, dynamical, modified radiative transfer, geometrical and topological, and more - in cosmological observations. I also work on the development of methods and tools to accurately characterise these effects.
+Recently, I have been fascinated by the use of perturbative statistical methods to understanding and characterising the ensemble behaviour of the models of astrophysical and cosmological processes, as well as ultra-high dimensional Bayesian inference using the Gibbs sampling method. As both a theorist and an observer, my approach to science extraction is to model physical processes with high accuracy, while abstracting out as many environmental effects as possible. Methodologically, my goal is to fit models and summary statistics of systematic environmental effects through large joint posterior distribution functions.
 </p>
 
 
