@@ -1,47 +1,7 @@
 ---
 ---
-.menu__kaiserNotes {
-    margin-top: 20px; /* Adjust this value to add more or less space */
-}
 
 
-/* Simple styling for your notes section */
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    background-color: #f4f4f9;
-}
-
-h2 {
-    color: #333;
-}
-
-.notes-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: 50%;             /* Ensure the flowchart takes up half the width */
-    min-width: 300px;            /* Set a minimum width to prevent shrinking */
-    max-width: 600px; 
-}
-
-.note {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin: 10px;
-    width: 400px;
-    text-align: center;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.note a {
-    text-decoration: none;
-    color: #007bff;
-}
-
-.note a:hover {
-    color: #0056b3;
-}
 
 
 // - - - - - - - - - - Foundations
