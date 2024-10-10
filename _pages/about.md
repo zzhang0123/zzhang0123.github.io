@@ -3,6 +3,8 @@ title: About Me
 subtitle: Zheng Zhang - Astrophysicist and Cosmologist 
 description: A few more words about me.
 featured_image: /images/me/zzhang1.jpg
+tags: [Mermaid]
+mermaid: true
 ---
 <!-- 
 ![](/images/Manchester.jpg)
@@ -64,19 +66,27 @@ Prior to that, I earned my MSc in Physics from Brown University (2018–2020) an
 
 ### Extra
 
+- Family
+
+In addition to myself and Mrs Huang Yuyan, our little family includes two little baobab trees, Jumbo and Zhuangzhuang, who were brought to Manchester from Paris. I raised a German Shepherd called Summer while I was in the US and he is now with my parents in my far away hometown in China.
+
 - Academic Gossips 
+
 My PhD supervisor Martin once told me that he and I have Italian ancestry in academia, and Nick, who is also my supervisor, once commented that my style is what Weinberg is good at - playing the violin with boxing gloves. This inspired my interest in studying academic gossip (or academic lineage, if you prefer)!
 
 
-```mermaid
-graph TD
-    A[Dr. Advisor 1] --> B[You - PhD Student]
-    C[Dr. Advisor 2] --> B
-    D[Dr. Advisor 1's Advisor] --> A
-    E[Dr. Advisor 2's Advisor] --> C
-    F[Dr. Advisor 1's Advisor's Advisor] --> D
-    G[Dr. Advisor 2's Advisor's Advisor] --> E
-```
+<div class="mermaid">
+graph LR
+    B[Martin Bucher] --> A(ZZ)
+    C[Nick Kaiser]  --> A
+    D[John Preskill] --> B
+    E[Martin Rees] --> C
+    F[Steven Weinberg] --> D
+    G[Sam Treiman] --> F 
+    H[Enrico Fermi] --> G
+    I[Dennis W. Sciama] --> E
+    J[Paul Dirac] --> I;
+</div>
 
 
 
