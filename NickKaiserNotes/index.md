@@ -41,8 +41,14 @@ Zheng Zhang, 2024
 
 
 <section>
-<a href="{{ site.NickKaiserNotes.astrophysics.url | relative_url }}" class="button button--large">
-{{ site.NickKaiserNotes.astrophysics.title }}
+<a href="{{ '/_NickKaiserNotes/astrophysics.md' | relative_url }}" class="button button--large">
+  Astrophysics
+</a>
+<a href="{{ '/_NickKaiserNotes/cosmology.md' | relative_url }}" class="button button--large">
+  Cosmology
+</a>
+<a href="{{ '/_NickKaiserNotes/general.md' | relative_url }}" class="button button--large">
+  General Relativity
 </a>
 </section>
 

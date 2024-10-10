@@ -19,7 +19,7 @@ A comprehensive set of lecture notes by Nick Kaiser
 
 ### **Lectures on Astrophysics**
 
-<a href="{{'/NKarchive/Astro1.pdf' | relative_url }}" class="button button--large" target="_blank" >
+<a href="{{'/NKarchive/Astrophysics/Astro-1.pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
 {{ "Lecture 1: Introduction 1" }}
 </a>
 
@@ -29,7 +29,7 @@ Contents:
 * Description of Radiation
     
 <a href="{{ '/NKarchive/Astrophysics/Astro-2.pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
-            {{ "Lecture 2: Introduction 2" }}
+{{ "Lecture 2: Introduction 2" }}
 </a>
 
 Contents:
