@@ -10,7 +10,7 @@ kaiser: true
 ### **Book**: Elements of Astrophysics
 
 A comprehensive set of lecture notes by Nick Kaiser
-<a href="{{ '/NKarchive/ElementsOfAstrophysicsByKaiserN.pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
+<a href="{{'/NKarchive/ElementsOfAstrophysicsByKaiserN.pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
 {{ "Elements of Astrophysics" }}
 </a>
 
@@ -18,7 +18,7 @@ A comprehensive set of lecture notes by Nick Kaiser
 
 ### **Lectures on Astrophysics**
 
-<a href="{{ '/NKarchive/Astrophysics/Astro1.pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
+<a href="{{'/NKarchive/Astro1.pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
 {{ "Lecture 1: Introduction 1" }}
 </a>
 
