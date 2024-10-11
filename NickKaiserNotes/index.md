@@ -34,7 +34,7 @@ Enjoy!
 </p>
 
 <p> 
-Zheng Zhang, Oct 2024 
+Zheng Zhang, October 2024 
 </p> 
 
 </section>
