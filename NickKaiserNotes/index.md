@@ -9,14 +9,14 @@ kaiser: true
 ---
 
 <section>
+<a href="https://zh-zhang.com/NickKaiserNotes/general" class="button button--large">
+  General Relativity
+</a>
 <a href="https://zh-zhang.com/NickKaiserNotes/astrophysics" class="button button--large margin-left">
   Astrophysics
 </a>
 <a href="https://zh-zhang.com/NickKaiserNotes/cosmology" class="button button--large">
   Cosmology
-</a>
-<a href="https://zh-zhang.com/NickKaiserNotes/general" class="button button--large">
-  General Relativity
 </a>
 </section>
 
