@@ -13,9 +13,6 @@ collections:
   projects:
     output: true
     permalink: /project/:slug
-  notes:
-    output: true
-    permalink: /notes/:slug
   NickKaiserNotes:
     output: true
     permalink: /NickKaiserNotes/:name
