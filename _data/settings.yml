@@ -16,10 +16,10 @@ menu_settings:
       url: '/about'
     - title: 'Projects'
       url: '/projects/'
-    - title: 'Papers and codes'
-      url: '/publications'
     - title: 'Posts'
-      url: '/notes/'  
+      url: '/notes/' 
+    - title: 'Papers and codes'
+      url: '/publications' 
     - title: 'Contact'
       url: '/contact'
 
