@@ -41,7 +41,7 @@ Zheng Zhang, October 2024
 
 
 <section>
-<a href="https://zh-zhang.com/NickKaiserNotes/astrophysics" class="button button--large">
+<a href="https://zh-zhang.com/NickKaiserNotes/astrophysics" class="button button--large margin-left">
   Astrophysics
 </a>
 <a href="https://zh-zhang.com/NickKaiserNotes/cosmology" class="button button--large">
