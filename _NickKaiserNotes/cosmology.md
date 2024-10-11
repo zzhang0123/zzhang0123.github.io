@@ -24,7 +24,8 @@ kaiser: true
 </a>
     
 
-<a href="{{ '/NKarchive/Cosmology/Cosmo-M1-4(scan).pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer"> {{"Lecture 4: The Hot Big Bang and Inflation"}}
+<a href="{{ '/NKarchive/Cosmology/Cosmo-M1-4(scan).pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer"> 
+{{"Lecture 4: The Hot Big Bang and Inflation"}}
 </a>
 
 
