@@ -7,8 +7,23 @@ featured_image: /images/Nick.jpg
 tags: [Kaiser]
 kaiser: true
 ---
+
 <section>
-<h3>Preface</h3>
+<a href="https://zh-zhang.com/NickKaiserNotes/astrophysics" class="button button--large margin-left">
+  Astrophysics
+</a>
+<a href="https://zh-zhang.com/NickKaiserNotes/cosmology" class="button button--large">
+  Cosmology
+</a>
+<a href="https://zh-zhang.com/NickKaiserNotes/general" class="button button--large">
+  General Relativity
+</a>
+</section>
+
+<hr>
+
+<section>
+<h3>Maintainer's Note</h3>
 
 <p> Before he passed away, Nick was not only enjoying his retirement but also organizing his lecture notes. He had expressed to me that he hoped to sort them out and make them available to the public online. In particular, he felt that the world might need another textbook on General Relativity.
 </p>
@@ -37,20 +52,12 @@ Enjoy!
 Zheng Zhang, October 2024 
 </p> 
 
+<p> 
+PS: Some of the notes are scans of the materials I saved, and there are some scribbles that may make them a bit untidy. I apologize if this causes any inconvenience.
+</p>
 </section>
 
-
-<section>
-<a href="https://zh-zhang.com/NickKaiserNotes/astrophysics" class="button button--large margin-left">
-  Astrophysics
-</a>
-<a href="https://zh-zhang.com/NickKaiserNotes/cosmology" class="button button--large">
-  Cosmology
-</a>
-<a href="https://zh-zhang.com/NickKaiserNotes/general" class="button button--large">
-  General Relativity
-</a>
-</section>
+<hr>
 
 <section>
 <p>
