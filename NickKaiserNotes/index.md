@@ -10,7 +10,7 @@ kaiser: true
 <section>
 <h3>Preface</h3>
 
-<p>Before Nick passed away, in addition to enjoying his retirement, he was also organizing his lecture notes. He had expressed to me that he hoped to sort them out and make them available to the public online. In particular, he felt that the world might need another textbook on General Relativity.
+<p> Before he passed away, Nick was not only enjoying his retirement but also organizing his lecture notes. He had expressed to me that he hoped to sort them out and make them available to the public online. In particular, he felt that the world might need another textbook on General Relativity.
 </p>
 
 <p>
