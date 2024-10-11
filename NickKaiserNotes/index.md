@@ -61,10 +61,6 @@ PS: Some of the notes are scans of the materials I saved, and there are some scr
 
 <section>
 <p>
-<strong>Disclaimer</strong>: I would like to note that I have previously reached out to individuals and organizations with better resources to propose the creation of a permanent Nick Kaiser online archive. 
-However, after more than a year without progress, I recognize that there may be challenges in realizing this project. 
-(This is not to assign blame, as all those involved have been extremely gracious.) 
-As a result, I have decided to maintain these lecture notes on my personal site (but in as independent a form as possible). 
-Should any institution wish to take on the responsibility of maintaining these materials in an official capacity, I would be deeply appreciative.
+<strong>Disclaimer</strong>: I am merely hosting the notes in the interim, and the copyright remains with the respective copyright holder.
 </p>
 </section>
