@@ -10,8 +10,8 @@ kaiser: true
 ### **Book**: Elements of Astrophysics
 
 A comprehensive set of lecture notes by Nick Kaiser
-<a href="{{'/NKarchive/ElementsOfAstrophysicsByKaiserN.pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
-{{ "Elements of Astrophysics" }}
+<a href="https://zh-zhang.com/NKarchive/ElementsOfAstrophysicsByKaiserN.pdf" class="button button--large" target="_blank" rel="noopener noreferrer">
+Elements of Astrophysics
 </a>
 
 ---
@@ -19,8 +19,8 @@ A comprehensive set of lecture notes by Nick Kaiser
 
 ### **Lectures on Astrophysics**
 
-<a href="{{'/NKarchive/Astrophysics/Astro-1.pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
-{{ "Lecture 1: Introduction 1" }}
+<a href="https://zh-zhang.com/NKarchive/Astrophysics/Astro-1.pdf" class="button button--large" target="_blank" rel="noopener noreferrer">
+Lecture 1: Introduction 1
 </a>
 
 Contents:
@@ -28,8 +28,8 @@ Contents:
 * Telescopes and Detectors
 * Description of Radiation
     
-<a href="{{ '/NKarchive/Astrophysics/Astro-2.pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
-{{ "Lecture 2: Introduction 2" }}
+<a href="https://zh-zhang.com/NKarchive/Astrophysics/Astro-2.pdf" class="button button--large" target="_blank" rel="noopener noreferrer">
+Lecture 2: Introduction 2
 </a>
 
 Contents:
@@ -39,8 +39,8 @@ Contents:
 * Saha's equation for equilibrium ionisation and excitation for a plasma
     
 
-<a href="{{ '/NKarchive/Astrophysics/Astro-3.pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
-{{ "Lecture 3: Stars and Steller Evolution" }}
+<a href="https://zh-zhang.com/NKarchive/Astrophysics/Astro-3.pdf" class="button button--large" target="_blank" rel="noopener noreferrer">
+Lecture 3: Stars and Steller Evolution
 </a>
 
 Contents:
@@ -50,7 +50,8 @@ Contents:
 * White dwarfs
     
 
-<a href="{{ '/NKarchive/Astrophysics/Astro-4.pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer"> {{"Lecture 4: The Interstellar Medium"}}
+<a href="https://zh-zhang.com/NKarchive/Astrophysics/Astro-4.pdf" class="button button--large" target="_blank" rel="noopener noreferrer">
+Lecture 4: The Interstellar Medium
 </a>
 
 Contents:
@@ -62,8 +63,8 @@ Contents:
 * Scintillation
 * Statistics of random fields
 
-<a href="{{ '/NKarchive/Astrophysics/Astro-5.pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
-{{"Lecture 5: The Milky Way and the Local Group"}}
+<a href="https://zh-zhang.com/NKarchive/Astrophysics/Astro-5.pdf" class="button button--large" target="_blank" rel="noopener noreferrer">
+Lecture 5: The Milky Way and the Local Group
 </a>
 
 Contents: 
@@ -76,8 +77,8 @@ Contents:
 
 
 
-<a href="{{ '/NKarchive/Astrophysics/Astro-6.pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
-{{"Lecture 6: Galaxies"}}
+<a href="https://zh-zhang.com/NKarchive/Astrophysics/Astro-6.pdf" class="button button--large" target="_blank" rel="noopener noreferrer">
+Lecture 6: Galaxies
 </a>
     
 Contents: 

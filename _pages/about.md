@@ -44,7 +44,7 @@ In addition to the areas mentioned, I have a strong interest and ongoing reflect
 
 **Title**: Dr.
 
-**Marital Status**: Married to Yuyan Huang
+**Marital Status**: Married
 
 **Nationality**: Chinese
 
