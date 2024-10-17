@@ -19,8 +19,8 @@ kaiser: true
 </a>
    
 
-<a href="{{ '/NKarchive/Cosmology/Cosmo-M1-3(scan).pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
-{{ "Lecture 3: Relativistic Models" }}
+<a href="/NKarchive/Cosmology/Cosmo-M1-3(scan).pdf" target="_blank" class="button button--large" rel="noopener noreferrer">
+  Lecture 3: Relativistic Models
 </a>
     
 
