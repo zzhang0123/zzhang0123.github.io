@@ -10,12 +10,12 @@ kaiser: true
 
 ---
 
-<a href="{{'/NKarchive/Cosmology/Cosmo-M1-1(scan).pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
-{{ "Lecture 1: The Newtonian Model" }}
+<a href="https://zh-zhang.com/NKarchive/Cosmology/Cosmo-M1-1(scan).pdf" class="button button--large" target="_blank" rel="noopener noreferrer">
+  Lecture 1: The Newtonian Model
 </a>
     
-<a href="{{ '/NKarchive/Cosmology/Cosmo-M1-2(scan).pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
-            {{ "Lecture 2: Special Relativity Refresher Course" }}
+<a href="https://zh-zhang.com/NKarchive/Cosmology/Cosmo-M1-2(scan).pdf" class="button button--large" target="_blank" rel="noopener noreferrer">
+  Lecture 2: Special Relativity Refresher Course
 </a>
    
 
@@ -24,27 +24,27 @@ kaiser: true
 </a>
     
 
-<a href="{{ '/NKarchive/Cosmology/Cosmo-M1-4(scan).pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer"> 
-{{"Lecture 4: The Hot Big Bang and Inflation"}}
+<a href="https://zh-zhang.com/NKarchive/Cosmology/Cosmo-M1-4(scan).pdf" class="button button--large" target="_blank" rel="noopener noreferrer"> 
+  Lecture 4: The Hot Big Bang and Inflation
 </a>
 
 
 
-<a href="{{ '/NKarchive/Cosmology/Cosmo-M1-5(scan).pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
-{{"Lecture 5: Scalar Fields in Cosmology"}}
+<a href="https://zh-zhang.com/NKarchive/Cosmology/Cosmo-M1-5(scan).pdf" class="button button--large" target="_blank" rel="noopener noreferrer">
+  Lecture 5: Scalar Fields in Cosmology
 </a>
 
 
-<a href="{{ '/NKarchive/Cosmology/Cosmo-M1-6(scan).pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
-{{"Lecture 6: Scalar Fields as the Dark Matter"}}
+<a href="https://zh-zhang.com/NKarchive/Cosmology/Cosmo-M1-6(scan).pdf" class="button button--large" target="_blank" rel="noopener noreferrer">
+  Lecture 6: Scalar Fields as the Dark Matter
 </a>
     
 
-<a href="{{ '/NKarchive/Cosmology/Cosmo-M1-7.pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
-{{"Lecture 7: Evolution of Cosmological Structure"}}
+<a href="https://zh-zhang.com/NKarchive/Cosmology/Cosmo-M1-7.pdf" class="button button--large" target="_blank" rel="noopener noreferrer">
+  Lecture 7: Evolution of Cosmological Structure
 </a>
 
-<a href="{{ '/NKarchive/Cosmology/Cosmo-M1-8.pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
-{{"Lecture 8: Probes of Cosmological Structure"}}
+<a href="https://zh-zhang.com/NKarchive/Cosmology/Cosmo-M1-8.pdf" class="button button--large" target="_blank" rel="noopener noreferrer">
+  Lecture 8: Probes of Cosmological Structure
 </a>
 
