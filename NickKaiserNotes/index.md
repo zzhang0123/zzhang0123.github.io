@@ -18,6 +18,9 @@ kaiser: true
 <a href="https://zh-zhang.com/NickKaiserNotes/cosmology" class="button button--large">
   Cosmology
 </a>
+<a href="{{'/NKarchive/ElementsOfAstrophysicsByKaiserN.pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
+{{ "Book: Elements of Astrophysics" }}
+</a>
 </section>
 
 <hr>
