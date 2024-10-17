@@ -19,7 +19,7 @@ kaiser: true
   Cosmology
 </a>
 <a href="{{'/NKarchive/ElementsOfAstrophysicsByKaiserN.pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
-{{ "Book: Elements of Astrophysics" }}
+Book: Elements of Astrophysics
 </a>
 </section>
 
