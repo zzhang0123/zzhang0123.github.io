@@ -69,6 +69,10 @@ Our little family includes myself and my wife, Mrs. Huang Yuyan, along with two 
 	<img src="/images/me/summer2.jpg">
 </div>
 
+### Ancestry
+
+I can't go back too far. My grandfather was adopted. The man who adopted him, my great-grandfather, was a tofu maker/seller in the village, but unfortunately the craft was not passed on.
+
 ### Academic Gossips 
 
 My PhD supervisor Martin once told me that he and I had Italian ancestors in academia, and Nick, who was also my supervisor, once teased me (after a friendly debate) that my style (in GR) was that of Steven Weinberg, "playing violin with boxing gloves". This sparked my interest in studying academic archaeology (or academic lineage)!
