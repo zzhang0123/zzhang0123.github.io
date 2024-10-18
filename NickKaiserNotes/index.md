@@ -10,7 +10,7 @@ kaiser: true
 
 <section>
 <p>
-<a href="https://zh-zhang.com/NickKaiserNotes/general" class="button button--large margin-left">
+<a href="https://zh-zhang.com/NickKaiserNotes/general" class="button button--large">
   General Relativity
 </a>
 
