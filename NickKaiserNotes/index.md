@@ -9,18 +9,25 @@ kaiser: true
 ---
 
 <section>
+<p>
 <a href="https://zh-zhang.com/NickKaiserNotes/general" class="button button--large margin-left">
   General Relativity
 </a>
+
 <a href="https://zh-zhang.com/NickKaiserNotes/astrophysics" class="button button--large">
   Astrophysics
 </a>
+
 <a href="https://zh-zhang.com/NickKaiserNotes/cosmology" class="button button--large">
   Cosmology
 </a>
+</p>
+
+<p>
 <a href="{{'/NKarchive/ElementsOfAstrophysicsByKaiserN.pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
 Book: Elements of Astrophysics
 </a>
+</p>
 </section>
 
 <hr>
