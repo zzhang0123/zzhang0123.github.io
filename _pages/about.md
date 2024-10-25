@@ -42,7 +42,7 @@ In addition to the areas mentioned, I have a strong interest and ongoing reflect
 ### Bio
 **Pronouns**: He/Him
 
-**Title**: Dr.
+**Title**: Doctorate in the physics of the universe (DOCTORAT PHYSIQUE DE L'UNIVERS)
 
 **Marital Status**: Married
 
