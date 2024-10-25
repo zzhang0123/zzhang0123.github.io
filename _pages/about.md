@@ -50,7 +50,7 @@ In addition to the areas mentioned, I have a strong interest and ongoing reflect
 
 **Location**: Manchester, United Kingdom
 
-**Personal Interests**: A dog lover, nature person, and self-proclaimed “citizen of the Universe”
+**Profile**: Dog lover, nature person, and self-proclaimed “citizen of the Universe”
 
 
 ### Life and Education Journey
