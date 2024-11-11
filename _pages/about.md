@@ -59,7 +59,7 @@ Prior to that, I earned my MSc in Physics from Brown University (2018–2020) an
 
 ###  The Home Team
 
-Our little family includes my wife and myself, along with two cherished baobab trees, Jumbo and Zhuangzhuang, which we brought with us from Paris to Manchester. While living in the US, I raised a loving German Shepherd named Summer, who now enjoys life with my parents in my faraway hometown.
+Our little family includes my wife and myself, our Leopard cat, Youzi, along with two cherished baobab trees, Jumbo and Zhuangzhuang, which we brought with us from Paris to Manchester. While living in the US, I raised a loving German Shepherd named Summer, who now enjoys life with my parents in my faraway hometown.
 
 <div class="gallery" data-columns="4">
 	<img src="/images/me/baobab.jpg">
@@ -67,6 +67,7 @@ Our little family includes my wife and myself, along with two cherished baobab t
 	<img src="/images/me/couple.jpg">
 	<img src="/images/me/summer1.jpg">
 	<img src="/images/me/summer2.jpg">
+	<img src="/images/me/youzi.jpg">
 </div>
 
 ### Ancestry
