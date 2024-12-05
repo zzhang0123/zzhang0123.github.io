@@ -15,7 +15,7 @@ menu_settings:
     - title: 'About Me'
       url: '/about'
     - title: 'Research'
-      url: '/research'
+      url: '/research/'
     - title: 'Posts'
       url: '/notes/' 
     - title: 'Papers and codes'
