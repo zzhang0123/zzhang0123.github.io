@@ -58,7 +58,7 @@ Here is a list of my published and submitted papers to date. I am also listed on
   <a href="https://arxiv.org/abs/2412.03431">arXiv:2412.03431</a>
 </div>
 
-<div style="margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
+<div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
   <strong style="color: #000;">(6) RHINO: A large horn antenna for detecting the 21cm global signal</strong><br>
   <span style="color: #000;">P Bull, A El-Makadema et al.</span><br>
   <a href="https://arxiv.org/abs/2410.00076">arXiv:2410.00076</a>
@@ -98,9 +98,9 @@ Here is a list of my published and submitted papers to date. I am also listed on
 
 ## Codes
 
-Here is a list of codes used in the papers, some of which are available online. (Add your list of codes here.)
+Here is a list of available codes used in the papers. 
 
-<div class="publications-grid">
+<div class="publications-grid" style="width: 80%; margin: 0 auto;">
 
 <div class="publication-item">
     <h3><a href="https://github.com/SpyDust/SpyDust"><strong>SpyDust</strong></a></h3>
