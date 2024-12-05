@@ -1,7 +1,7 @@
 ---
 title: 'Spinning dust'
 subtitle: 'Anomalous Microwave Emission (AME)'
-featured_image: /images/projects/AME/grain_and_L_basis.pdf
+featured_image: /images/projects/AME/grain_and_L_basis.jpg
 ---
 
 I've been working with Jens Chluba on AME Spectrum in the following areas.
