@@ -57,19 +57,6 @@ In addition to the areas mentioned, I have a strong interest and ongoing reflect
 I completed my PhD in Physics of the Universe at the Astroparticle and Cosmology (APC) Laboratory, Université Paris Cité, from November 2020 to October 2023. During the first half of the program, I was based at the École Normale Supérieure (ENS, Paris).
 Prior to that, I earned my MSc in Physics from Brown University (2018–2020) and my undergraduate degree in Applied Physics from Shanghai University (2014–2018). My earlier education includes high school in Hai’an and primary school in Sunzhuang village, spanning from 2002 to 2014. I was born in 1996.
 
-###  The Home Team
-
-Our little family includes my wife and myself, our Bengal cat, Youzi, along with two cherished baobab trees, Jumbo and Zhuangzhuang, which we brought with us from Paris to Manchester. While living in the US, I raised a loving German Shepherd named Summer, who now enjoys life with my parents in my faraway hometown.
-
-<div class="gallery" data-columns="3">
-	<img src="/images/me/baobab.jpg">
-	<img src="/images/me/family.jpg">
-	<img src="/images/me/couple.jpg">
-	<img src="/images/me/summer1.jpg">
-	<img src="/images/me/summer2.jpg">
-	<img src="/images/me/youzi.jpg">
-</div>
-
 ### Ancestry
 
 I can't go back too far. My grandfather was adopted. The man who adopted him, my great-grandfather, was a tofu maker/seller in the village, but unfortunately the craft was not passed on.
@@ -82,6 +69,19 @@ My PhD supervisor Martin once told me that he and I had Italian ancestors in aca
 	<img src="/images/demo/flowchart.png">
 </div>
 (The arrows indicate the relationship from PhD advisor to student.)
+
+###  The Home Team
+
+Our little family includes my wife and myself, our Bengal cat, Youzi, along with two cherished baobab trees, Jumbo and Zhuangzhuang, which we brought with us from Paris to Manchester. While living in the US, I raised a loving German Shepherd named Summer, who now enjoys life with my parents in my faraway hometown.
+
+<div class="gallery" data-columns="3">
+	<img src="/images/me/baobab.jpg">
+	<img src="/images/me/family.jpg">
+	<img src="/images/me/couple.jpg">
+	<img src="/images/me/summer1.jpg">
+	<img src="/images/me/summer2.jpg">
+	<img src="/images/me/youzi.jpg">
+</div>
 
 
 
