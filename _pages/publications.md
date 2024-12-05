@@ -102,14 +102,19 @@ Here is a list of codes used in the papers, some of which are available online. 
 <div class="publications-grid">
 
 <div class="publication-item">
-    <h2><a href="https://github.com/SpyDust/SpyDust"><strong>SpyDust</strong></a></h2>
+    <h3><a href="https://github.com/SpyDust/SpyDust"><strong>SpyDust</strong></a></h3>
     <p>A python package for modeling spinning dust radiation</p>
     <p><a href="https://arxiv.org/abs/2412.03431">arXiv:2412.03431</a></p>
 </div>
 
 <div class="publication-item">
-    <h2><a href="https://github.com/zzhang0123/hydra-tod"><strong>Hydra-TOD</strong></a></h2>
+    <h3><a href="https://github.com/zzhang0123/hydra-tod"><strong>Hydra-TOD</strong></a></h3>
     <p>A Gibbs sampling method for single-dish TOD gain calibration and map-making</p>
+</div>
+
+<div class="publication-item">
+    <h3><a href="https://github.com/zzhang0123/TIBEC"><strong>TIBEC</strong></a></h3>
+    <p>This is a package for Beam Simulation in Cosmological Coordinates.</p>
 </div>
 
 </div>
