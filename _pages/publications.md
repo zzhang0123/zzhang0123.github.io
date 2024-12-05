@@ -5,7 +5,49 @@ description:
 featured_image: 
 ---
 
-# Publications
+// Publication styles
+<style>
+/* Grid container */
+.publications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+/* Individual publication item */
+.publication-item {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.publication-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.publication-item h3 a {
+    text-decoration: none;
+    color: #007acc;
+}
+
+.publication-item h3 a:hover {
+    text-decoration: underline;
+}
+
+.publication-item p {
+    margin: 0.5rem 0;
+    color: #555;
+}
+
+.publication-item p strong {
+    color: #000;
+}
+</style>
+
 
 Here is a list of my published and submitted papers to date. I am also listed on [Google Scholar](https://scholar.google.com/citations?user=TemNJQ0AAAAJ&hl=en&oi=sra), [arXiv](https://arxiv.org/a/zhang_z_28.html), and my [ORCID](https://orcid.org/0000-0002-9154-2803). The codes used in these papers are listed below, some of which are available online.
 
