@@ -1,7 +1,6 @@
 ---
 title: 'The Radio Sky'
 subtitle: 'Sky Modelling and Science Extraction Strategy.'
-date: 2024-12-5 00:00:00
 featured_image: /images/demo/meerKAT.jpg
 ---
 
