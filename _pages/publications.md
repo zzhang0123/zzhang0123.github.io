@@ -60,37 +60,37 @@ Here is a list of my published and submitted papers to date. I am also listed on
 </div>
 
 <div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
-  <strong style="color: #000;">(6) RHINO: A large horn antenna for detecting the 21cm global signal</strong><br>
+  <strong style="color: #000; font-size: 20px;">(6) RHINO: A large horn antenna for detecting the 21cm global signal</strong><br>
   <span style="color: #000;">P Bull, A El-Makadema et al.</span><br>
   <a href="https://arxiv.org/abs/2410.00076">arXiv:2410.00076</a>
 </div>
 
 <div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
-  <strong style="color: #000;">(5) Disentangling the anisotropic radio sky: Fisher forecasts for 21 cm arrays</strong><br>
+  <strong style="color: #000; font-size: 20px;">(5) Disentangling the anisotropic radio sky: Fisher forecasts for 21 cm arrays</strong><br>
   <span style="color: #000;"><strong>Zheng Zhang</strong>, Philip Bull, Katrine A Glasscock</span><br>
   <a href="https://doi.org/10.1093/mnras/stae1070">MNRAS, 530, 3 (2024)</a>; <a href="https://arxiv.org/abs/2403.13768">arXiv:2403.13768</a>
 </div>
 
 <div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
-  <strong style="color: #000;">(4) Hydrogen Intensity and Real-Time Analysis Experiment: 256-element array status and overview</strong><br>
+  <strong style="color: #000; font-size: 20px;">(4) Hydrogen Intensity and Real-Time Analysis Experiment: 256-element array status and overview</strong><br>
   <span style="color: #000;">HIRAX collaboration, D Crichton et al.</span><br>
   <a href="https://doi.org/10.1117/1.JATIS.8.1.011019">JATIS, 8, 1 (2022)</a>; <a href="https://arxiv.org/abs/2109.13755">arXiv:2109.13755</a>
 </div>
 
 <div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
-  <strong style="color: #000;">(3) A new MWA limit on the 21 cm power spectrum at redshifts∼ 13–17</strong><br>
+  <strong style="color: #000; font-size: 20px;">(3) A new MWA limit on the 21 cm power spectrum at redshifts∼ 13–17</strong><br>
   <span style="color: #000;">MWA collaboration, S Yoshiura et al.</span><br>
   <a href="https://doi.org/10.1093/mnras/stab1560">MNRAS, 505, 4 (2021)</a>; <a href="https://arxiv.org/abs/2105.12888">arXiv:2105.12888</a>
 </div>
 
 <div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
-  <strong style="color: #000;">(2) Deep multiredshift limits on Epoch of Reionization 21 cm power spectra from four seasons of Murchison Widefield Array observations</strong><br>
+  <strong style="color: #000; font-size: 20px;">(2) Deep multiredshift limits on Epoch of Reionization 21 cm power spectra from four seasons of Murchison Widefield Array observations</strong><br>
   <span style="color: #000;">MWA collaboration, Cathryn M Trott et al.</span><br>
   <a href="https://doi.org/10.1093/mnras/staa414">MNRAS, 493, 4 (2020)</a>; <a href="https://arxiv.org/abs/2002.02575">arXiv:2002.02575</a>
 </div>
 
 <div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
-  <strong style="color: #000;">(1) The impact of tandem redundant/sky-based calibration in MWA Phase II data analysis</strong><br>
+  <strong style="color: #000; font-size: 20px;">(1) The impact of tandem redundant/sky-based calibration in MWA Phase II data analysis</strong><br>
   <span style="color: #000;"><strong>Zheng Zhang</strong>, JC Pober, W Li, BJ Hazelton, MF Morales et al.</span><br>
   <a href="https://doi.org/10.1017/pasa.2020.37">PASA.2020.37</a>; <a href="https://arxiv.org/abs/2009.09269">arXiv:2009.09269</a>
 </div>
@@ -100,6 +100,7 @@ Here is a list of my published and submitted papers to date. I am also listed on
 ## Codes
 
 Here is a list of available codes used in the papers. 
+---
 
 <div class="publications-grid" style="width: 80%; margin: 0 auto;">
 
