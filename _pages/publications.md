@@ -46,15 +46,16 @@ featured_image: /images/me/zzhang1.jpg
     color: #000;
 }
 </style>
----
 
 
 Here is a list of my published and submitted papers to date. I am also listed on [Google Scholar](https://scholar.google.com/citations?user=TemNJQ0AAAAJ&hl=en&oi=sra), [arXiv](https://arxiv.org/a/zhang_z_28.html), and my [ORCID](https://orcid.org/0000-0002-9154-2803). The codes used in these papers are listed below, some of which are available online.
 
+---
+
 
 <div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
-  <h5>(7) SpyDust: an improved and extended implementation for modeling spinning dust radiation</h5><br>
-  <p style="color: #000;"><strong>Zheng Zhang</strong> and Jens Chluba</p><br>
+  <strong style="color: #000;">(7) SpyDust: an improved and extended implementation for modeling spinning dust radiation</strong><br>
+  <span><strong>Zheng Zhang</strong> and Jens Chluba</span><br>
   <a href="https://arxiv.org/abs/2412.03431">arXiv:2412.03431</a>
 </div>
 
@@ -64,31 +65,31 @@ Here is a list of my published and submitted papers to date. I am also listed on
   <a href="https://arxiv.org/abs/2410.00076">arXiv:2410.00076</a>
 </div>
 
-<div style="margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
+<div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
   <strong style="color: #000;">(5) Disentangling the anisotropic radio sky: Fisher forecasts for 21 cm arrays</strong><br>
   <span style="color: #000;"><strong>Zheng Zhang</strong>, Philip Bull, Katrine A Glasscock</span><br>
   <a href="https://doi.org/10.1093/mnras/stae1070">MNRAS, 530, 3 (2024)</a>; <a href="https://arxiv.org/abs/2403.13768">arXiv:2403.13768</a>
 </div>
 
-<div style="margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
+<div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
   <strong style="color: #000;">(4) Hydrogen Intensity and Real-Time Analysis Experiment: 256-element array status and overview</strong><br>
   <span style="color: #000;">HIRAX collaboration, D Crichton et al.</span><br>
   <a href="https://doi.org/10.1117/1.JATIS.8.1.011019">JATIS, 8, 1 (2022)</a>; <a href="https://arxiv.org/abs/2109.13755">arXiv:2109.13755</a>
 </div>
 
-<div style="margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
+<div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
   <strong style="color: #000;">(3) A new MWA limit on the 21 cm power spectrum at redshifts∼ 13–17</strong><br>
   <span style="color: #000;">MWA collaboration, S Yoshiura et al.</span><br>
   <a href="https://doi.org/10.1093/mnras/stab1560">MNRAS, 505, 4 (2021)</a>; <a href="https://arxiv.org/abs/2105.12888">arXiv:2105.12888</a>
 </div>
 
-<div style="margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
+<div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
   <strong style="color: #000;">(2) Deep multiredshift limits on Epoch of Reionization 21 cm power spectra from four seasons of Murchison Widefield Array observations</strong><br>
   <span style="color: #000;">MWA collaboration, Cathryn M Trott et al.</span><br>
   <a href="https://doi.org/10.1093/mnras/staa414">MNRAS, 493, 4 (2020)</a>; <a href="https://arxiv.org/abs/2002.02575">arXiv:2002.02575</a>
 </div>
 
-<div style="margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
+<div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
   <strong style="color: #000;">(1) The impact of tandem redundant/sky-based calibration in MWA Phase II data analysis</strong><br>
   <span style="color: #000;"><strong>Zheng Zhang</strong>, JC Pober, W Li, BJ Hazelton, MF Morales et al.</span><br>
   <a href="https://doi.org/10.1017/pasa.2020.37">PASA.2020.37</a>; <a href="https://arxiv.org/abs/2009.09269">arXiv:2009.09269</a>
@@ -102,18 +103,18 @@ Here is a list of available codes used in the papers.
 
 <div class="publications-grid" style="width: 80%; margin: 0 auto;">
 
-<div class="publication-item">
+<div class="publication-item" style="margin: 0 auto;">
     <h3><a href="https://github.com/SpyDust/SpyDust"><strong>SpyDust</strong></a></h3>
     <p>A python package for modeling spinning dust radiation</p>
     <p><a href="https://arxiv.org/abs/2412.03431">arXiv:2412.03431</a></p>
 </div>
 
-<div class="publication-item">
+<div class="publication-item" style="margin: 0 auto;">
     <h3><a href="https://github.com/zzhang0123/hydra-tod"><strong>Hydra-TOD</strong></a></h3>
     <p>A Gibbs sampling method for single-dish TOD gain calibration and map-making</p>
 </div>
 
-<div class="publication-item">
+<div class="publication-item" style="margin: 0 auto;">
     <h3><a href="https://github.com/zzhang0123/TIBEC"><strong>TIBEC</strong></a></h3>
     <p>This is a package for Beam Simulation in Cosmological Coordinates.</p>
 </div>
