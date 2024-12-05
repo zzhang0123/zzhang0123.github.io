@@ -6,6 +6,8 @@ featured_image: /images/projects/AME/grain_and_L_basis.jpg
 
 I've been working with Jens Chluba on AME Spectrum in the following areas.
 
+---
+
 ### 1. SpyDust: an improved and extended implementation for modeling spinning dust radiation
 
 **SpyDust**, an improved and extended implementation of the spinning dust emission model based on a Fokker-Planck treatment. **SpyDust** serves not only as a Python successor to **spdust**, but also incorporates some corrections and extensions. Unlike **spdust**, which is focused on specific grain shapes, **SpyDust** considers a wider range of grain shapes and provides the corresponding grain dynamics, directional radiation field and angular momentum transports. We recognise the unique effects of different grain shapes on emission, in particular the shape-dependent mapping between rotational frequency and spectral frequency.
@@ -14,9 +16,13 @@ In addition, we update the expressions for effects of electrical dipole radiatio
 
 See the [paper](https://arxiv.org/abs/2412.03431) for more details.
 
+---
+
 ### 2. A moment expansion method for AME
 
 (coming soon)
+
+---
 
 ### 3. A detailed Fokker-Planck approach to the rotation distribution of spinning dust
 
