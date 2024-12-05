@@ -12,7 +12,7 @@ collections:
     permalink: /blog/:slug
   projects:
     output: true
-    permalink: /research/:slug
+    permalink: /projects/:slug
   NickKaiserNotes:
     output: true
     permalink: /NickKaiserNotes/:name
