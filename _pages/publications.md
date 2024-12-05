@@ -126,45 +126,45 @@ Here is a list of my published and submitted papers to date. I am also listed on
 
 Here is a list of my published and submitted papers to date.
 
-<div style="background-color: #f9f9f9; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
-  <strong>SpyDust: an improved and extended implementation for modeling spinning dust radiation</strong><br>
-  <u>Zheng Zhang</u> and Jens Chluba<br>
+<div style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
+  <strong style="color: #000;">SpyDust: an improved and extended implementation for modeling spinning dust radiation</strong><br>
+  <span style="color: #000;"><u>Zheng Zhang</u> and Jens Chluba</span><br>
   <a href="https://arxiv.org/abs/2412.03431">arXiv:2412.03431</a>
 </div>
 
-<div style="background-color: #f9f9f9; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
-  <strong>RHINO: A large horn antenna for detecting the 21cm global signal</strong><br>
-  P Bull, A El-Makadema et al.<br>
+<div style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
+  <strong style="color: #000;">RHINO: A large horn antenna for detecting the 21cm global signal</strong><br>
+  <span style="color: #000;">P Bull, A El-Makadema et al.</span><br>
   <a href="https://arxiv.org/abs/2410.00076">arXiv:2410.00076</a>
 </div>
 
-<div style="background-color: #f9f9f9; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
-  <strong>Disentangling the anisotropic radio sky: Fisher forecasts for 21 cm arrays</strong><br>
-  <u>Zheng Zhang</u>, P Bull, KA Glasscock<br>
+<div style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
+  <strong style="color: #000;">Disentangling the anisotropic radio sky: Fisher forecasts for 21 cm arrays</strong><br>
+  <span style="color: #000;"><u>Zheng Zhang</u>, P Bull, KA Glasscock</span><br>
   <a href="https://doi.org/10.1093/mnras/stae1070">MNRAS, 530, 3 (2024)</a>; <a href="https://arxiv.org/abs/2403.13768">arXiv:2403.13768</a>
 </div>
 
-<div style="background-color: #f9f9f9; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
-  <strong>Hydrogen Intensity and Real-Time Analysis Experiment: 256-element array status and overview</strong><br>
-  HIRAX collaboration, D Crichton et al.<br>
+<div style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
+  <strong style="color: #000;">Hydrogen Intensity and Real-Time Analysis Experiment: 256-element array status and overview</strong><br>
+  <span style="color: #000;">HIRAX collaboration, D Crichton et al.</span><br>
   <a href="https://doi.org/10.1117/1.JATIS.8.1.011019">JATIS, 8, 1 (2022)</a>; <a href="https://arxiv.org/abs/2109.13755">arXiv:2109.13755</a>
 </div>
 
-<div style="background-color: #f9f9f9; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
-  <strong>A new MWA limit on the 21 cm power spectrum at redshifts∼ 13–17</strong><br>
-  MWA collaboration, S Yoshiura et al.<br>
+<div style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
+  <strong style="color: #000;">A new MWA limit on the 21 cm power spectrum at redshifts∼ 13–17</strong><br>
+  <span style="color: #000;">MWA collaboration, S Yoshiura et al.</span><br>
   <a href="https://doi.org/10.1093/mnras/stab1560">MNRAS, 505, 4 (2021)</a>; <a href="https://arxiv.org/abs/2105.12888">arXiv:2105.12888</a>
 </div>
 
-<div style="background-color: #f9f9f9; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
-  <strong>Deep multiredshift limits on Epoch of Reionization 21 cm power spectra from four seasons of Murchison Widefield Array observations</strong><br>
-  MWA collaboration, Cathryn M Trott et al.<br>
+<div style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
+  <strong style="color: #000;">Deep multiredshift limits on Epoch of Reionization 21 cm power spectra from four seasons of Murchison Widefield Array observations</strong><br>
+  <span style="color: #000;">MWA collaboration, Cathryn M Trott et al.</span><br>
   <a href="https://doi.org/10.1093/mnras/staa414">MNRAS, 493, 4 (2020)</a>; <a href="https://arxiv.org/abs/2002.02575">arXiv:2002.02575</a>
 </div>
 
-<div style="background-color: #f9f9f9; padding: 10px; border-radius: 8px; margin-bottom: 10px;">
-  <strong>The impact of tandem redundant/sky-based calibration in MWA Phase II data analysis</strong><br>
-  <u>Zheng Zhang</u>, JC Pober, W Li, BJ Hazelton, MF Morales et al.<br>
+<div style="background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
+  <strong style="color: #000;">The impact of tandem redundant/sky-based calibration in MWA Phase II data analysis</strong><br>
+  <span style="color: #000;"><u>Zheng Zhang</u>, JC Pober, W Li, BJ Hazelton, MF Morales et al.</span><br>
   <a href="https://doi.org/10.1017/pasa.2020.37">PASA.2020.37</a>; <a href="https://arxiv.org/abs/2009.09269">arXiv:2009.09269</a>
 </div>
 
