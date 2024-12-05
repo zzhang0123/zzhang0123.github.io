@@ -2,7 +2,7 @@
 title: Publications
 subtitle: My academic and professional contributions
 description: 
-featured_image: 
+featured_image: /images/me/zzhang1.jpg
 ---
 
 <style>
@@ -53,7 +53,7 @@ Here is a list of my published and submitted papers to date. I am also listed on
 
 <div style="margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
   <strong style="color: #000;">(7) SpyDust: an improved and extended implementation for modeling spinning dust radiation</strong><br>
-  <span style="color: #000;"><u>Zheng Zhang</u> and Jens Chluba</span><br>
+  <span style="color: #000;"><strong>Zheng Zhang</strong> and Jens Chluba</span><br>
   <a href="https://arxiv.org/abs/2412.03431">arXiv:2412.03431</a>
 </div>
 
@@ -65,7 +65,7 @@ Here is a list of my published and submitted papers to date. I am also listed on
 
 <div style="margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
   <strong style="color: #000;">(5) Disentangling the anisotropic radio sky: Fisher forecasts for 21 cm arrays</strong><br>
-  <span style="color: #000;"><u>Zheng Zhang</u>, Philip Bull, Katrine A Glasscock</span><br>
+  <span style="color: #000;"><strong>Zheng Zhang</strong>, Philip Bull, Katrine A Glasscock</span><br>
   <a href="https://doi.org/10.1093/mnras/stae1070">MNRAS, 530, 3 (2024)</a>; <a href="https://arxiv.org/abs/2403.13768">arXiv:2403.13768</a>
 </div>
 
@@ -89,7 +89,7 @@ Here is a list of my published and submitted papers to date. I am also listed on
 
 <div style="margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
   <strong style="color: #000;">(1) The impact of tandem redundant/sky-based calibration in MWA Phase II data analysis</strong><br>
-  <span style="color: #000;"><u>Zheng Zhang</u>, JC Pober, W Li, BJ Hazelton, MF Morales et al.</span><br>
+  <span style="color: #000;"><strong>Zheng Zhang</strong>, JC Pober, W Li, BJ Hazelton, MF Morales et al.</span><br>
   <a href="https://doi.org/10.1017/pasa.2020.37">PASA.2020.37</a>; <a href="https://arxiv.org/abs/2009.09269">arXiv:2009.09269</a>
 </div>
 
@@ -103,7 +103,7 @@ Here is a list of codes used in the papers, some of which are available online. 
 
 <div class="publication-item">
     <h3><a href="https://github.com/SpyDust/SpyDust"><strong>SpyDust</strong></a></h3>
-    <p><strong>for modeling spinning dust radiation</p>
+    <p>for modeling spinning dust radiation</p>
     <p><a href="https://arxiv.org/abs/2412.03431">arXiv:2412.03431</a></p>
 </div>
 
