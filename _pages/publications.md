@@ -2,7 +2,7 @@
 title: Publications
 subtitle: My academic and professional contributions
 description: 
-featured_image: 
+featured_image: /images/me/zzhang1.jpg
 ---
 
 <style>
