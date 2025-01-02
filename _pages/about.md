@@ -61,9 +61,7 @@ Prior to that, I earned my MSc in Physics from Brown University (2018–2020) an
 
 I can't go back too far. My grandfather was adopted. The man who adopted him, my great-grandfather, was a tofu maker/seller in the village, but unfortunately the craft was not passed on.
 
-### Academic Gossips 
-
-My PhD supervisor Martin once told me that he and I had Italian ancestors in academia, and Nick, who was also my supervisor, once teased me (after a friendly debate) that my style (in GR) was that of Steven Weinberg, "playing violin with boxing gloves". This sparked my interest in studying academic archaeology (or academic lineage)!
+### Scientific Ancestry 
 
 <div class="gallery" data-columns="1">
 	<img src="/images/demo/flowchart.png">
