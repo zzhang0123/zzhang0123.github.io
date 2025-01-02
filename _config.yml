@@ -44,12 +44,6 @@ defaults:
   -
     scope:
       path: ""
-      type: "notes"
-    values:
-      layout: "page"
-  -
-    scope:
-      path: ""
       type: "NickKaiserNotes"
     values:
       layout: "NickNotes"
