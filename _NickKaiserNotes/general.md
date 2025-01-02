@@ -51,7 +51,7 @@ Lecture 7: Black-Holes and Stellar Structure
 Lecture 8: The Gravitational Action Principle
 </a>
 
-<a href="https://zh-zhang.com/NKarchive//GR/gauge-invariance-notes.pdf" class="button button--large" target="_blank" rel="noopener noreferrer">
+<a href="https://zh-zhang.com/NKarchive/GR/gauge-invariance-notes.pdf" class="button button--large" target="_blank" rel="noopener noreferrer">
 Lecture Notes on Electromagnetism and Gauge Invariance
 </a>
 

@@ -24,7 +24,7 @@ kaiser: true
 </p>
 
 <p>
-<a href="{{'/NKarchive/ElementsOfAstrophysicsByKaiserN.pdf' | relative_url }}" class="button button--large" target="_blank" rel="noopener noreferrer">
+<a href="https://zh-zhang.com/NKarchive/ElementsOfAstrophysicsByKaiserN.pdf" class="button button--large" target="_blank" rel="noopener noreferrer">
 Book: Elements of Astrophysics
 </a>
 </p>
@@ -35,14 +35,14 @@ Book: Elements of Astrophysics
 <section>
 <h3>Maintainer's Note</h3>
 
-<p> Before he passed away, Nick was not only enjoying his retirement but also organizing his lecture notes. He had expressed to me that he hoped to sort them out and make them available to the public online. In particular, he felt that the world might need another textbook on General Relativity.
+<p> 
+Before his final days, Nick was not only enjoying his retirement but also organizing his lecture notes. He had expressed to me that he hoped to sort them out and make them available to the public online. In particular, he felt that the world might benefit from another textbook on General Relativity.
 </p>
 
 <p>
 Although he obviously intended to present a more polished version, unfortunately we never had the chance to see it. 
 These lectures reflect his constant reflection and refinement, from his time in Toronto to Hawaii and finally to Paris.
 </p>
-
 
 <p>
 I may be the one who understands this wish best, who also realises the great value of these lecture notes. 
