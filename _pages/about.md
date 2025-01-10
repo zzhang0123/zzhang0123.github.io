@@ -63,8 +63,20 @@ I can't go back too far. My grandfather was adopted. The man who adopted him, my
 
 ### Scientific Ancestry 
 
-<div class="gallery" data-columns="1">
-	<img src="/images/demo/flowchart.png">
+<div class="flex-center">
+    <div class="mermaid">
+        graph TD
+            B[Martin Bucher] --> A(Zheng Zhang)
+            C[Nick Kaiser]  --> A
+            D[John Preskill] --> B
+            E[Martin Rees] --> C
+            F[Steven Weinberg] --> D
+            G[Sam Treiman] --> F 
+            H[Enrico Fermi] --> G
+            I[John Simpson] --> G
+            J[Dennis W. Sciama] --> E
+            K[Paul Dirac] --> J
+    </div>
 </div>
 (The arrows indicate the relationship from PhD advisor to student.)
 
