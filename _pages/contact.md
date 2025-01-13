@@ -9,7 +9,7 @@ I’d love to hear from you! If you have any questions, collaboration ideas, or 
 
 ## Email
 You can email me at:  
-[zheng.zhang@manchester.ac.uk](mailto:zheng.zhang@manchester.ac.uk)
+[zheng dot zhang AT manchester.ac.uk](mailto:zheng.zhang@manchester.ac.uk)
 
 ## Office Location
 Office 3.208 
