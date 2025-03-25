@@ -56,7 +56,7 @@ Here is a list of my published and submitted papers to date. I am also listed on
 <div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
   <strong style="color: #000; font-size: 20px;">(7) SpyDust: an improved and extended implementation for modeling spinning dust radiation</strong><br>
   <span style="color: #000;"><strong>Zheng Zhang</strong> and Jens Chluba</span><br>
-  <a href="https://arxiv.org/abs/2412.03431">arXiv:2412.03431</a>
+  <a href="https://iopscience.iop.org/article/10.1088/1475-7516/2025/03/038/meta">JCAP03(2025)038</a>; <a href="https://arxiv.org/abs/2412.03431">arXiv:2412.03431</a>
 </div>
 
 <div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
