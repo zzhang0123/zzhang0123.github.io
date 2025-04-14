@@ -31,7 +31,7 @@ Recently, I have been fascinated by the use of perturbative statistical methods 
 
 
 <p>
-In addition to the areas mentioned, I have a strong interest and ongoing reflections on gravitational phenomena and their observational effects, the topology of the Universe, and the transition from quantum to classical fields on cosmic scales - in particular quantum decoherence effects. Recently, in my spare time, I've been envisioning the development of a coordinate-free approach to cosmology!
+In addition to these areas, I have active research interests in gravitational phenomena and their observational signatures, cosmological topology, and the quantum to classical transition of fields on cosmic scales. Beyond formal research, I have a long-standing interest in developing a coordinate-free mathematical framework for cosmological analysis, with the aim of creating more universal tools for modelling cosmic phenomena.
 </p>
 
 ---
