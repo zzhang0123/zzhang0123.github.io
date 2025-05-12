@@ -2,10 +2,6 @@ site: Zheng Zhang's Personal Website
 
 url: "https://zh-zhang.com"
 baseurl: ""
-
-include:
-  - /myNotes/:name
-  - /NickKaiserNotes/:name
  
 
 collections:
