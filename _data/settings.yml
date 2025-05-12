@@ -10,16 +10,16 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Latest'
+    - title: 'Welcome'
       url: '/'
-    - title: 'About Me'
+    - title: 'About me'
       url: '/about'
-    - title: 'Research'
-      url: '/projects/' 
+    # - title: 'Research'
+    #   url: '/projects/' 
     - title: 'Publications and codes'
       url: '/publications' 
     - title: 'Posts'
-      url: '/notes/'
+      url: '/posts/'
     - title: 'Contact'
       url: '/contact'
 
@@ -74,9 +74,9 @@ color_settings:
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400|Muli:400,400i,600" rel="stylesheet">'
-  title_font: '"Merriweather", sans-serif'
-  body_font: '"Muli", sans-serif'
+  font_embed: '<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Source+Sans+Pro:400,600&display=swap" rel="stylesheet">'
+  title_font: '"Playfair Display", serif'
+  body_font: '"Source Sans Pro", sans-serif'
   regular_weight: 400
   bold_weight: 600
   site_title:

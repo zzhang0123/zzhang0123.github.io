@@ -20,8 +20,23 @@ mermaid: true
 ## What I'm doing now 
 
 I am currently a Postdoctoral Researcher at JBCA, the University of Manchester, where I work on observational cosmology, with a focus on 
-* radio cosmology (HI intensity mapping, global 21cm sinal, Epoch of Reionisation tomography) and 
-* low-frequency foreground science (AME, RSB excess, high-dynamic-range behavior of the spectrum, Polarisation and Faraday rotation, etc.). 
+- Radio cosmology 
+  - HI intensity mapping, global 21cm history, and Epoch of Reionisation (EoR) tomography.  
+  - Role of polarisation in 21cm surveys.
+- Low-frequency foreground science 
+  - Diffuse synchrotron emission (spectral sturcture, Faraday rotation, etc.).
+  - Spinning dust emission
+  - Anomalies 
+    - Anormalous Microwave Emission (AME) and Radio Synchrotron Background (RSB) excess.
+  - Perturbative statistical analysis 
+  	- Using moment expansion, cumulant expansion, etc.
+- Stochastic processes in astrophysics
+  - Non-equilibrium system (interested in the emergent statistical laws from BBGKY)
+  - 1/f noise in autocorrelation measurements.
+  - Fokker-Planck equations and diffusion systems...
+- Physics-Driven Machine Learning
+  - Symbolic regression
+  - PDE net
 
 
 <p>

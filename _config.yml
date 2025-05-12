@@ -3,13 +3,18 @@ site: Zheng Zhang's Personal Website
 url: "https://zh-zhang.com"
 baseurl: ""
 
+include:
+  - /myNotes/:name
+  - /NickKaiserNotes/:name
+ 
+
 collections:
   pages:
     output: true
     permalink: /:name
   posts:
     output: true
-    permalink: /blog/:slug
+    permalink: /posts/:slug
   projects:
     output: true
     permalink: /projects/:slug
@@ -62,5 +67,5 @@ plugins:
   - jekyll-sitemap
 
 paginate: 6
-paginate_path: "/blog/page:num/"
+paginate_path: "/_posts/page:num/"
   

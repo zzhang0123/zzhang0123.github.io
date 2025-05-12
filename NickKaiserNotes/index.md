@@ -59,7 +59,8 @@ Enjoy!
 </p>
 
 <p> 
-Zheng Zhang, October 2024 
+Nick's last student, 
+October 2024 
 </p> 
 
 <p> 
@@ -71,6 +72,6 @@ PS: Some of the notes are scans of the materials I saved, and there are some scr
 
 <section>
 <p>
-<strong>Disclaimer</strong>: I am merely hosting the notes in the interim, and the copyright remains with the respective copyright holder.
+<strong>Disclaimer</strong>: The maintainer is merely hosting the notes in the interim, and the copyright remains with the respective copyright holder.
 </p>
 </section>
