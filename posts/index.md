@@ -49,6 +49,7 @@ featured_image: /images/MontBlanc.jpg
 	<li><a href="https://zh-zhang.com/myNotes/CovarianceSamplerNote.pdf">On the covariance sampler (via inverse Wishart)</a>
     </li>
 	</ul>
+	
 
  </section>
 
