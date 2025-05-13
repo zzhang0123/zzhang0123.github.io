@@ -42,13 +42,30 @@ featured_image: /images/MontBlanc.jpg
     </li>
     <li><a href="https://zh-zhang.com/myNotes/Global_transfer.pdf" target="_blank" rel="noopener noreferrer">On the global (directional averaged) radiative transfer</a>
     </li>
+	<li><a href="https://zh-zhang.com/myNotes/21_CM_physics.pdf" target="_blank" rel="noopener noreferrer">21 cm physics (<a href="https://theses.hal.science/tel-04750721v1/file/va_Zhang_Zheng.pdf" style="font-style: italic;"> See my thesis for an improved overview.</a>)</a>
+    </li>
 	</ul>
+
+	<h3>Radio sky</h3>
+	<ul>
+	<li><a href="https://zh-zhang.com/myNotes/Polarized_FG_Simu.pdf">Simulating the polarised synchron foregrounds</a>
+    </li>
+	</ul>
+
 
 	<h3>Techniques</h3>
 	<ul>
 	<li><a href="https://zh-zhang.com/myNotes/CovarianceSamplerNote.pdf">On the covariance sampler (via inverse Wishart)</a>
     </li>
 	</ul>
+
+	<h3>Theory</h3>
+	<ul>
+	<li><a href="https://zh-zhang.com/myNotes/topological_WF.pdf">Qunatum mechanics in topological sense (Disclaimer: Existing ideas in the literature, not original work.)</a>
+    </li>
+	</ul>
+
+
 	
 
  </section>
