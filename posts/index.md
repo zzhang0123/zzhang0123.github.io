@@ -27,7 +27,7 @@ featured_image: /images/MontBlanc.jpg
 <section class="blog single">
 
 <h2>Notes</h2>
-	<p style="font-style: italic;">I'm not interested in publishing these notes. If you'd like to use any part of them, please cite this website or mention it in the acknowledgements. Thanks!</p>
+	<p style="font-style: italic;">These notes are not intended for publication. If you'd like to use any part of them, please cite this website or mention it in the acknowledgements. Thanks!</p>
 
 	<h3>Measurements and Data Analysis</h3>
 	<ul>
