@@ -48,7 +48,7 @@ featured_image: /images/MontBlanc.jpg
 
 	<h3>Radio sky</h3>
 	<ul>
-	<li><a href="https://zh-zhang.com/myNotes/Polarized_FG_Simu.pdf">Simulating the polarised synchron foregrounds</a>
+	<li><a href="https://zh-zhang.com/myNotes/Polarized_FG_Simu.pdf">Simulating the polarised synchrotron foregrounds</a>
     </li>
 	</ul>
 
@@ -61,7 +61,7 @@ featured_image: /images/MontBlanc.jpg
 
 	<h3>Theory</h3>
 	<ul>
-	<li><a href="https://zh-zhang.com/myNotes/topological_WF.pdf">Qunatum mechanics in topological sense (Disclaimer: Existing ideas in the literature, not original work.)</a>
+	<li><a href="https://zh-zhang.com/myNotes/topological_WF.pdf">Qunatum mechanics in topological sense (Disclaimer: Existing ideas in the literature.)</a>
     </li>
 	</ul>
 

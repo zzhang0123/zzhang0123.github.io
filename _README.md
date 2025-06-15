@@ -1,5 +1,10 @@
 # Journal by JekyllThemes.io – Instructions
 
+## Run this site locally:
+1. bundle install
+2. bundle exec jekyll serve --livereload --host 0.0.0.0  # Allow mobile testing
+http://localhost:4000
+
 If you have any questions or feedback about the theme, don't hesitate to reach out to hello@jekyllthemes.io for 1-to-1 support direct from the developers.
 
 ---
