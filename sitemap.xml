@@ -9,187 +9,217 @@
 
 <url>
   <loc>https://zh-zhang.com/</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/about</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://zh-zhang.com/projects/</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/publications</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://zh-zhang.com/posts/</loc>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/contact</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/NickKaiserNotes/</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://zh-zhang.com/blog/post</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <loc>https://zh-zhang.com/posts/post</loc>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://zh-zhang.com/projects/radiosky</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <loc>https://zh-zhang.com/myNotes/RadioInterferometryNote.pdf</loc>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://zh-zhang.com/projects/ame</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <loc>https://zh-zhang.com/myNotes/PSEnote.pdf</loc>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zh-zhang.com/myNotes/MmodeNote.pdf</loc>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zh-zhang.com/myNotes/Global_transfer.pdf</loc>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zh-zhang.com/myNotes/21_CM_physics.pdf</loc>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zh-zhang.com/myNotes/Polarized_FG_Simu.pdf</loc>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zh-zhang.com/myNotes/CovarianceSamplerNote.pdf</loc>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zh-zhang.com/myNotes/topological_WF.pdf</loc>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/NickKaiserNotes/general</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/NickKaiserNotes/cosmology</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/NickKaiserNotes/astrophysics</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zh-zhang.com/NKarchive/ElementsOfAstrophysicsByKaiserN.pdf</loc>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/NKarchive/GR/GR-M1-1.pdf</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/NKarchive/GR/GR-M1-1b.pdf</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/NKarchive/GR/GR-M1-2.pdf</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/NKarchive/GR/GR-M1-3.pdf</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/NKarchive/GR/GR-M1-4.pdf</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/NKarchive/GR/GR-M1-5.pdf</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/NKarchive/GR/GR-M1-6.pdf</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/NKarchive/GR/GR-M1-7.pdf</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/NKarchive/GR/GR-M1-8.pdf</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://zh-zhang.com/NKarchive//GR/gauge-invariance-notes.pdf</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <loc>https://zh-zhang.com/NKarchive/GR/gauge-invariance-notes.pdf</loc>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/NKarchive/Cosmology/Cosmo-M1-1(scan).pdf</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/NKarchive/Cosmology/Cosmo-M1-2(scan).pdf</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/NKarchive/Cosmology/Cosmo-M1-3(scan).pdf</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/NKarchive/Cosmology/Cosmo-M1-4(scan).pdf</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/NKarchive/Cosmology/Cosmo-M1-5(scan).pdf</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/NKarchive/Cosmology/Cosmo-M1-6(scan).pdf</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/NKarchive/Cosmology/Cosmo-M1-7.pdf</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/NKarchive/Cosmology/Cosmo-M1-8.pdf</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://zh-zhang.com/NKarchive/ElementsOfAstrophysicsByKaiserN.pdf</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:58+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/NKarchive/Astrophysics/Astro-1.pdf</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:59+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/NKarchive/Astrophysics/Astro-2.pdf</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:59+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/NKarchive/Astrophysics/Astro-3.pdf</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:59+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/NKarchive/Astrophysics/Astro-4.pdf</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:59+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/NKarchive/Astrophysics/Astro-5.pdf</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:59+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://zh-zhang.com/NKarchive/Astrophysics/Astro-6.pdf</loc>
-  <lastmod>2024-12-05T16:11:29+00:00</lastmod>
+  <lastmod>2025-07-05T12:35:59+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 
