@@ -1,6 +1,6 @@
 ---
 title: About Me
-subtitle: Zheng Zhang - Astrophysicist and Cosmologist 
+subtitle: An astrophysicist and cosmologist 
 description: A few more words about me.
 featured_image: /images/me/zzhang1.jpg
 tags: [Mermaid]
