@@ -65,7 +65,7 @@ In addition to these areas, I have active research interests in gravitational ph
 
 **Location**: Manchester, United Kingdom
 
-**Profile**: Dog lover, nature person, and self-proclaimed “citizen of the Universe”
+**Profile**: Astrophysicist and cosmologist, self-proclaimed “citizen of the Universe”
 
 
 ### Life and Education Journey
@@ -98,7 +98,8 @@ Our little family includes my wife and myself, our Bengal cat, Youzi, along with
 	<img src="/images/me/couple.jpg">
 	<img src="/images/me/summer1.jpg">
 	<img src="/images/me/summer2.jpg">
-	<img src="/images/me/youzi.jpg">
+	<img src="/images/me/youzi_1.jpeg">
+  <img src="/images/me/youzi_2.jpeg">
 </div>
 
 
