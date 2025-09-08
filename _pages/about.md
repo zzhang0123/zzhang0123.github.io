@@ -137,7 +137,7 @@ In addition to these areas, I have active research interests in gravitational ph
   </div>
   <div class="pub-cards">
     <div class="pub-card">
-      <span class="pub-badge">2025</span>
+      <span class="pub-badge">8 | 2025</span>
       <div class="pub-title">A general polynomial emulator for cosmology via moment projection</div>
       <div class="pub-authors"><strong>Zheng Zhang</strong></div>
       <div class="pub-links">
@@ -145,7 +145,7 @@ In addition to these areas, I have active research interests in gravitational ph
       </div>
     </div>
     <div class="pub-card">
-      <span class="pub-badge">2025</span>
+      <span class="pub-badge">7 | 2025</span>
       <div class="pub-title">SpyDust: an improved and extended implementation for modeling spinning dust radiation</div>
       <div class="pub-authors"><strong>Zheng Zhang</strong>, Jens Chluba</div>
       <div class="pub-links">
@@ -154,15 +154,15 @@ In addition to these areas, I have active research interests in gravitational ph
       </div>
     </div>
     <div class="pub-card">
-      <span class="pub-badge">2024</span>
+      <span class="pub-badge">6 | 2024</span>
       <div class="pub-title">RHINO: A large horn antenna for detecting the 21cm global signal</div>
-      <div class="pub-authors">P Bull, A El-Makadema et al.</div>
+      <div class="pub-authors">P Bull, A El-Makadema et al (incl. <strong>Zheng Zhang</strong>).</div>
       <div class="pub-links">
         <a href="https://arxiv.org/abs/2410.00076" target="_blank">arXiv</a>
       </div>
     </div>
     <div class="pub-card">
-      <span class="pub-badge">2024</span>
+      <span class="pub-badge">5 | 2024</span>
       <div class="pub-title">Disentangling the anisotropic radio sky: Fisher forecasts for 21 cm arrays</div>
       <div class="pub-authors"><strong>Zheng Zhang</strong>, Philip Bull, Katrine A Glasscock</div>
       <div class="pub-links">
@@ -171,34 +171,34 @@ In addition to these areas, I have active research interests in gravitational ph
       </div>
     </div>
     <div class="pub-card">
-      <span class="pub-badge">2022</span>
+      <span class="pub-badge">4 | 2022</span>
       <div class="pub-title">Hydrogen Intensity and Real-Time Analysis Experiment: 256-element array status and overview</div>
-      <div class="pub-authors">HIRAX collaboration, D Crichton et al.</div>
+      <div class="pub-authors">HIRAX collaboration (incl. <strong>Zheng Zhang</strong>) </div>
       <div class="pub-links">
         <a href="https://doi.org/10.1117/1.JATIS.8.1.011019" target="_blank">JATIS</a>
         <a href="https://arxiv.org/abs/2109.13755" target="_blank">arXiv</a>
       </div>
     </div>
     <div class="pub-card">
-      <span class="pub-badge">2021</span>
+      <span class="pub-badge">3 | 2021</span>
       <div class="pub-title">A new MWA limit on the 21 cm power spectrum at redshifts∼ 13–17</div>
-      <div class="pub-authors">MWA collaboration, S Yoshiura et al.</div>
+      <div class="pub-authors">MWA collaboration (incl. <strong>Zheng Zhang</strong>)</div>
       <div class="pub-links">
         <a href="https://doi.org/10.1093/mnras/stab1560" target="_blank">MNRAS</a>
         <a href="https://arxiv.org/abs/2105.12888" target="_blank">arXiv</a>
       </div>
     </div>
     <div class="pub-card">
-      <span class="pub-badge">2020</span>
+      <span class="pub-badge">2 | 2020</span>
       <div class="pub-title">Deep multiredshift limits on Epoch of Reionization 21 cm power spectra from four seasons of Murchison Widefield Array observations</div>
-      <div class="pub-authors">MWA collaboration, Cathryn M Trott et al.</div>
+      <div class="pub-authors">MWA collaboration (incl. <strong>Zheng Zhang</strong>)</div>
       <div class="pub-links">
         <a href="https://doi.org/10.1093/mnras/staa414" target="_blank">MNRAS</a>
         <a href="https://arxiv.org/abs/2002.02575" target="_blank">arXiv</a>
       </div>
     </div>
     <div class="pub-card">
-      <span class="pub-badge">2020</span>
+      <span class="pub-badge">1 | 2020</span>
       <div class="pub-title">The impact of tandem redundant/sky-based calibration in MWA Phase II data analysis</div>
       <div class="pub-authors"><strong>Zheng Zhang</strong>, JC Pober, W Li, BJ Hazelton, MF Morales et al.</div>
       <div class="pub-links">
@@ -212,7 +212,7 @@ In addition to these areas, I have active research interests in gravitational ph
 <div class="codes-section">
   <div class="section-title">Codes</div>
   <div style="margin-bottom:0.7em; font-size:1.05em;">
-    Here are some of the codes I have developed or contributed to, many of which are used in my research papers.
+    Here are a few selected codes I have developed or contributed to, many of which are used in my research papers.
   </div>
   <div class="code-cards">
     <div class="code-card">
