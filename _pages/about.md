@@ -28,7 +28,7 @@ My passion is to push the boundaries of how physics explains the Universe, andâ€
 
 My current research covers both observational and theoretical cosmology, with particular focus on:
   - Line intensity mapping
-  - The cosmic history revealed by the HI hyperfine transition
+  - The cosmic history and large-scale structure revealed by the HI hyperfine transition
   - Cosmic Microwave Background (CMB) anisotropy and frequency spectrum
   - Gravitational effects as cosmological probes
 
