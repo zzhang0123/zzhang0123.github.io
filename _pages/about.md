@@ -260,7 +260,7 @@ In addition to these areas, I maintain active research interests in general phys
 - **Profile:** Astrophysicist and cosmologist; self-proclaimed “citizen of the Universe.”
 
 ### Life and Education Journey
-I am currently a Postdoctoral Researcher at the University of Manchester, working with Phil Bull and Jens Chluba. Previously, I completed my PhD in Physics of the Universe at the Astroparticle and Cosmology (APC) Laboratory, Université Paris Cité, jointly with the École Normale Supérieure (ENS, Paris), from **November 2020 to October 2023** in **Paris, France**.
+I am currently (**Nov 2023 -**) a Postdoctoral Researcher at the University of **Manchester**, working with Phil Bull and Jens Chluba. Previously, I completed my PhD in Physics of the Universe at the Astroparticle and Cosmology (APC) Laboratory, Université Paris Cité, jointly with the École Normale Supérieure (ENS, Paris), from **November 2020 to October 2023** in **Paris, France**.
 
 Before that, I earned an MSc in Physics from Brown University (**2018–2020, Rhode Island, US**) and a BSc in Applied Physics from Shanghai University (**2014–2018, Shanghai, China**). My earlier education includes high school in **Hai’an** and primary school in Sunzhuang village (**2002–2014**). I was born in 1996.
 
