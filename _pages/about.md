@@ -41,7 +41,7 @@ I am Zheng Zhang, currently a Postdoctoral Researcher at JBCA, University of Man
     - Marginalising and abstracting out ignorance or environmental factors
     - Using moment and cumulant expansions
   - Machine Learning
-    - MomentEmu (my proposed non-regression approach to smooth mapping representation)
+    - MomentEmu (my proposed non-regression approach to smooth cosmological observable representation)
     - Deep Learning
     - Physics-driven methods (e.g., PDE-net)
 
