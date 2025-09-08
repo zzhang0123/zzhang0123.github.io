@@ -1,10 +1,11 @@
 ---
-title: About Me
-subtitle: An astrophysicist and cosmologist 
+title: Zheng Zhang
+subtitle: I do physics and cosmology (and ask a lot of questions about the Universe) 
 description: A few more words about me.
 featured_image: /images/me/zzhang1.jpg
 tags: [Mermaid]
 mermaid: true
+permalink: /
 ---
 <!-- 
 ![](/images/Manchester.jpg)
@@ -19,33 +20,39 @@ mermaid: true
 
 ## Who I am and what I'm doing now
 
-I am Zheng Zhang, currently a Postdoctoral Researcher at JBCA, University of Manchester. My work focuses on observational cosmology, especially formalising detailed astrophysical processes and accounting for various observational effects -- instrumental, dynamical, radiative transfer, geometrical, topological, and more -- in cosmological observations. I also develop methods and tools to accurately characterise these effects.
 
-**Research interests include:**
-- **Observational cosmology**
-  - HI intensity mapping, global 21cm history, and Epoch of Reionisation (EoR) tomography
-  - The role of polarisation in 21cm surveys
+My expertise is in physics and cosmology, with a side interest (and ongoing learning) in applying advanced tools and methods to these fields.
+My passion is to push the boundaries of how physics explains the Universe, and—when I'm not getting lost in equations or codes—my mind is out here wandering through the cosmos, trying to make sense of its grand mess. 
+
+**Research interests:**
+
+My current research covers both observational and theoretical cosmology, with particular focus on:
+  - Line intensity mapping
+  - The cosmic history revealed by the HI hyperfine transition
+  - Cosmic Microwave Background (CMB) anisotropy and frequency spectrum
+  - Gravitational effects as cosmological probes
+
+Recently, I have concentrated on formalising detailed astrophysical processes and systematically accounting for a wide range of observational effects—instrumental, dynamical, radiative transfer, geometrical, topological, and more—in cosmological data. This includes:
   - Low-frequency foreground science
     - Diffuse synchrotron emission (spectral structure, Faraday rotation, RSB/ARCADE excess, etc.)
     - Spinning dust emission and Anomalous Microwave Emission (AME)
-  - Cosmic Microwave Background
-    - Lensing B-modes and foregrounds from spinning dust grains
-- **Stochastic processes in astrophysics**
-  - Non-equilibrium or quasi-equilibrium astrophysical systems
+  - Non-equilibrium and quasi-equilibrium astrophysical systems
   - Stochastic instrumental processes (e.g., 1/f noise in autocorrelation measurements)
   - Statistical measurements
-  - Methods: Fokker-Planck equations, analytical diffusion systems, Langevin equations, and stochastic differential equations
-- **Simulation and analysis**
+  - Higher-order corrections in the radiative transfer of cosmological signals
+
+I also develop methods and tools for the field, such as:
   - Ultra-high-dimensional Bayesian inference using Gibbs sampling
   - Perturbative statistical analysis
     - Marginalising and abstracting out ignorance or environmental factors
     - Using moment and cumulant expansions
-  - Machine Learning
+  - Machine learning
     - MomentEmu (my proposed non-regression approach to smooth cosmological observable representation)
-    - Deep Learning
+    - Deep learning
     - Physics-driven methods (e.g., PDE-net)
+  - Methods for stochastic processes: Fokker-Planck equations analytical diffusion systems, Langevin equations and stochastic differential equations
 
-In addition to these areas, I have active research interests in gravitational phenomena and their observational signatures, cosmological topology, and the quantum-to-classical transition of fields on cosmic scales. 
+In addition to these areas, I maintain active research interests in general physics topics, notably topological defect transitions and the quantum-to-classical transition of fields.
 
 <style>
 .publications-section, .codes-section {

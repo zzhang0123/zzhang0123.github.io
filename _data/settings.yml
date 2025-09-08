@@ -1,6 +1,6 @@
 basic_settings:
   site_title: Zheng Zhang
-  site_tagline: An astrophysicist and cosmologist.
+  site_tagline: A physicist and cosmologist.
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -10,10 +10,8 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Welcome'
-      url: '/'
     - title: 'About me'
-      url: '/about'
+      url: '/'
     # - title: 'Research'
     #   url: '/projects/' 
     - title: 'Publications and codes'
