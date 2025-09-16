@@ -52,6 +52,11 @@ Here is a list of my published and submitted papers to date. I am also listed on
 
 ---
 
+<div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
+  <strong style="color: #000; font-size: 20px;">(9) Joint Bayesian calibration and map-making for intensity mapping experiments</strong><br>
+  <span style="color: #000;"><strong>Zheng Zhang</strong>, Philip Bull, Mario G. Santos, Ainulnabilah Nasirudin </span><br>
+  <a href="https://arxiv.org/abs/2509.10992">arXiv:2509.10992</a>
+</div>
 
 <div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
   <strong style="color: #000; font-size: 20px;">(8) A general polynomial emulator for cosmology via moment projection</strong><br>
@@ -67,7 +72,8 @@ Here is a list of my published and submitted papers to date. I am also listed on
 
 <div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
   <strong style="color: #000; font-size: 20px;">(6) RHINO: A large horn antenna for detecting the 21cm global signal</strong><br>
-  <span style="color: #000;">P Bull, A El-Makadema et al.</span><br>
+  <span style="color: #000;">P Bull, A El-Makadema et al. (incl. <strong>Z Zhang</strong>)
+  </span><br>
   <a href="https://arxiv.org/abs/2410.00076">arXiv:2410.00076</a>
 </div>
 
@@ -79,19 +85,22 @@ Here is a list of my published and submitted papers to date. I am also listed on
 
 <div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
   <strong style="color: #000; font-size: 20px;">(4) Hydrogen Intensity and Real-Time Analysis Experiment: 256-element array status and overview</strong><br>
-  <span style="color: #000;">HIRAX collaboration, D Crichton et al.</span><br>
+  <span style="color: #000;">HIRAX collaboration, D Crichton et al. (incl. <strong>Z Zhang</strong>)
+  </span><br>
   <a href="https://doi.org/10.1117/1.JATIS.8.1.011019">JATIS, 8, 1 (2022)</a>; <a href="https://arxiv.org/abs/2109.13755">arXiv:2109.13755</a>
 </div>
 
 <div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
   <strong style="color: #000; font-size: 20px;">(3) A new MWA limit on the 21 cm power spectrum at redshifts∼ 13–17</strong><br>
-  <span style="color: #000;">MWA collaboration, S Yoshiura et al.</span><br>
+  <span style="color: #000;">MWA collaboration, S Yoshiura et al. (incl. <strong>Z Zhang</strong>)
+  </span><br>
   <a href="https://doi.org/10.1093/mnras/stab1560">MNRAS, 505, 4 (2021)</a>; <a href="https://arxiv.org/abs/2105.12888">arXiv:2105.12888</a>
 </div>
 
 <div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
   <strong style="color: #000; font-size: 20px;">(2) Deep multiredshift limits on Epoch of Reionization 21 cm power spectra from four seasons of Murchison Widefield Array observations</strong><br>
-  <span style="color: #000;">MWA collaboration, Cathryn M Trott et al.</span><br>
+  <span style="color: #000;">MWA collaboration, Cathryn M Trott et al. (incl. <strong>Z Zhang</strong>)
+  </span><br>
   <a href="https://doi.org/10.1093/mnras/staa414">MNRAS, 493, 4 (2020)</a>; <a href="https://arxiv.org/abs/2002.02575">arXiv:2002.02575</a>
 </div>
 

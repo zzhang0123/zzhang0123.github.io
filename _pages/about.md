@@ -18,7 +18,7 @@ permalink: /
 </div>
 ---
 
-## Who I am and what I'm doing now
+## What I'm doing now
 
 
 My expertise is in physics and cosmology, with a side interest (and ongoing learning) in applying advanced tools and methods to these fields.
@@ -29,16 +29,15 @@ My passion is to push the boundaries of how physics explains the Universe, and�
 My current research covers both observational and theoretical cosmology, with particular focus on:
   - Line intensity mapping
   - The cosmic history and large-scale structure revealed by the HI hyperfine transition
-  - Cosmic Microwave Background (CMB) anisotropy and frequency spectrum
+  - Cosmic Microwave Background (CMB) anisotropy
   - Gravitational effects as cosmological probes
 
-Recently, I have concentrated on formalising detailed astrophysical processes and systematically accounting for a wide range of observational effects—instrumental, dynamical, radiative transfer, geometrical, topological, and more—in cosmological data. This includes:
+Whether as secondary effects in cosmological surveys or as phenomena of intrinsic scientific interest, my work also includes formalising detailed astrophysical processes and systematically accounting for a wide range of observational effects - spanning instrumental, dynamical, radiative transfer, relativistic, and topological factors — in cosmological data. This includes:
   - Low-frequency foreground science
     - Diffuse synchrotron emission (spectral structure, Faraday rotation, RSB/ARCADE excess, etc.)
     - Spinning dust emission and Anomalous Microwave Emission (AME)
   - Non-equilibrium and quasi-equilibrium astrophysical systems
   - Stochastic instrumental processes (e.g., 1/f noise in autocorrelation measurements)
-  - Statistical measurements
   - Higher-order corrections in the radiative transfer of cosmological signals
 
 I also develop methods and tools for the field, such as:
@@ -51,6 +50,8 @@ I also develop methods and tools for the field, such as:
     - Deep learning
     - Physics-driven methods (e.g., PDE-net)
   - Methods for stochastic processes: Fokker-Planck equations analytical diffusion systems, Langevin equations and stochastic differential equations
+  - Optimal statistical measurements: power spectrum, bispectrum, etc.
+
 
 In addition to these areas, I maintain active research interests in general physics topics, notably topological defect transitions and the quantum-to-classical transition of fields.
 
@@ -144,9 +145,17 @@ In addition to these areas, I maintain active research interests in general phys
   </div>
   <div class="pub-cards">
     <div class="pub-card">
+      <span class="pub-badge">9 | 2025</span>
+      <div class="pub-title">Joint Bayesian calibration and map-making for intensity mapping experiments</div>
+      <div class="pub-authors"><strong>Z Zhang</strong>, P Bull, M Santos, A Nasirudin</div>
+      <div class="pub-links">
+        <a href="https://arxiv.org/abs/2509.10992" target="_blank">arXiv</a>
+      </div>
+    </div>
+    <div class="pub-card">
       <span class="pub-badge">8 | 2025</span>
       <div class="pub-title">A general polynomial emulator for cosmology via moment projection</div>
-      <div class="pub-authors"><strong>Zheng Zhang</strong></div>
+      <div class="pub-authors"><strong>Z Zhang</strong></div>
       <div class="pub-links">
         <a href="https://arxiv.org/abs/2507.02179" target="_blank">arXiv</a>
       </div>
@@ -154,7 +163,7 @@ In addition to these areas, I maintain active research interests in general phys
     <div class="pub-card">
       <span class="pub-badge">7 | 2025</span>
       <div class="pub-title">SpyDust: an improved and extended implementation for modeling spinning dust radiation</div>
-      <div class="pub-authors"><strong>Zheng Zhang</strong>, Jens Chluba</div>
+      <div class="pub-authors"><strong>Z Zhang</strong>, J Chluba</div>
       <div class="pub-links">
         <a href="https://iopscience.iop.org/article/10.1088/1475-7516/2025/03/038/meta" target="_blank">JCAP</a>
         <a href="https://arxiv.org/abs/2412.03431" target="_blank">arXiv</a>
@@ -163,7 +172,7 @@ In addition to these areas, I maintain active research interests in general phys
     <div class="pub-card">
       <span class="pub-badge">6 | 2024</span>
       <div class="pub-title">RHINO: A large horn antenna for detecting the 21cm global signal</div>
-      <div class="pub-authors">P Bull, A El-Makadema et al (incl. <strong>Zheng Zhang</strong>).</div>
+      <div class="pub-authors">P Bull, A El-Makadema et al (incl. <strong>Z Zhang</strong>).</div>
       <div class="pub-links">
         <a href="https://arxiv.org/abs/2410.00076" target="_blank">arXiv</a>
       </div>
@@ -171,7 +180,7 @@ In addition to these areas, I maintain active research interests in general phys
     <div class="pub-card">
       <span class="pub-badge">5 | 2024</span>
       <div class="pub-title">Disentangling the anisotropic radio sky: Fisher forecasts for 21 cm arrays</div>
-      <div class="pub-authors"><strong>Zheng Zhang</strong>, Philip Bull, Katrine A Glasscock</div>
+      <div class="pub-authors"><strong>Z Zhang</strong>, P Bull, K A Glasscock</div>
       <div class="pub-links">
         <a href="https://doi.org/10.1093/mnras/stae1070" target="_blank">MNRAS</a>
         <a href="https://arxiv.org/abs/2403.13768" target="_blank">arXiv</a>
@@ -180,7 +189,7 @@ In addition to these areas, I maintain active research interests in general phys
     <div class="pub-card">
       <span class="pub-badge">4 | 2022</span>
       <div class="pub-title">Hydrogen Intensity and Real-Time Analysis Experiment: 256-element array status and overview</div>
-      <div class="pub-authors">HIRAX collaboration (incl. <strong>Zheng Zhang</strong>) </div>
+      <div class="pub-authors">HIRAX collaboration (incl. <strong>Z Zhang</strong>) </div>
       <div class="pub-links">
         <a href="https://doi.org/10.1117/1.JATIS.8.1.011019" target="_blank">JATIS</a>
         <a href="https://arxiv.org/abs/2109.13755" target="_blank">arXiv</a>
@@ -189,7 +198,7 @@ In addition to these areas, I maintain active research interests in general phys
     <div class="pub-card">
       <span class="pub-badge">3 | 2021</span>
       <div class="pub-title">A new MWA limit on the 21 cm power spectrum at redshifts∼ 13–17</div>
-      <div class="pub-authors">MWA collaboration (incl. <strong>Zheng Zhang</strong>)</div>
+      <div class="pub-authors">MWA collaboration (incl. <strong>Z Zhang</strong>)</div>
       <div class="pub-links">
         <a href="https://doi.org/10.1093/mnras/stab1560" target="_blank">MNRAS</a>
         <a href="https://arxiv.org/abs/2105.12888" target="_blank">arXiv</a>
@@ -198,7 +207,7 @@ In addition to these areas, I maintain active research interests in general phys
     <div class="pub-card">
       <span class="pub-badge">2 | 2020</span>
       <div class="pub-title">Deep multiredshift limits on Epoch of Reionization 21 cm power spectra from four seasons of Murchison Widefield Array observations</div>
-      <div class="pub-authors">MWA collaboration (incl. <strong>Zheng Zhang</strong>)</div>
+      <div class="pub-authors">MWA collaboration (incl. <strong>Z Zhang</strong>)</div>
       <div class="pub-links">
         <a href="https://doi.org/10.1093/mnras/staa414" target="_blank">MNRAS</a>
         <a href="https://arxiv.org/abs/2002.02575" target="_blank">arXiv</a>
@@ -207,7 +216,7 @@ In addition to these areas, I maintain active research interests in general phys
     <div class="pub-card">
       <span class="pub-badge">1 | 2020</span>
       <div class="pub-title">The impact of tandem redundant/sky-based calibration in MWA Phase II data analysis</div>
-      <div class="pub-authors"><strong>Zheng Zhang</strong>, JC Pober, W Li, BJ Hazelton, MF Morales et al.</div>
+      <div class="pub-authors"><strong>Z Zhang</strong>, JC Pober, W Li, BJ Hazelton, MF Morales et al.</div>
       <div class="pub-links">
         <a href="https://doi.org/10.1017/pasa.2020.37" target="_blank">PASA</a>
         <a href="https://arxiv.org/abs/2009.09269" target="_blank">arXiv</a>
