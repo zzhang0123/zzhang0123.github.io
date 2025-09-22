@@ -53,6 +53,18 @@ Here is a list of my published and submitted papers to date. I am also listed on
 ---
 
 <div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
+  <strong style="color: #000; font-size: 20px;">(11) Spectral Properties of Anomalous Microwave Emission in 144 Galactic Clouds </strong><br>
+  <span style="color: #000;"> R. Cepeda-Arroita, J. A. Rubino-Martin, R.T. Genova-Santos, J. Chluba, C. Dickinson, S. E. Harper, F. Poidevin, M. W. Peel, R. Rebolo and <strong>Z. Zhang</strong> </span><br>
+  <a href="https://arxiv.org/abs/">In review.</a>
+</div>
+
+<div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
+  <strong style="color: #000; font-size: 20px;">(10) Bayesian component separation and power spectrum estimation for 21cm intensity mapping data cubes</strong><br>
+  <span style="color: #000;"> Geoff G. Murphy, Philip Bull, Mario G. Santos, <strong>Zheng Zhang</strong>, Steve Cunnington </span><br>
+  <a href="https://arxiv.org/abs/">In review.</a>
+</div>
+
+<div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
   <strong style="color: #000; font-size: 20px;">(9) Joint Bayesian calibration and map-making for intensity mapping experiments</strong><br>
   <span style="color: #000;"><strong>Zheng Zhang</strong>, Philip Bull, Mario G. Santos, Ainulnabilah Nasirudin </span><br>
   <a href="https://arxiv.org/abs/2509.10992">arXiv:2509.10992</a>
