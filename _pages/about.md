@@ -274,6 +274,10 @@ In addition to these areas, I maintain active research interests in general phys
       <div class="code-title"><a href="https://github.com/zzhang0123/TIBEC" target="_blank">TIBEC</a></div>
       <div class="code-desc">A package for Beam Simulation in Cosmological Coordinates</div>
     </div>
+    <div class="code-card">
+      <div class="code-title"><a href="https://github.com/zzhang0123/comat" target="_blank">comat</a></div>
+      <div class="code-desc">A highly optimized implementation of real symmetric covariance matrix (comat) operations.</div>
+    </div>
   </div>
 </div>
 
