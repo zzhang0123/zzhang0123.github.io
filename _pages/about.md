@@ -147,18 +147,18 @@ In addition to these areas, I maintain active research interests in general phys
   <div class="pub-cards">
     <div class="pub-card">
       <span class="pub-badge">11 | 2025</span>
-      <div class="pub-title">Spectral Properties of Anomalous Microwave Emission in 144 Galactic Clouds</div>
-      <div class="pub-authors"> R. Cepeda-Arroita et al (incl. <strong>Z Zhang</strong>).</div>
+      <div class="pub-title">Bayesian component separation and power spectrum estimation for 21cm intensity mapping data cubes</div>
+      <div class="pub-authors"> G Murphy, P Bull, M Santos, <strong>Z Zhang</strong>, S Cunnington</div>
       <div class="pub-links">
         <a href=" " target="_blank">In review.</a>
       </div>
     </div>
     <div class="pub-card">
       <span class="pub-badge">10 | 2025</span>
-      <div class="pub-title">Bayesian component separation and power spectrum estimation for 21cm intensity mapping data cubes</div>
-      <div class="pub-authors"> G Murphy, P Bull, M Santos, <strong>Z Zhang</strong>, S Cunnington</div>
+      <div class="pub-title">Spectral Properties of Anomalous Microwave Emission in 144 Galactic Clouds</div>
+      <div class="pub-authors"> R. Cepeda-Arroita et al (incl. <strong>Z Zhang</strong>).</div>
       <div class="pub-links">
-        <a href=" " target="_blank">In review.</a>
+        <a href="https://arxiv.org/abs/2510.05067" target="_blank">arXiv</a>
       </div>
     </div>
     <div class="pub-card">
