@@ -191,6 +191,7 @@ In addition to these areas, I maintain active research interests in general phys
       <div class="pub-title">RHINO: A large horn antenna for detecting the 21cm global signal</div>
       <div class="pub-authors">P Bull, A El-Makadema et al (incl. <strong>Z Zhang</strong>).</div>
       <div class="pub-links">
+        <a href="https://arxiv.org/abs/2410.00076">RASTI, 046, 4 (2025)</a>
         <a href="https://arxiv.org/abs/2410.00076" target="_blank">arXiv</a>
       </div>
     </div>

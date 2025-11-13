@@ -88,6 +88,7 @@ Here is a list of my published and submitted papers to date. I am also listed on
   <strong style="color: #000; font-size: 20px;">(6) RHINO: A large horn antenna for detecting the 21cm global signal</strong><br>
   <span style="color: #000;">P Bull, A El-Makadema et al. (incl. <strong>Z Zhang</strong>)
   </span><br>
+  <a href="https://arxiv.org/abs/2410.00076">RASTI, 046, 4 (2025)</a>
   <a href="https://arxiv.org/abs/2410.00076">arXiv:2410.00076</a>
 </div>
 
