@@ -174,6 +174,7 @@ In addition to these areas, I maintain active research interests in general phys
       <div class="pub-title">A general polynomial emulator for cosmology via moment projection</div>
       <div class="pub-authors"><strong>Z Zhang</strong></div>
       <div class="pub-links">
+        <a href="https://doi.org/10.1093/mnras/staf2039" target="_blank">MNRAS</a>
         <a href="https://arxiv.org/abs/2507.02179" target="_blank">arXiv</a>
       </div>
     </div>
@@ -191,7 +192,7 @@ In addition to these areas, I maintain active research interests in general phys
       <div class="pub-title">RHINO: A large horn antenna for detecting the 21cm global signal</div>
       <div class="pub-authors">P Bull, A El-Makadema et al (incl. <strong>Z Zhang</strong>).</div>
       <div class="pub-links">
-        <a href="https://arxiv.org/abs/2410.00076">RASTI, 046, 4 (2025)</a>
+        <a href="https://arxiv.org/abs/2410.00076">RASTI</a>
         <a href="https://arxiv.org/abs/2410.00076" target="_blank">arXiv</a>
       </div>
     </div>
