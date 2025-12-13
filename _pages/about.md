@@ -30,7 +30,7 @@ My current research covers both observational and theoretical cosmology, with pa
   - Line intensity mapping
   - The cosmic history and large-scale structure revealed by the HI hyperfine transition
   - Cosmic Microwave Background (CMB) anisotropy
-  - Gravitational effects as cosmological probes
+  - Gravitational effects as cosmological probes 
 
 Whether as secondary effects in cosmological surveys or as phenomena of intrinsic scientific interest, my work also includes formalising detailed astrophysical processes and systematically accounting for a wide range of observational effects -- spanning instrumental, dynamical, radiative transfer, relativistic, and topological factors -- in cosmological data. This includes:
   - Low-frequency foreground science
@@ -41,12 +41,12 @@ Whether as secondary effects in cosmological surveys or as phenomena of intrinsi
   - Higher-order corrections in the radiative transfer of cosmological signals
 
 I also develop methods and tools for the field, such as:
-  - Ultra-high-dimensional Bayesian inference using Gibbs sampling
+  - Ultra-high-dimensional Bayesian inference using Gibbs sampling + Gaussian Constrained Realisation
   - Perturbative statistical analysis
     - Marginalising and abstracting out ignorance or environmental factors
     - Using moment and cumulant expansions
   - Machine learning
-    - MomentEmu (my proposed non-regression approach to smooth cosmological observable representation)
+    - MomentEmu (a generic approach to smooth cosmological observable representation)
     - Deep learning
     - Physics-driven methods (e.g., PDE-net)
   - Methods for stochastic processes: Fokker-Planck equations analytical diffusion systems, Langevin equations and stochastic differential equations
