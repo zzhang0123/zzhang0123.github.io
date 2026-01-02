@@ -321,7 +321,7 @@ I can't go back too far. My grandfather was adopted. The man who adopted him, my
 
 Our little family includes my wife and myself, our Bengal cat, Youzi, along with two cherished baobab trees, Jumbo and Zhuangzhuang, which we brought with us from Paris to Manchester. While living in the US, I raised a loving German Shepherd named Summer, who now enjoys life with my parents in my faraway hometown.
 
-<div class="gallery" data-columns="3">
+<!-- <div class="gallery" data-columns="3">
 	<img src="/images/me/baobab.jpg">
 	<img src="/images/me/family.jpg">
 	<img src="/images/me/couple.jpg">
@@ -329,7 +329,7 @@ Our little family includes my wife and myself, our Bengal cat, Youzi, along with
 	<img src="/images/me/summer2.jpg">
 	<img src="/images/me/youzi_1.jpeg">
   <img src="/images/me/youzi_2.jpeg">
-</div>
+</div> -->
 
 
 
