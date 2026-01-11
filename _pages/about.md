@@ -146,9 +146,18 @@ In addition to these areas, I maintain active research interests in general phys
 
   <div class="pub-cards">
     <div class="pub-card">
-      <span class="pub-badge">11 | 2025</span>
+      <span class="pub-badge">12 | 2026</span>
       <div class="pub-title">Bayesian component separation and power spectrum estimation for 21cm intensity mapping data cubes</div>
       <div class="pub-authors"> G Murphy, P Bull, M Santos, <strong>Z Zhang</strong>, S Cunnington</div>
+      <div class="pub-links">
+        <a href=" " target="_blank">Under collaboration review.</a>
+      </div>
+    </div>
+    <div class="pub-cards">
+    <div class="pub-card">
+      <span class="pub-badge">11 | 2026</span>
+      <div class="pub-title">Spectral Signatures of Spinning Dust from Grain Ensembles in Diverse Environments: A Combined Theoretical and Observational Study</div>
+      <div class="pub-authors"> <strong>Zheng Zhang</strong>, Jens Chluba, Roke Cepeda-Arroita, Jose Alberto Rubino-Martin</div>
       <div class="pub-links">
         <a href=" " target="_blank">Under collaboration review.</a>
       </div>
@@ -192,7 +201,7 @@ In addition to these areas, I maintain active research interests in general phys
       <div class="pub-title">RHINO: A large horn antenna for detecting the 21cm global signal</div>
       <div class="pub-authors">P Bull, A El-Makadema et al (incl. <strong>Z Zhang</strong>).</div>
       <div class="pub-links">
-        <a href="https://arxiv.org/abs/2410.00076">RASTI</a>
+        <a href="https://doi.org/10.1093/rasti/rzaf046">RASTI</a>
         <a href="https://arxiv.org/abs/2410.00076" target="_blank">arXiv</a>
       </div>
     </div>

@@ -52,13 +52,18 @@ Here is a list of my published and submitted papers to date. I am also listed on
 
 ---
 
-
-
-<!-- <div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
-  <strong style="color: #000; font-size: 20px;">(11) Bayesian component separation and power spectrum estimation for 21cm intensity mapping data cubes</strong><br>
+<div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
+  <strong style="color: #000; font-size: 20px;">(12) Bayesian component separation and power spectrum estimation for 21cm intensity mapping data cubes</strong><br>
   <span style="color: #000;"> Geoff G. Murphy, Philip Bull, Mario G. Santos, <strong>Zheng Zhang</strong>, Steve Cunnington </span><br>
-  <a href="https://arxiv.org/abs/">In review.</a>
-</div> -->
+  <a href="https://arxiv.org/abs/">Under collaboration review.</a>
+</div>
+
+<div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
+  <strong style="color: #000; font-size: 20px;">(11) Spectral Signatures of Spinning Dust from Grain Ensembles in Diverse Environments: A Combined Theoretical and Observational Study</strong><br>
+  <span style="color: #000;"> <strong>Zheng Zhang</strong>, Jens Chluba, Roke Cepeda-Arroita, Jose Alberto Rubino-Martin </span><br>
+  <a href="https://arxiv.org/abs/">Under collaboration review.</a>
+</div>
+
 
 <div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
   <strong style="color: #000; font-size: 20px;">(10) Spectral Properties of Anomalous Microwave Emission in 144 Galactic Clouds </strong><br>
@@ -89,7 +94,7 @@ Here is a list of my published and submitted papers to date. I am also listed on
   <strong style="color: #000; font-size: 20px;">(6) RHINO: A large horn antenna for detecting the 21cm global signal</strong><br>
   <span style="color: #000;">P Bull, A El-Makadema et al. (incl. <strong>Z Zhang</strong>)
   </span><br>
-  <a href="https://arxiv.org/abs/2410.00076">RASTI, 046, 4 (2025)</a>;
+  <a href="https://doi.org/10.1093/rasti/rzaf046">RASTI, 046, 4 (2025)</a>;
   <a href="https://arxiv.org/abs/2410.00076">arXiv:2410.00076</a>
 </div>
 
@@ -133,6 +138,14 @@ Here is a list of my published and submitted papers to date. I am also listed on
 Here is a list of available codes used in the papers. 
 
 ---
+
+<div class="publications-grid" style="width: 80%; margin: 0 auto;">
+
+<div class="publication-item" style="margin: 0 auto;">
+    <h3><a href="https://github.com/zzhang0123/mcpost"><strong>MC-post</strong></a></h3>
+    <p>Tools for global sensitivity analysis (GSA) and Monte Carlo integration with modern packaging standards and extensive documentation.</p>
+    <!-- <p><a href="https://arxiv.org/abs/2507.02179">arXiv:2507.02179</a></p> -->
+</div>
 
 <div class="publications-grid" style="width: 80%; margin: 0 auto;">
 
