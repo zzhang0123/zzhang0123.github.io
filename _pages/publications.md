@@ -141,40 +141,38 @@ Here is a list of available codes used in the papers.
 
 <div class="publications-grid" style="width: 80%; margin: 0 auto;">
 
-<div class="publication-item" style="margin: 0 auto;">
-    <h3><a href="https://github.com/zzhang0123/mcpost"><strong>MC-post</strong></a></h3>
-    <p>Tools for global sensitivity analysis (GSA) and Monte Carlo integration with modern packaging standards and extensive documentation.</p>
-    <!-- <p><a href="https://arxiv.org/abs/2507.02179">arXiv:2507.02179</a></p> -->
-</div>
+  <div class="publication-item" style="margin: 0 auto;">
+      <h3><a href="https://github.com/zzhang0123/mcpost"><strong>MC-post</strong></a></h3>
+      <p>Tools for global sensitivity analysis (GSA) and Monte Carlo integration with modern packaging standards and extensive documentation.</p>
+      <!-- <p><a href="https://arxiv.org/abs/2507.02179">arXiv:2507.02179</a></p> -->
+  </div>
 
-<div class="publications-grid" style="width: 80%; margin: 0 auto;">
+  <div class="publication-item" style="margin: 0 auto;">
+      <h3><a href="https://github.com/zzhang0123/MomentEmu"><strong>MomentEmu</strong></a></h3>
+      <p>A general polynomial emulator for cosmology via moment projection</p>
+      <p><a href="https://arxiv.org/abs/2507.02179">arXiv:2507.02179</a></p>
+  </div>
 
-<div class="publication-item" style="margin: 0 auto;">
-    <h3><a href="https://github.com/zzhang0123/MomentEmu"><strong>MomentEmu</strong></a></h3>
-    <p>A general polynomial emulator for cosmology via moment projection</p>
-    <p><a href="https://arxiv.org/abs/2507.02179">arXiv:2507.02179</a></p>
-</div>
+  <div class="publication-item" style="margin: 0 auto;">
+      <h3><a href="https://github.com/SpyDust/SpyDust"><strong>SpyDust</strong></a></h3>
+      <p>A python package for modeling spinning dust radiation</p>
+      <p><a href="https://arxiv.org/abs/2412.03431">arXiv:2412.03431</a></p>
+  </div>
 
-<div class="publication-item" style="margin: 0 auto;">
-    <h3><a href="https://github.com/SpyDust/SpyDust"><strong>SpyDust</strong></a></h3>
-    <p>A python package for modeling spinning dust radiation</p>
-    <p><a href="https://arxiv.org/abs/2412.03431">arXiv:2412.03431</a></p>
-</div>
+  <div class="publication-item" style="margin: 0 auto;">
+      <h3><a href="https://github.com/zzhang0123/hydra-tod"><strong>Hydra-TOD</strong></a></h3>
+      <p>A Gibbs sampling method for single-dish TOD gain calibration and map-making</p>
+  </div>
 
-<div class="publication-item" style="margin: 0 auto;">
-    <h3><a href="https://github.com/zzhang0123/hydra-tod"><strong>Hydra-TOD</strong></a></h3>
-    <p>A Gibbs sampling method for single-dish TOD gain calibration and map-making</p>
-</div>
+  <div class="publication-item" style="margin: 0 auto;">
+      <h3><a href="https://github.com/zzhang0123/limTOD"><strong>limTOD</strong></a></h3>
+      <p>A Time-Ordered Data Simulator for Ground-Based Measurements</p>
+  </div>
 
-<div class="publication-item" style="margin: 0 auto;">
-    <h3><a href="https://github.com/zzhang0123/limTOD"><strong>limTOD</strong></a></h3>
-    <p>A Time-Ordered Data Simulator for Ground-Based Measurements</p>
-</div>
-
-<div class="publication-item" style="margin: 0 auto;">
-    <h3><a href="https://github.com/zzhang0123/TIBEC"><strong>TIBEC</strong></a></h3>
-    <p>This is a package for power beam formation in Cosmological Coordinates.</p>
-</div>
+  <div class="publication-item" style="margin: 0 auto;">
+      <h3><a href="https://github.com/zzhang0123/TIBEC"><strong>TIBEC</strong></a></h3>
+      <p>This is a package for power beam formation in Cosmological Coordinates.</p>
+  </div>
 
 </div>
 
