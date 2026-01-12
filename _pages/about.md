@@ -153,7 +153,6 @@ In addition to these areas, I maintain active research interests in general phys
         <a href=" " target="_blank">Under collaboration review.</a>
       </div>
     </div>
-    <div class="pub-cards">
     <div class="pub-card">
       <span class="pub-badge">11 | 2026</span>
       <div class="pub-title">Spectral Signatures of Spinning Dust from Grain Ensembles in Diverse Environments: A Combined Theoretical and Observational Study</div>
