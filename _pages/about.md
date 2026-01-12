@@ -253,14 +253,26 @@ In addition to these areas, I maintain active research interests in general phys
 </div>
 
 <div class="codes-section">
-  <div class="section-title">Codes</div>
+  <div class="section-title">Codes
+  </div>
   <div style="margin-bottom:0.7em; font-size:1.05em;">
     Here are a few selected codes I have developed or contributed to, many of which are used in my research papers.
   </div>
   <div class="code-cards">
     <div class="code-card">
-      <div class="code-title"><a href="https://github.com/zzhang0123/MomentEmu" target="_blank">MomentEmu</a></div>
-      <div class="code-desc">A general polynomial emulator for cosmology via moment projection</div>
+      <div class="code-title"><a href="https://github.com/zzhang0123/MomentEmu" target="_blank">MomentEmu</a>
+      </div>
+      <div class="code-desc">A general polynomial emulator for cosmology via moment projection
+      </div>
+      <div class="code-links">
+        <a href="https://arxiv.org/abs/2507.02179" target="_blank">arXiv</a>
+      </div>
+    </div>
+    <div class="code-card">
+      <div class="code-title"><a href="https://github.com/zzhang0123/mcpost" target="_blank">MC-post</a>
+      </div>
+      <div class="code-desc">Tools for global sensitivity analysis (GSA) and Monte Carlo integration with modern packaging standards and extensive documentation.
+      </div>
       <div class="code-links">
         <a href="https://arxiv.org/abs/2507.02179" target="_blank">arXiv</a>
       </div>
@@ -329,7 +341,7 @@ I can't go back too far. My grandfather was adopted. The man who adopted him, my
 
 Our little family includes my wife and myself, our Bengal cat, Youzi, along with two cherished baobab trees, Jumbo and Zhuangzhuang, which we brought with us from Paris to Manchester. While living in the US, I raised a loving German Shepherd named Summer, who now enjoys life with my parents in my faraway hometown.
 
-<!-- <div class="gallery" data-columns="3">
+<div class="gallery" data-columns="3">
 	<img src="/images/me/baobab.jpg">
 	<img src="/images/me/family.jpg">
 	<img src="/images/me/couple.jpg">
@@ -337,7 +349,7 @@ Our little family includes my wife and myself, our Bengal cat, Youzi, along with
 	<img src="/images/me/summer2.jpg">
 	<img src="/images/me/youzi_1.jpeg">
   <img src="/images/me/youzi_2.jpeg">
-</div> -->
+</div>
 
 
 
