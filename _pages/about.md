@@ -158,7 +158,7 @@ In addition to these areas, I maintain active research interests in general phys
       <div class="pub-title">Spectral Signatures of Spinning Dust from Grain Ensembles in Diverse Environments: A Combined Theoretical and Observational Study</div>
       <div class="pub-authors"> <strong>Zheng Zhang</strong>, Jens Chluba, Roke Cepeda-Arroita, Jose Alberto Rubino-Martin</div>
       <div class="pub-links">
-        <a href=" " target="_blank">Under collaboration review.</a>
+        <a href="https://arxiv.org/abs/2601.0627" target="_blank">arXiv</a>
       </div>
     </div>
     <div class="pub-card">
