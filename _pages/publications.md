@@ -144,7 +144,7 @@ Here is a list of available codes used in the papers.
   <div class="publication-item" style="margin: 0 auto;">
       <h3><a href="https://github.com/zzhang0123/mcpost"><strong>MC-post</strong></a></h3>
       <p>Tools for global sensitivity analysis (GSA) and Monte Carlo integration with modern packaging standards and extensive documentation.</p>
-      <!-- <p><a href="https://arxiv.org/abs/2507.02179">arXiv:2507.02179</a></p> -->
+      <p><a href="https://arxiv.org/abs/2601.06270">arXiv:2601.06270</a></p>
   </div>
 
   <div class="publication-item" style="margin: 0 auto;">
