@@ -29,7 +29,6 @@ My passion is to push the boundaries of how physics explains the Universe, and w
 My current research covers both observational and theoretical cosmology, with particular focus on:
   - Line intensity mapping
   - The cosmic history and large-scale structure revealed by the HI hyperfine transition
-  - Cosmic Microwave Background (CMB) anisotropy
   - Gravitational effects as cosmological probes 
 
 Whether as secondary effects in cosmological surveys or as phenomena of intrinsic scientific interest, my work also includes formalising detailed astrophysical processes and systematically accounting for a wide range of observational effects -- spanning instrumental, dynamical, radiative transfer, relativistic, and topological factors -- in cosmological data. This includes:
@@ -156,7 +155,7 @@ In addition to these areas, I maintain active research interests in general phys
     <div class="pub-card">
       <span class="pub-badge">11 | 2026</span>
       <div class="pub-title">Spectral Signatures of Spinning Dust from Grain Ensembles in Diverse Environments: A Combined Theoretical and Observational Study</div>
-      <div class="pub-authors"> <strong>Zheng Zhang</strong>, Jens Chluba, Roke Cepeda-Arroita, Jose Alberto Rubino-Martin</div>
+      <div class="pub-authors"> <strong>Z Zhang</strong>, J Chluba, R Cepeda-Arroita, J A Rubino-Martin</div>
       <div class="pub-links">
         <a href="https://arxiv.org/abs/2601.06270" target="_blank">arXiv</a>
       </div>
