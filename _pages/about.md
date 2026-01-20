@@ -149,7 +149,7 @@ In addition to these areas, I maintain active research interests in general phys
       <div class="pub-title">Bayesian component separation and power spectrum estimation for 21cm intensity mapping data cubes</div>
       <div class="pub-authors"> G Murphy, P Bull, M Santos, <strong>Z Zhang</strong>, S Cunnington</div>
       <div class="pub-links">
-        <a href=" " target="_blank">Under collaboration review.</a>
+        <a target="_blank">Under collaboration review.</a>
       </div>
     </div>
     <div class="pub-card">

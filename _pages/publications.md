@@ -55,7 +55,7 @@ Here is a list of my published and submitted papers to date. I am also listed on
 <div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
   <strong style="color: #000; font-size: 20px;">(12) Bayesian component separation and power spectrum estimation for 21cm intensity mapping data cubes</strong><br>
   <span style="color: #000;"> Geoff G. Murphy, Philip Bull, Mario G. Santos, <strong>Zheng Zhang</strong>, Steve Cunnington </span><br>
-  <a href=" ">Under collaboration review.</a>
+  <a>Under collaboration review.</a>
 </div>
 
 <div style="width: 80%; margin: 0 auto; background-color: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; line-height: 1.8;">
