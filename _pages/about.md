@@ -2,8 +2,9 @@
 title: Zheng Zhang
 subtitle: I do physics and cosmology (and ask a lot of questions about the Universe)
 description: "Postdoctoral researcher in cosmology at the University of Manchester. Working on 21cm intensity mapping, foreground science, and Bayesian inference for next-generation radio telescopes."
-featured_image: /images/me/zzhang1.jpg
+featured_image: /images/demo/Lovell.jpg
 permalink: /
+mermaid: true
 ---
 <!--
 ![](/images/Manchester.jpg)
@@ -15,6 +16,23 @@ permalink: /
 	<img src="/images/demo/meerkat.jpg">
 </div>
 ---
+
+{% if page.pinned_post %}
+  {% assign featured = site.posts | where: "url", page.pinned_post | first %}
+{% else %}
+  {% assign featured = site.posts.first %}
+{% endif %}
+{% if featured %}
+<div class="featured-post-card">
+  <span class="featured-label">Latest Post</span>
+  <h4><a href="{{ featured.url | relative_url }}">{{ featured.title }}</a></h4>
+  <div class="featured-post-meta">{{ featured.date | date: "%B %d, %Y" }}</div>
+  {% if featured.excerpt %}
+  <div class="featured-post-excerpt">{{ featured.excerpt | strip_html | truncatewords: 35 }}</div>
+  {% endif %}
+  <a href="{{ featured.url | relative_url }}" class="button">Read more</a>
+</div>
+{% endif %}
 
 ## What I'm doing now
 
@@ -53,6 +71,62 @@ I also develop methods and tools for the field, such as:
 In addition to these areas, I maintain active research interests in general physics topics, notably topological defect transitions and the quantum-to-classical transition of fields.
 
 <style>
+.featured-post-card {
+  background: #F5F7FA;
+  border: 1px solid #dddddd;
+  border-left: 4px solid #A2DED0;
+  border-radius: 8px;
+  padding: 1.2rem 1.5rem;
+  margin: 1.5rem 0 2rem;
+}
+.featured-label {
+  display: inline-block;
+  background: #A2DED0;
+  color: #2A2F36;
+  font-size: 0.75em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border-radius: 4px;
+  padding: 0.18em 0.55em;
+  margin-bottom: 0.55rem;
+}
+.featured-post-card h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0.2rem 0 0.2rem;
+  line-height: 1.35;
+}
+.featured-post-card h4 a {
+  color: #2A2F36;
+  text-decoration: none;
+}
+.featured-post-card h4 a:hover { color: #4aada0; }
+.featured-post-meta {
+  color: #6C7A89;
+  font-size: 0.88em;
+  margin-bottom: 0.5rem;
+}
+.featured-post-excerpt {
+  color: #2A2F36;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  margin-bottom: 0.75rem;
+}
+.mermaid-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 1.2rem auto 1.8rem;
+  max-width: 80%;
+}
+@media (min-width: 1600px) {
+  .mermaid-wrap { max-width: 75%; }
+}
+.mermaid-wrap svg {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
 .pub-cards, .code-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -285,14 +359,31 @@ Before that, I earned an MSc in Physics from Brown University (**2018–2020, Rh
 
 Below is my academic tree, illustrating the lineage from doctoral supervisors to students.
 
-<div class="gallery" data-columns="1">
-	<img src="/images/demo/academic_tree.png">
+<div class="mermaid-wrap">
+<div class="mermaid">
+flowchart LR
+    PD["Paul Dirac"] --> DS["Dennis W. Sciama"]
+    EF["Enrico Fermi"] --> ST["Sam Treiman"]
+    JS["John Simpson"] --> ST
+    DS --> MR["Martin Rees"]
+    ST --> SW["Steven Weinberg"]
+    MR --> NK["Nick Kaiser"]
+    SW --> JP["John Preskill"]
+    JP --> MB["Martin Bucher"]
+    NK & MB --> ZZ(["Zheng Zhang"])
+
+    classDef anc fill:#F5F7FA,stroke:#A2DED0,stroke-width:1.5px,color:#2A2F36
+    classDef me fill:#A2DED0,stroke:#4aada0,stroke-width:2.5px,color:#1a2026,font-weight:bold
+
+    class PD,EF,JS,DS,MR,ST,SW,NK,JP,MB anc
+    class ZZ me
+</div>
 </div>
 
 ### Students
 
-- Pranav Odugoudar (MScR, Manchester, 2024-)
 - Tong Lu (BSc, Manchester, 2025-)
+- Pranav Odugoudar (MScR, Manchester, 2024-)
 
 ### Biological Ancestry
 

@@ -338,6 +338,8 @@
 			$(this).wrapAll('<div class="table-wrap"></div>');
 		});
 
+
+
 	}
 
 	// Run functions on load

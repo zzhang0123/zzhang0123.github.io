@@ -1,10 +1,48 @@
-<script type="text/javascript"
-  src="https://unpkg.com/mermaid@8.0.0-rc.8/dist/mermaid.min.js">
-</script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
 <script>
-$(document).ready(function() {
-    mermaid.initialize({
-        theme: 'forest'
+(function() {
+  var diagramFontSize = 17;
+
+  // Initialize synchronously — mermaid.min.js is a blocking <script> in <head>
+  // so mermaid is available here. startOnLoad: false lets pageFunctions() control rendering.
+  mermaid.initialize({
+    startOnLoad: false,
+    theme: 'base',
+    flowchart: { htmlLabels: false },
+    themeVariables: {
+      fontSize: diagramFontSize + 'px',
+      fontFamily: '"Source Sans Pro", sans-serif',
+      primaryColor: '#F5F7FA',
+      primaryBorderColor: '#A2DED0',
+      primaryTextColor: '#2A2F36'
+    }
+  });
+
+  // Exposed globally so journal.js pageFunctions() can call it after rendering
+  window.scaleMermaidDiagrams = function() {
+    document.querySelectorAll('.mermaid-wrap').forEach(function(wrap) {
+      var svg = wrap.querySelector('svg');
+      if (!svg) return;
+      var vb = svg.viewBox && svg.viewBox.baseVal;
+      if (!vb || !vb.width) return;
+      var containerW = wrap.offsetWidth;
+      if (!containerW) return;
+      var scale = Math.min(1.3, (containerW * 0.95) / vb.width);
+      if (scale < 1 && scale * diagramFontSize < 11) return;
+      if (Math.abs(scale - 1) < 0.02) return;
+      svg.setAttribute('width',  Math.round(vb.width  * scale));
+      svg.setAttribute('height', Math.round(vb.height * scale));
+      svg.style.maxWidth = 'none';
     });
-});
+  };
+
+  // Re-scale on window resize
+  document.addEventListener('DOMContentLoaded', function() {
+    var resizeTimer;
+    window.addEventListener('resize', function() {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(window.scaleMermaidDiagrams, 200);
+    });
+  });
+})();
 </script>

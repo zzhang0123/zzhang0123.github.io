@@ -16,19 +16,15 @@
 		padding: 80px 40px;
 	}
 
-	@include mq(tabletl) {
+	@include mq(laptop) {
 		position: fixed;
 		z-index: 10;
 		overflow: auto;
 		top: 0;
 		left: 0;
 		bottom: 0;
-		width: 30%;
-		padding: 0;
-	}
-
-	@include mq(desktop) {
 		width: 25%;
+		padding: 0;
 	}
 }
 
@@ -44,13 +40,9 @@
 	opacity: 0;
 	@include transition(opacity 0.4s ease-in-out);
 
-	@include mq(tabletl) {
+	@include mq(laptop) {
 		position: fixed;
 		right: auto;
-		width: 30%;
-	}
-
-	@include mq(desktop) {
 		width: 25%;
 	}
 }
@@ -77,13 +69,9 @@
 .header__content {
 	position: relative;
 
-	@include mq(tabletl) {
+	@include mq(laptop) {
 		position: absolute;
 		bottom: 0;
-		padding: 40px 40px 34px;
-	}
-
-	@include mq(laptop) {
 		padding: 60px 60px 52px;
 	}
 }
@@ -166,8 +154,8 @@
 	cursor: pointer;
 	font-size: 15px;
 	line-height: 20px;
-	
-	@include mq(tabletl) {
+
+	@include mq(laptop) {
 		display: none;
 	}
 }
@@ -237,7 +225,7 @@
 	opacity: 0;
 	@include transition(all 0.2s ease-in-out);
 
-	@include mq(tabletl) {
+	@include mq(laptop) {
 		position: relative;
 		background: transparent;
 		visibility: visible;
