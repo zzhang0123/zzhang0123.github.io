@@ -21,4 +21,8 @@ layout: default
 
 	</div>
 
+	{% unless page.no_comments %}
+	{% include comments.html %}
+	{% endunless %}
+
 </section>

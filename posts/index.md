@@ -24,51 +24,24 @@ featured_image: /images/MontBlanc.jpg
 
 
 
-<section class="blog single">
+<section class="blog">
+  <div class="wrap">
+    {% for post in site.posts %}
+    <div class="blog-post">
+      {% if post.featured_image %}
+      <a href="{{ post.url | relative_url }}" class="blog-post__image" style="background-image: url({{ post.featured_image | relative_url }});"></a>
+      {% endif %}
+      <div class="blog-post__content">
+        <h2 class="blog-post__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p class="blog-post__subtitle">{{ post.date | date: "%B %d, %Y" }}</p>
+        {% if post.excerpt %}<p>{{ post.excerpt | strip_html | truncatewords: 40 }}</p>{% endif %}
+        <a href="{{ post.url | relative_url }}" class="button">Read more</a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
 
-<h2>Notes</h2>
-	<p style="font-style: italic;">These notes are not intended for publication. If you'd like to use any part of them, please cite this website or mention it in the acknowledgements. Thanks!</p>
-
-	<h3>Measurements and Data Analysis</h3>
-	<ul>
-		<li><a href="https://zh-zhang.com/myNotes/RadioInterferometryNote.pdf" target="_blank" rel="noopener noreferrer">A Perspective on Radio Interferometry: Local Beam, Local Fringes, and Global Sky</a></li>
-		<li><a href="https://zh-zhang.com/myNotes/PSEnote.pdf" target="_blank" rel="noopener noreferrer">On the power spectrum estimation: likelihood based methods and quadratic estimators</a></li>
-		<li><a href="https://zh-zhang.com/myNotes/MmodeNote.pdf" target="_blank" rel="noopener noreferrer">Radio Interferometer Measurement Equation for M-mode Analysis</a></li>
-	</ul>
-
-	<h3>21 cm Cosmology</h3>
-	<ul>
-		<li><a href="https://theses.hal.science/tel-04750721v1/file/va_Zhang_Zheng.pdf">Role of polarisation in 21cm surveys (PhD thesis)</a>
-    </li>
-    <li><a href="https://zh-zhang.com/myNotes/Global_transfer.pdf" target="_blank" rel="noopener noreferrer">On the global (directional averaged) radiative transfer</a>
-    </li>
-	<li><a href="https://zh-zhang.com/myNotes/21_CM_physics.pdf" target="_blank" rel="noopener noreferrer">21 cm physics (<a href="https://theses.hal.science/tel-04750721v1/file/va_Zhang_Zheng.pdf" style="font-style: italic;"> See my thesis for an improved overview.</a>)</a>
-    </li>
-	</ul>
-
-	<h3>Radio sky</h3>
-	<ul>
-	<li><a href="https://zh-zhang.com/myNotes/Polarized_FG_Simu.pdf">Simulating the polarised synchrotron foregrounds</a>
-    </li>
-	</ul>
-
-
-	<h3>Techniques</h3>
-	<ul>
-	<li><a href="https://zh-zhang.com/myNotes/CovarianceSamplerNote.pdf">On the covariance sampler (via inverse Wishart)</a>
-    </li>
-	</ul>
-
-	<h3>Theory</h3>
-	<ul>
-	<li><a href="https://zh-zhang.com/myNotes/topological_WF.pdf">Qunatum mechanics in topological sense (Disclaimer: Existing ideas in the literature.)</a>
-    </li>
-	</ul>
-
-
-	
-
- </section>
 
 
 

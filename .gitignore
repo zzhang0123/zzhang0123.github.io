@@ -1,2 +1,8 @@
 # Jekyll generated site
 /_site
+
+# macOS metadata
+.DS_Store
+
+.claudeignore
+

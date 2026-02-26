@@ -39,9 +39,7 @@
 	<link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
 	
 	<!-- Icons -->
-	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/solid.js" integrity="sha384-GXi56ipjsBwAe6v5X4xSrVNXGOmpdJYZEEh/0/GqJ3JTHsfDsF8v0YQvZCJYAiGu" crossorigin="anonymous"></script>
-	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/brands.js" integrity="sha384-0inRy4HkP0hJ038ZyfQ4vLl+F4POKbqnaUB6ewmU4dWP0ki8Q27A0VFiVRIpscvL" crossorigin="anonymous"></script>
-	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/fontawesome.js" integrity="sha384-NY6PHjYLP2f+gL3uaVfqUZImmw71ArL9+Roi9o+I4+RBqArA2CfW1sJ1wkABFfPe" crossorigin="anonymous"></script>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" crossorigin="anonymous"></script>
 
 	{% if page.mermaid %}
   	{% include mermaid.html %}
@@ -146,64 +144,6 @@
 		});
 	</script> -->
 
-	<script>
-		document.addEventListener('DOMContentLoaded', function() {
-			// Attach click event listeners to links
-			attachLinkEventListeners();
-
-			function attachLinkEventListeners() {
-				document.querySelectorAll('a').forEach(function(link) {
-					link.addEventListener('click', function(event) {
-						const url = this.getAttribute('href');
-
-						// Ignore anchor, mailto, tel, and external links
-						if (url.startsWith('#') || url.startsWith('mailto:') || url.startsWith('tel:') || url.startsWith('http')) {
-							return; // Allow the browser to handle these links
-						}
-
-						// Prevent default behavior for internal links
-						event.preventDefault();
-
-						// Fetch the new page content
-						fetch(url)
-							.then(response => {
-								if (!response.ok) {
-									throw new Error('Network response was not ok.');
-								}
-								return response.text();
-							})
-							.then(html => {
-								// Parse the new HTML content
-								const newPage = new DOMParser().parseFromString(html, 'text/html');
-
-								// Replace the content section
-								document.querySelector('.page__content').innerHTML = newPage.querySelector('.page__content').innerHTML;
-
-								// Replace the header section
-								document.querySelector('header').innerHTML = newPage.querySelector('header').innerHTML;
-
-								// Update the URL in the browser's address bar
-								history.pushState(null, '', url);
-
-								// Reinitialize JS logic (like Mermaid) if needed
-								initializePageLogic();
-							})
-							.catch(error => {
-								console.error('Error fetching the page:', error);
-								window.location.href = url; // Fallback to normal navigation in case of error
-							});
-					});
-				});
-			}
-
-			function initializePageLogic() {
-				// Reattach link event listeners for the newly loaded page
-				attachLinkEventListeners();
-
-				// Any other page-specific initialization logic
-			}
-		});
-	</script>
 
 </body>
 
