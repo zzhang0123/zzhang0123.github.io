@@ -33,6 +33,6 @@ Incidentally, one of those gold mines is called curiosity-driven science.
 
 **Third: science has always been, at its best, a refuge.**
 
-I sometimes think of a night many years ago in Paris, standing on the Pont des Arts under a full moon with my PhD supervisor — a lovely, now late, English gentleman. He joked that the three of us there (including his girlfriend) were, respectively, refugees of Johnson, Xi, and Trump. It was light-hearted, but not entirely unserious.
+I sometimes think of a night a few years ago in Paris, standing on the Pont des Arts under a full moon with my PhD supervisor — a lovely, now late, English gentleman. He joked that the three of us there (including his girlfriend) were, respectively, refugees of Johnson, Xi, and Trump. It was light-hearted, but not entirely unserious.
 
 Paris, for many years, has served as a haven for us citizens of the Universe. Should not a mature and prosperous nation — one that has benefited from the longest arc of industrial and intellectual accumulation — aspire to be a refuge for those who expand the frontiers of human knowledge?
