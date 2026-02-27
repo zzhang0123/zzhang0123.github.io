@@ -11,9 +11,7 @@ excerpt: I am a postdoctoral researcher in cosmology working in Manchester. A sh
 
 To the Editor,
 
-I am a postdoctoral researcher in cosmology working in Manchester, and I would like to say something about the recent STFC funding crisis.
-
-I am not entirely sure why I feel compelled to write about the UK public policy. I grew up in China, where discussions about policy can sometimes feel like discussions about the weather: when the sun shines, one praises and enjoys it; when storms come, one avoids them and complains — but few imagine they can change the weather. I suspect I still carry some of that temperament.
+I am a postdoctoral researcher in cosmology working in Manchester, and I would like to comment on the recent Science and Technology Facilities Council funding crisis, as discussed by Jon Butterworth. I did not grow up in the UK, and I am not accustomed to writing about public policy. Where I come from, policy can feel like the weather: when the sun shines, one enjoys it; when storms arrive, one complains – but few imagine they can change it. Perhaps I still carry some of that temperament.
 
 So I am not writing in the grand hope of shaping the long-term national strategy or securing scientific prosperity. Rather — as with any piece of scientific work — I believe certain perspectives deserve to exist in the discussion. Mine happens to be that of an international, early-career scientist working in the UK. It may be somewhat representative. And I admit, I find it mildly amusing to imagine the surprise on my colleagues' faces when they see a Chinese postdoc writing in a British newspaper.
 
@@ -27,7 +25,7 @@ Abrupt funding shifts distort the talent market, creating mismatches between exp
 
 **Second: how should a country respond to technological revolutions?**
 
-When Americans invented a sturdy gold shovel and rented it out at high prices, Chinese manufacturers produced competitive alternatives and distributed the blueprints so that anyone in the world could build their own. In such a situation, should the UK focus on inventing ever more sophisticated shovels, or on digging for gold? Perhaps both. But surely it would be unwise to reduce the number of people digging while concentrating resources solely on designing new tools.
+When some invented a sturdy gold shovel and rented it out at high prices, others produced competitive alternatives and distributed the blueprints so that anyone in the world could build their own. In such a situation, should the UK focus on inventing ever more sophisticated shovels, or on digging for gold? Perhaps both. But surely it would be unwise to reduce the number of people digging while concentrating resources solely on designing new tools.
 
 Incidentally, one of those gold mines is called curiosity-driven science.
 
