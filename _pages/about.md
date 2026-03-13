@@ -202,100 +202,70 @@ Here is a list of my published and submitted papers to date. Also see my profile
 <!-- PUB_SECTION_START -->
 <div class="pub-cards">
   <div class="pub-card">
-    <span class="pub-badge">12 | 2026</span>
-    <div class="pub-title">Bayesian component separation and power spectrum estimation for 21cm intensity mapping data cubes</div>
-    <div class="pub-authors">G.&thinsp;Murphy, P.&thinsp;Bull, M.&thinsp;Santos, <strong>Z.&thinsp;Zhang</strong>, S.&thinsp;Cunnington</div>
-    <div class="pub-links"><em>Under collaboration review.</em></div>
-  </div>
-  <div class="pub-card">
     <span class="pub-badge">11 | 2026</span>
     <div class="pub-title">Spectral Signatures of Spinning Dust from Grain Ensembles in Diverse Environments: A Combined Theoretical and Observational Study</div>
     <div class="pub-authors"><strong>Z.&thinsp;Zhang</strong>, J.&thinsp;Chluba, R.&thinsp;Cepeda-Arroita, J.&thinsp;A.&thinsp;Rubino-Martin</div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2601.06270" target="_blank">arXiv</a></div>
+    <div class="pub-links"><a href="https://doi.org/10.1093/mnras/stag509" target="_blank">MNRAS (2026)</a>; <a href="https://arxiv.org/abs/2601.06270" target="_blank">arXiv</a></div>
   </div>
   <div class="pub-card">
-    <span class="pub-badge">10 | 2025</span>
-    <div class="pub-title">Spectral Properties of Anomalous Microwave Emission in 144 Galactic Clouds</div>
-    <div class="pub-authors">R.&thinsp;Cepeda-Arroita <em>et al.</em> (incl. <strong>Z.&thinsp;Zhang</strong>)</div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2510.05067" target="_blank">arXiv</a></div>
+    <span class="pub-badge">10 | 2026</span>
+    <div class="pub-title">A general polynomial emulator for cosmology via moment projection</div>
+    <div class="pub-authors"><strong>Z.&thinsp;Zhang</strong></div>
+    <div class="pub-links"><a href="https://doi.org/10.1093/mnras/staf2039" target="_blank">MNRAS, 545, 1 (2026)</a>; <a href="https://arxiv.org/abs/2507.02179" target="_blank">arXiv</a></div>
   </div>
   <div class="pub-card">
     <span class="pub-badge">9 | 2025</span>
     <div class="pub-title">Joint Bayesian calibration and map-making for intensity mapping experiments</div>
-    <div class="pub-authors"><strong>Z.&thinsp;Zhang</strong>, P.&thinsp;Bull, M.&thinsp;Santos, A.&thinsp;Nasirudin</div>
-    <div class="pub-links"><a href="https://arxiv.org/abs/2509.10992" target="_blank">arXiv</a></div>
+    <div class="pub-authors"><strong>Z.&thinsp;Zhang</strong>, P.&thinsp;Bull, M.&thinsp;Santos, A.&thinsp;Nasirrudin</div>
+    <div class="pub-links"><em>Submitted to RASTI.</em>; <a href="https://arxiv.org/abs/2509.10992" target="_blank">arXiv</a></div>
   </div>
   <div class="pub-card">
     <span class="pub-badge">8 | 2025</span>
-    <div class="pub-title">A general polynomial emulator for cosmology via moment projection</div>
-    <div class="pub-authors"><strong>Z.&thinsp;Zhang</strong></div>
-    <div class="pub-links">
-      <a href="https://doi.org/10.1093/mnras/staf2039" target="_blank">MNRAS</a>
-      <a href="https://arxiv.org/abs/2507.02179" target="_blank">arXiv</a>
-    </div>
+    <div class="pub-title">Spectral Properties of Anomalous Microwave Emission in 144 Galactic Clouds</div>
+    <div class="pub-authors">Cepeda-Arroita, R. <em>et al.</em> (incl. <strong>Z.&thinsp;Zhang</strong>)</div>
+    <div class="pub-links"><a href="https://doi.org/10.1051/0004-6361/202557578" target="_blank">A&A (2025)</a>; <a href="https://arxiv.org/abs/2510.05067" target="_blank">arXiv</a></div>
   </div>
   <div class="pub-card">
     <span class="pub-badge">7 | 2025</span>
     <div class="pub-title">SpyDust: an improved and extended implementation for modeling spinning dust radiation</div>
     <div class="pub-authors"><strong>Z.&thinsp;Zhang</strong>, J.&thinsp;Chluba</div>
-    <div class="pub-links">
-      <a href="https://iopscience.iop.org/article/10.1088/1475-7516/2025/03/038/meta" target="_blank">JCAP</a>
-      <a href="https://arxiv.org/abs/2412.03431" target="_blank">arXiv</a>
-    </div>
+    <div class="pub-links"><a href="https://doi.org/10.1088/1475-7516/2025/03/038" target="_blank">JCAP, 03, 038 (2025)</a>; <a href="https://arxiv.org/abs/2412.03431" target="_blank">arXiv</a></div>
   </div>
   <div class="pub-card">
-    <span class="pub-badge">6 | 2024</span>
+    <span class="pub-badge">6 | 2025</span>
     <div class="pub-title">RHINO: A large horn antenna for detecting the 21cm global signal</div>
-    <div class="pub-authors">P.&thinsp;Bull, A.&thinsp;El-Makadema <em>et al.</em> (incl. <strong>Z.&thinsp;Zhang</strong>)</div>
-    <div class="pub-links">
-      <a href="https://doi.org/10.1093/rasti/rzaf046" target="_blank">RASTI</a>
-      <a href="https://arxiv.org/abs/2410.00076" target="_blank">arXiv</a>
-    </div>
+    <div class="pub-authors">Bull, P. <em>et al.</em> (incl. <strong>Z.&thinsp;Zhang</strong>)</div>
+    <div class="pub-links"><a href="https://doi.org/10.1093/rasti/rzaf046" target="_blank">RASTI, 046, 4 (2025)</a>; <a href="https://arxiv.org/abs/2410.00076" target="_blank">arXiv</a></div>
   </div>
   <div class="pub-card">
     <span class="pub-badge">5 | 2024</span>
     <div class="pub-title">Disentangling the anisotropic radio sky: Fisher forecasts for 21 cm arrays</div>
     <div class="pub-authors"><strong>Z.&thinsp;Zhang</strong>, P.&thinsp;Bull, K.&thinsp;A.&thinsp;Glasscock</div>
-    <div class="pub-links">
-      <a href="https://doi.org/10.1093/mnras/stae1070" target="_blank">MNRAS</a>
-      <a href="https://arxiv.org/abs/2403.13768" target="_blank">arXiv</a>
-    </div>
+    <div class="pub-links"><a href="https://doi.org/10.1093/mnras/stae1070" target="_blank">MNRAS, 530, 3 (2024)</a>; <a href="https://arxiv.org/abs/2403.13768" target="_blank">arXiv</a></div>
   </div>
   <div class="pub-card">
     <span class="pub-badge">4 | 2022</span>
     <div class="pub-title">Hydrogen Intensity and Real-Time Analysis Experiment: 256-element array status and overview</div>
     <div class="pub-authors">HIRAX Collaboration (incl. <strong>Z.&thinsp;Zhang</strong>)</div>
-    <div class="pub-links">
-      <a href="https://doi.org/10.1117/1.JATIS.8.1.011019" target="_blank">JATIS</a>
-      <a href="https://arxiv.org/abs/2109.13755" target="_blank">arXiv</a>
-    </div>
+    <div class="pub-links"><a href="https://doi.org/10.1117/1.JATIS.8.1.011019" target="_blank">JATIS, 8, 1 (2022)</a>; <a href="https://arxiv.org/abs/2109.13755" target="_blank">arXiv</a></div>
   </div>
   <div class="pub-card">
     <span class="pub-badge">3 | 2021</span>
-    <div class="pub-title">A new MWA limit on the 21 cm power spectrum at redshifts ∼ 13–17</div>
+    <div class="pub-title">A new MWA limit on the 21 cm power spectrum at redshifts~ 13–17</div>
     <div class="pub-authors">MWA Collaboration (incl. <strong>Z.&thinsp;Zhang</strong>)</div>
-    <div class="pub-links">
-      <a href="https://doi.org/10.1093/mnras/stab1560" target="_blank">MNRAS</a>
-      <a href="https://arxiv.org/abs/2105.12888" target="_blank">arXiv</a>
-    </div>
+    <div class="pub-links"><a href="https://doi.org/10.1093/mnras/stab1560" target="_blank">MNRAS, 505, 4 (2021)</a>; <a href="https://arxiv.org/abs/2105.12888" target="_blank">arXiv</a></div>
   </div>
   <div class="pub-card">
     <span class="pub-badge">2 | 2020</span>
     <div class="pub-title">Deep multiredshift limits on Epoch of Reionization 21 cm power spectra from four seasons of Murchison Widefield Array observations</div>
     <div class="pub-authors">MWA Collaboration (incl. <strong>Z.&thinsp;Zhang</strong>)</div>
-    <div class="pub-links">
-      <a href="https://doi.org/10.1093/mnras/staa414" target="_blank">MNRAS</a>
-      <a href="https://arxiv.org/abs/2002.02575" target="_blank">arXiv</a>
-    </div>
+    <div class="pub-links"><a href="https://doi.org/10.1093/mnras/staa414" target="_blank">MNRAS, 493, 4 (2020)</a>; <a href="https://arxiv.org/abs/2002.02575" target="_blank">arXiv</a></div>
   </div>
   <div class="pub-card">
     <span class="pub-badge">1 | 2020</span>
     <div class="pub-title">The impact of tandem redundant/sky-based calibration in MWA Phase II data analysis</div>
-    <div class="pub-authors"><strong>Z.&thinsp;Zhang</strong>, J.&thinsp;C.&thinsp;Pober, W.&thinsp;Li, B.&thinsp;J.&thinsp;Hazelton, M.&thinsp;F.&thinsp;Morales <em>et al.</em></div>
-    <div class="pub-links">
-      <a href="https://doi.org/10.1017/pasa.2020.37" target="_blank">PASA</a>
-      <a href="https://arxiv.org/abs/2009.09269" target="_blank">arXiv</a>
-    </div>
+    <div class="pub-authors"><strong>Z.&thinsp;Zhang</strong>, J.&thinsp;C.&thinsp;Pober, W.&thinsp;Li, B.&thinsp;J.&thinsp;Hazelton, M.&thinsp;F.&thinsp;Morales</div>
+    <div class="pub-links"><a href="https://doi.org/10.1017/pasa.2020.37" target="_blank">PASA, 37 (2020)</a>; <a href="https://arxiv.org/abs/2009.09269" target="_blank">arXiv</a></div>
   </div>
 </div>
 <!-- PUB_SECTION_END -->
