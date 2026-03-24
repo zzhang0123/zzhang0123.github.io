@@ -11,13 +11,16 @@ Entries with @inprep type are always excluded.
 
 Usage:
     conda activate mycv
-    python scripts/gen_publications.py
 
-    # Preview without writing:
-    python scripts/gen_publications.py --dry-run
+    # Default bib path (/Users/zzhang/projects/MyCV/data/publications.bib):
+    python scripts/gen_publications.py
 
     # Custom bib path:
     python scripts/gen_publications.py --bib /path/to/publications.bib
+
+    # Preview without writing:
+    python scripts/gen_publications.py --dry-run
+    python scripts/gen_publications.py --bib /path/to/publications.bib --dry-run
 
 Requires: bibtexparser  (available in the 'mycv' conda environment)
 """

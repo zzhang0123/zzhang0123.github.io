@@ -53,7 +53,14 @@ Remove the `pinned_post` line to revert to showing the latest post.
 Publications on the About page are generated from a BibTeX file by `scripts/gen_publications.py`.
 
 ```bash
-python scripts/gen_publications.py path/to/your.bib
+# Default bib path (/Users/zzhang/projects/MyCV/data/publications.bib):
+python scripts/gen_publications.py
+
+# Custom bib path:
+python scripts/gen_publications.py --bib /path/to/publications.bib
+
+# Preview without writing:
+python scripts/gen_publications.py --dry-run
 ```
 
 This rewrites the section between `<!-- PUB_SECTION_START -->` and `<!-- PUB_SECTION_END -->` in `_pages/about.md`.
