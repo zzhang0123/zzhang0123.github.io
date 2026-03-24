@@ -34,41 +34,14 @@ mermaid: true
 </div>
 {% endif %}
 
-## What I'm doing now
+### What I'm doing now
 
+I work at the intersection of observational and theoretical cosmology, with a focus on 21cm line intensity mapping --- tracing cosmic structure and the Epoch of Reionization through the neutral hydrogen signal. I develop methods that are robust to the real complexity of radio data: Bayesian calibration and mapping pipelines, perturbative foreground models, and surrogate frameworks for fast inference. I also model astrophysical foregrounds --- spinning dust emission and the radio synchrotron background excess --- both as science in their own right and as contaminants to be understood. On the theoretical side, I'm drawn to stochastic field theory, topological defects, and the quantum-classical transition.
 
-My expertise is in physics and cosmology, with a side interest (and ongoing learning) in applying advanced tools and methods to these fields.
-My passion is to push the boundaries of how physics explains the Universe, and when I'm not getting lost in equations or codes, my mind is out here wandering through the cosmos, trying to make sense of its grand mess.
+### Life and Education Journey
+I am currently (**Nov 2023 -**) a Postdoctoral Researcher at the University of **Manchester**, working with Phil Bull and Jens Chluba. Previously, I completed my PhD in Physics of the Universe at the Astroparticle and Cosmology (APC) Laboratory, Université Paris Cité, jointly with the École Normale Supérieure (ENS, Paris), from **November 2020 to October 2023** in **Paris, France**.
 
-**Research interests:**
-
-My current research covers both observational and theoretical cosmology, with particular focus on:
-  - Line intensity mapping
-  - The cosmic history and large-scale structure revealed by the HI hyperfine transition
-  - Gravitational effects as cosmological probes
-
-Whether as secondary effects in cosmological surveys or as phenomena of intrinsic scientific interest, my work also includes formalising detailed astrophysical processes and systematically accounting for a wide range of observational effects -- spanning instrumental, dynamical, radiative transfer, relativistic, and topological factors -- in cosmological data. This includes:
-  - Low-frequency foreground science
-    - Diffuse synchrotron emission (spectral structure, Faraday rotation, RSB/ARCADE excess, etc.)
-    - Spinning dust emission and Anomalous Microwave Emission (AME)
-  - Non-equilibrium and quasi-equilibrium astrophysical systems
-  - Stochastic instrumental processes (e.g., 1/f noise in autocorrelation measurements)
-  - Higher-order corrections in the radiative transfer of cosmological signals
-
-I also develop methods and tools for the field, such as:
-  - Ultra-high-dimensional Bayesian inference using Gibbs sampling + Gaussian Constrained Realisation
-  - Perturbative statistical analysis
-    - Marginalising and abstracting out ignorance or environmental factors
-    - Using moment and cumulant expansions
-  - Machine learning
-    - MomentEmu (a generic approach to smooth cosmological observable representation)
-    - Deep learning
-    - Physics-driven methods (e.g., PDE-net)
-  - Methods for stochastic processes: Fokker-Planck equations analytical diffusion systems, Langevin equations and stochastic differential equations
-  - Optimal statistical measurements: power spectrum, bispectrum, etc.
-
-
-In addition to these areas, I maintain active research interests in general physics topics, notably topological defect transitions and the quantum-to-classical transition of fields.
+Before that, I earned an MSc in Physics from Brown University (**2018–2020, Rhode Island, US**) and a BSc in Applied Physics from Shanghai University (**2014–2018, Shanghai, China**). My earlier education includes high school in **Hai'an** and primary school in Sunzhuang village (**2002–2014**). I was born in 1996.
 
 <style>
 .featured-post-card {
@@ -169,7 +142,6 @@ In addition to these areas, I maintain active research interests in general phys
 .pub-links a, .code-links a {
   color: #4aada0;
   text-decoration: none;
-  margin-right: 0.65em;
   font-size: 0.92em;
   font-weight: 600;
   transition: color 0.15s;
@@ -203,21 +175,21 @@ Here is a list of my published and submitted papers to date. Also see my profile
 <div class="pub-cards">
   <div class="pub-card">
     <span class="pub-badge">11 | 2026</span>
+    <div class="pub-title">Joint Bayesian calibration and map-making for intensity mapping experiments</div>
+    <div class="pub-authors"><strong>Z.&thinsp;Zhang</strong>, P.&thinsp;Bull, M.&thinsp;Santos, A.&thinsp;Nasirrudin</div>
+    <div class="pub-links"><a href="https://doi.org/10.1093/rasti/rzag024" target="_blank">RASTI (2026)</a>; <a href="https://arxiv.org/abs/2509.10992" target="_blank">arXiv</a></div>
+  </div>
+  <div class="pub-card">
+    <span class="pub-badge">10 | 2026</span>
     <div class="pub-title">Spectral Signatures of Spinning Dust from Grain Ensembles in Diverse Environments: A Combined Theoretical and Observational Study</div>
     <div class="pub-authors"><strong>Z.&thinsp;Zhang</strong>, J.&thinsp;Chluba, R.&thinsp;Cepeda-Arroita, J.&thinsp;A.&thinsp;Rubino-Martin</div>
     <div class="pub-links"><a href="https://doi.org/10.1093/mnras/stag509" target="_blank">MNRAS (2026)</a>; <a href="https://arxiv.org/abs/2601.06270" target="_blank">arXiv</a></div>
   </div>
   <div class="pub-card">
-    <span class="pub-badge">10 | 2026</span>
+    <span class="pub-badge">9 | 2026</span>
     <div class="pub-title">A general polynomial emulator for cosmology via moment projection</div>
     <div class="pub-authors"><strong>Z.&thinsp;Zhang</strong></div>
     <div class="pub-links"><a href="https://doi.org/10.1093/mnras/staf2039" target="_blank">MNRAS, 545, 1 (2026)</a>; <a href="https://arxiv.org/abs/2507.02179" target="_blank">arXiv</a></div>
-  </div>
-  <div class="pub-card">
-    <span class="pub-badge">9 | 2025</span>
-    <div class="pub-title">Joint Bayesian calibration and map-making for intensity mapping experiments</div>
-    <div class="pub-authors"><strong>Z.&thinsp;Zhang</strong>, P.&thinsp;Bull, M.&thinsp;Santos, A.&thinsp;Nasirrudin</div>
-    <div class="pub-links"><em>Submitted to RASTI.</em>; <a href="https://arxiv.org/abs/2509.10992" target="_blank">arXiv</a></div>
   </div>
   <div class="pub-card">
     <span class="pub-badge">8 | 2025</span>
@@ -270,9 +242,10 @@ Here is a list of my published and submitted papers to date. Also see my profile
 </div>
 <!-- PUB_SECTION_END -->
 
+
 ## Research Codes
 
-Selected codes I have developed or contributed to, many used in the papers above.
+Selected codes I have developed or contributed to, many used in the papers below.
 
 <div class="code-cards">
   <div class="code-card">
@@ -319,11 +292,6 @@ Selected codes I have developed or contributed to, many used in the papers above
 - **Nationality:** Chinese
 - **Location:** Manchester, United Kingdom
 - **Profile:** Astrophysicist and cosmologist; self-proclaimed "citizen of the Universe."
-
-### Life and Education Journey
-I am currently (**Nov 2023 -**) a Postdoctoral Researcher at the University of **Manchester**, working with Phil Bull and Jens Chluba. Previously, I completed my PhD in Physics of the Universe at the Astroparticle and Cosmology (APC) Laboratory, Université Paris Cité, jointly with the École Normale Supérieure (ENS, Paris), from **November 2020 to October 2023** in **Paris, France**.
-
-Before that, I earned an MSc in Physics from Brown University (**2018–2020, Rhode Island, US**) and a BSc in Applied Physics from Shanghai University (**2014–2018, Shanghai, China**). My earlier education includes high school in **Hai'an** and primary school in Sunzhuang village (**2002–2014**). I was born in 1996.
 
 ### Scientific Ancestry
 
