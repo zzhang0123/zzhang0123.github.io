@@ -1,0 +1,297 @@
+// - - - - - - - - - - - - - - - - - -
+
+// Nick Kaiser Archive Section
+// Scoped under body.nk-archive
+
+// - - - - - - - - - - - - - - - - - -
+
+
+body.nk-archive {
+	background: var(--nk-bg);
+
+	// Header override
+	.header {
+		background: rgba(#FAFAF8, 0.92);
+		border-bottom-color: var(--nk-border);
+	}
+
+	.header__title {
+		color: var(--nk-text);
+		font-weight: 600;
+
+		&:hover {
+			color: var(--nk-accent);
+		}
+	}
+
+	.nav__list__item__link {
+		@include mq(tabletl) {
+			color: var(--nk-text-secondary);
+
+			&:hover {
+				color: var(--nk-text);
+				background: var(--nk-bg-alt);
+			}
+
+			&.active-link {
+				color: var(--nk-accent);
+			}
+		}
+	}
+
+	.nav__toggle__icon span,
+	.nav__toggle__icon span:before,
+	.nav__toggle__icon span:after {
+		background: var(--nk-text);
+	}
+
+	// Content overrides
+	h1, h2, h3, h4, h5, h6 {
+		color: var(--nk-text);
+	}
+
+	p, li {
+		color: var(--nk-text-secondary);
+	}
+
+	a {
+		color: var(--nk-text);
+
+		&:hover {
+			color: var(--nk-accent);
+		}
+	}
+
+	// Buttons
+	.button {
+		background: var(--nk-accent);
+		border-color: var(--nk-accent);
+		color: #fff;
+
+		&:hover {
+			background: var(--nk-accent-hover);
+			border-color: var(--nk-accent-hover);
+		}
+	}
+
+	// Footer
+	.footer {
+		border-top: 1px solid var(--nk-border);
+	}
+}
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - NK Header
+
+.nk-header-info {
+	text-align: center;
+	padding: var(--space-12) var(--space-6) var(--space-8);
+	border-bottom: 1px solid var(--nk-border);
+
+	@include mq(tabletp) {
+		padding: var(--space-16) var(--space-8) var(--space-12);
+	}
+}
+
+.nk-portrait {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0 auto var(--space-6);
+	border: 3px solid var(--nk-border);
+
+	@include mq(tabletp) {
+		width: 140px;
+		height: 140px;
+	}
+
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+}
+
+.nk-header-info__title {
+	font-size: var(--text-3xl);
+	font-weight: 700;
+	color: var(--nk-text);
+	margin: 0;
+
+	@include mq(tabletp) {
+		font-size: var(--text-4xl);
+	}
+}
+
+.nk-header-info__dates {
+	margin-top: var(--space-2);
+	font-size: var(--text-sm);
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--nk-text-tertiary);
+}
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Breadcrumb
+
+.nk-breadcrumb {
+	font-size: var(--text-sm);
+	color: var(--nk-text-tertiary);
+	margin-bottom: var(--space-4);
+
+	a {
+		color: var(--nk-text-tertiary);
+		font-weight: 400;
+		border-bottom: 1px solid transparent;
+
+		&:hover {
+			color: var(--nk-accent);
+			border-bottom-color: var(--nk-accent);
+		}
+	}
+}
+
+.nk-breadcrumb__sep {
+	margin: 0 var(--space-2);
+}
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Lecture cards
+
+.nk-lecture-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: var(--space-4);
+	margin-top: var(--space-8);
+
+	@include mq(tabletp) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+.nk-lecture-card {
+	display: flex;
+	flex-direction: column;
+	padding: var(--space-6);
+	background: var(--nk-bg-alt);
+	border: 1px solid var(--nk-border);
+	border-radius: var(--radius-sm);
+	text-decoration: none;
+	color: var(--nk-text);
+	font-weight: 400;
+	transition: all var(--transition-base);
+
+	&:hover {
+		border-color: var(--nk-accent);
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+		transform: translateY(-2px);
+		color: var(--nk-text);
+	}
+}
+
+.nk-lecture-card__number {
+	font-size: var(--text-xs);
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: var(--nk-accent);
+	margin-bottom: var(--space-2);
+	font-weight: 600;
+}
+
+.nk-lecture-card__title {
+	font-size: var(--text-lg);
+	line-height: 1.3;
+	color: var(--nk-text);
+	font-weight: 600;
+}
+
+.nk-lecture-card__contents {
+	margin-top: var(--space-3);
+	padding-left: var(--space-4);
+	font-size: var(--text-sm);
+	color: var(--nk-text-secondary);
+	line-height: 1.5;
+	list-style: disc;
+
+	li {
+		margin-top: 2px;
+	}
+}
+
+.nk-lecture-card__format {
+	margin-top: auto;
+	padding-top: var(--space-3);
+	font-size: var(--text-xs);
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	color: var(--nk-text-tertiary);
+}
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Course cards (landing)
+
+.nk-course-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: var(--space-6);
+	margin-top: var(--space-8);
+
+	@include mq(tabletp) {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+.nk-course-card {
+	display: block;
+	padding: var(--space-8) var(--space-6);
+	background: var(--nk-bg-alt);
+	border: 1px solid var(--nk-border);
+	border-radius: var(--radius-sm);
+	text-align: center;
+	text-decoration: none;
+	transition: all var(--transition-base);
+
+	&:hover {
+		border-color: var(--nk-accent);
+		box-shadow: var(--shadow-md);
+	}
+}
+
+.nk-course-card__icon {
+	font-size: var(--text-sm);
+	color: var(--nk-accent);
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-weight: 600;
+}
+
+.nk-course-card__title {
+	margin-top: var(--space-2);
+	font-size: var(--text-xl);
+	color: var(--nk-text);
+	font-weight: 700;
+}
+
+.nk-course-card__count {
+	margin-top: var(--space-2);
+	font-size: var(--text-sm);
+	color: var(--nk-text-tertiary);
+}
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Maintainer note
+
+.nk-maintainer-note {
+	margin-top: var(--space-12);
+	padding: var(--space-8);
+	background: var(--nk-bg-alt);
+	border-left: 3px solid var(--nk-accent);
+	border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+
+	p {
+		color: var(--nk-text-secondary);
+		font-size: var(--text-base);
+		line-height: 1.7;
+	}
+}

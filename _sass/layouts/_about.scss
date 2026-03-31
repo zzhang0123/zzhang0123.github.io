@@ -1,0 +1,133 @@
+// - - - - - - - - - - - - - - - - - -
+
+// About Page Layout
+
+// - - - - - - - - - - - - - - - - - -
+
+
+// Hero section
+.about-hero {
+	text-align: center;
+	padding: var(--space-12) var(--space-6) var(--space-8);
+
+	@include mq(tabletp) {
+		padding: var(--space-16) var(--space-8) var(--space-12);
+	}
+
+	h1 {
+		font-size: $h1-small;
+		margin-bottom: var(--space-3);
+
+		@include mq(tabletp) {
+			font-size: $h1-medium;
+		}
+
+		@include mq(laptop) {
+			font-size: $h1-large;
+		}
+	}
+
+	.about-hero__subtitle {
+		font-size: $p-medium;
+		color: $text-medium-color;
+		max-width: 600px;
+		margin: 0 auto;
+		line-height: 1.6;
+
+		@include mq(laptop) {
+			font-size: $p-large;
+		}
+	}
+
+	.about-hero__description {
+		margin-top: var(--space-4);
+		font-size: $p-small;
+		color: $text-light-color;
+		max-width: 700px;
+		margin-left: auto;
+		margin-right: auto;
+		line-height: 1.6;
+	}
+}
+
+
+// Publication and code card grids
+.pub-cards,
+.code-cards {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: var(--space-4);
+	margin-top: var(--space-6);
+	margin-bottom: var(--space-10);
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 var(--space-6);
+
+	@include mq(phonel) {
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	}
+
+	@include mq(laptop) {
+		padding: 0 var(--space-8);
+	}
+}
+
+.pub-card,
+.code-card {
+	@include card-base;
+	padding: var(--space-4) var(--space-6);
+}
+
+.pub-title {
+	font-size: 1.0rem;
+	font-weight: 600;
+	margin-bottom: var(--space-1);
+	color: $text-dark-scss;
+	line-height: 1.45;
+}
+
+.code-title {
+	font-size: 1.05rem;
+	font-weight: 700;
+	margin-bottom: var(--space-1);
+	font-family: $code-font;
+}
+
+.code-title a {
+	color: $text-dark-scss;
+	text-decoration: none;
+}
+
+.code-title a:hover {
+	color: $accent-scss;
+}
+
+.pub-authors,
+.code-desc {
+	color: $text-medium-color;
+	font-size: 0.9rem;
+	margin-bottom: var(--space-1);
+	line-height: 1.5;
+}
+
+.pub-links,
+.code-links {
+	margin-top: var(--space-2);
+}
+
+.pub-links a,
+.code-links a {
+	color: $accent-scss;
+	text-decoration: none;
+	font-size: 0.9em;
+	font-weight: 600;
+	transition: color var(--transition-fast);
+	border-bottom: none;
+}
+
+.pub-links a:hover,
+.code-links a:hover {
+	color: $accent-hover-scss;
+	text-decoration: underline;
+}

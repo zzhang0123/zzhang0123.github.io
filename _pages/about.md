@@ -39,130 +39,9 @@ mermaid: true
 I work at the intersection of observational and theoretical cosmology, with a focus on 21cm line intensity mapping --- tracing cosmic structure and the Epoch of Reionization through the neutral hydrogen signal. I develop methods that are robust to the real complexity of radio data: Bayesian calibration and mapping pipelines, perturbative foreground models, and surrogate frameworks for fast inference. I also model astrophysical foregrounds --- spinning dust emission and the radio synchrotron background excess --- both as science in their own right and as contaminants to be understood. On the theoretical side, I'm drawn to stochastic field theory, topological defects, and the quantum-classical transition.
 
 ### Life and Education Journey
-I am currently (**Nov 2023 -**) a Postdoctoral Researcher at the University of **Manchester**, working with Phil Bull and Jens Chluba. Previously, I completed my PhD in Physics of the Universe at the Astroparticle and Cosmology (APC) Laboratory, Université Paris Cité, jointly with the École Normale Supérieure (ENS, Paris), from **November 2020 to October 2023** in **Paris, France**.
+I am currently (**Nov 2023 -**) a Postdoctoral Researcher at the University of **Manchester**. Previously, I completed my PhD in Physics of the Universe at the Astroparticle and Cosmology (APC) Laboratory, Université Paris Cité, jointly with the École Normale Supérieure (ENS, Paris), from **November 2020 to October 2023** in **Paris, France**.
 
-Before that, I earned an MSc in Physics from Brown University (**2018–2020, Rhode Island, US**) and a BSc in Applied Physics from Shanghai University (**2014–2018, Shanghai, China**). My earlier education includes high school in **Hai'an** and primary school in Sunzhuang village (**2002–2014**). I was born in 1996.
-
-<style>
-.featured-post-card {
-  background: #F5F7FA;
-  border: 1px solid #dddddd;
-  border-left: 4px solid #A2DED0;
-  border-radius: 8px;
-  padding: 1.2rem 1.5rem;
-  margin: 1.5rem 0 2rem;
-}
-.featured-label {
-  display: inline-block;
-  background: #A2DED0;
-  color: #2A2F36;
-  font-size: 0.75em;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  border-radius: 4px;
-  padding: 0.18em 0.55em;
-  margin-bottom: 0.55rem;
-}
-.featured-post-card h4 {
-  font-size: 1.1rem;
-  font-weight: 700;
-  margin: 0.2rem 0 0.2rem;
-  line-height: 1.35;
-}
-.featured-post-card h4 a {
-  color: #2A2F36;
-  text-decoration: none;
-}
-.featured-post-card h4 a:hover { color: #4aada0; }
-.featured-post-meta {
-  color: #6C7A89;
-  font-size: 0.88em;
-  margin-bottom: 0.5rem;
-}
-.featured-post-excerpt {
-  color: #2A2F36;
-  font-size: 0.95rem;
-  line-height: 1.55;
-  margin-bottom: 0.75rem;
-}
-.mermaid-wrap {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  margin: 1.2rem auto 1.8rem;
-  max-width: 80%;
-}
-@media (min-width: 1600px) {
-  .mermaid-wrap { max-width: 75%; }
-}
-.mermaid-wrap svg {
-  display: block;
-  height: auto;
-  margin: 0 auto;
-}
-.pub-cards, .code-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.1rem;
-  margin-top: 1.2rem;
-  margin-bottom: 2.5rem;
-}
-.pub-card, .code-card {
-  background: #F5F7FA;
-  border: 1px solid #dddddd;
-  border-radius: 8px;
-  padding: 1.1rem 1.3rem;
-  transition: box-shadow 0.2s, transform 0.2s;
-}
-.pub-card:hover, .code-card:hover {
-  box-shadow: 0 4px 18px rgba(0,0,0,0.09);
-  transform: translateY(-2px);
-}
-.pub-title {
-  font-size: 1.0rem;
-  font-weight: 600;
-  margin-bottom: 0.3rem;
-  color: #2A2F36;
-  line-height: 1.45;
-}
-.code-title {
-  font-size: 1.05rem;
-  font-weight: 700;
-  margin-bottom: 0.3rem;
-}
-.code-title a { color: #2A2F36; text-decoration: none; }
-.code-title a:hover { color: #6C7A89; }
-.pub-authors, .code-desc {
-  color: #6C7A89;
-  font-size: 0.92rem;
-  margin-bottom: 0.35rem;
-  line-height: 1.5;
-}
-.pub-links, .code-links { margin-top: 0.3rem; }
-.pub-links a, .code-links a {
-  color: #4aada0;
-  text-decoration: none;
-  font-size: 0.92em;
-  font-weight: 600;
-  transition: color 0.15s;
-}
-.pub-links a:hover, .code-links a:hover { color: #2A2F36; text-decoration: underline; }
-.pub-badge {
-  display: inline-block;
-  background: #A2DED0;
-  color: #2A2F36;
-  font-size: 0.80em;
-  font-weight: 700;
-  border-radius: 4px;
-  padding: 0.08em 0.5em;
-  margin-right: 0.4em;
-  margin-bottom: 0.3em;
-  letter-spacing: 0.03em;
-}
-@media (max-width: 600px) {
-  .pub-cards, .code-cards { grid-template-columns: 1fr; }
-}
-</style>
+Before my PhD, I earned an MSc in Physics from Brown University (**2018–2020, Rhode Island, US**) and a BSc in Applied Physics from Shanghai University (**2014–2018, Shanghai, China**). My earlier education includes high school in **Hai'an** and primary school in Sunzhuang village (**2002–2014**). I was born in 1996.
 
 ## Publications
 
@@ -310,8 +189,8 @@ flowchart LR
     JP --> MB["Martin Bucher"]
     NK & MB --> ZZ(["Zheng Zhang"])
 
-    classDef anc fill:#F5F7FA,stroke:#A2DED0,stroke-width:1.5px,color:#2A2F36
-    classDef me fill:#A2DED0,stroke:#4aada0,stroke-width:2.5px,color:#1a2026,font-weight:bold
+    classDef anc fill:#F0F2F5,stroke:#3B82C4,stroke-width:1.5px,color:#1A1F2B
+    classDef me fill:#3B82C4,stroke:#2563A0,stroke-width:2.5px,color:#ffffff,font-weight:bold
 
     class PD,EF,JS,DS,MR,ST,SW,NK,JP,MB anc
     class ZZ me

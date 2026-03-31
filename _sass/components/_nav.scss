@@ -1,0 +1,247 @@
+// - - - - - - - - - - - - - - - - - -
+
+// Top Navigation Bar
+
+// - - - - - - - - - - - - - - - - - -
+
+
+.header {
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	background: rgba($bg-scss, 0.92);
+	backdrop-filter: blur(12px);
+	-webkit-backdrop-filter: blur(12px);
+	border-bottom: 1px solid $border-scss;
+	height: var(--nav-height);
+}
+
+.header__inner {
+	@include container;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.header__title {
+	font-family: $title-font;
+	font-size: $sitetitle-small;
+	font-weight: 700;
+	letter-spacing: $sitetitle-spacing;
+	line-height: 1;
+	color: $text-dark-color;
+	white-space: nowrap;
+	flex-shrink: 0;
+
+	&:hover {
+		color: $accent-color;
+	}
+
+	@include mq(tabletp) {
+		font-size: $sitetitle-medium;
+	}
+
+	@include mq(laptop) {
+		font-size: $sitetitle-large;
+	}
+}
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Navigation
+
+.nav {
+	display: flex;
+	align-items: center;
+}
+
+.nav__toggle {
+	position: relative;
+	z-index: 1002;
+	cursor: pointer;
+	background: none;
+	border: none;
+	padding: 8px;
+	display: flex;
+	align-items: center;
+
+	@include mq(tabletl) {
+		display: none;
+	}
+}
+
+.nav__toggle__icon {
+	position: relative;
+	width: 22px;
+	height: 18px;
+
+	span, span:before, span:after {
+		content: '';
+		position: absolute;
+		top: 7px;
+		left: 0;
+		width: 100%;
+		height: 2px;
+		border-radius: 2px;
+		transition: all 0.2s ease;
+		background: $text-dark-color;
+	}
+
+	span:before {
+		top: -7px;
+	}
+
+	span:after {
+		top: 7px;
+	}
+}
+
+.menu--open .nav__toggle__icon {
+
+	span {
+		background-color: transparent !important;
+	}
+
+	span:before,
+	span:after {
+		top: 0;
+		background: $overlay-text-color !important;
+	}
+
+	span:before {
+		transform: rotate(45deg);
+	}
+
+	span:after {
+		transform: rotate(-45deg);
+	}
+}
+
+.nav__wrap {
+	// Mobile: fullscreen overlay
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba($overlay-bg-scss, 0.96);
+	overflow: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.25s ease-in-out;
+
+	// Desktop: inline horizontal nav
+	@include mq(tabletl) {
+		position: static;
+		background: transparent;
+		visibility: visible;
+		opacity: 1;
+		overflow: visible;
+		flex-direction: row;
+		transition: none;
+	}
+}
+
+.menu--open .nav__wrap {
+	visibility: visible;
+	opacity: 1;
+}
+
+.nav__list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+
+	@include mq(tabletl) {
+		display: flex;
+		align-items: center;
+		gap: var(--space-1);
+	}
+}
+
+.nav__list__item {
+	margin: 0;
+}
+
+.nav__list__item--separator {
+	@include mq(tabletl) {
+		margin-left: var(--space-2);
+		padding-left: var(--space-3);
+		border-left: 1px solid $border-scss;
+	}
+}
+
+.nav__list__item__link {
+	display: block;
+	font-size: 20px;
+	font-weight: 500;
+	color: rgba($overlay-text-scss, 0.7);
+	padding: 12px 0;
+	transition: color var(--transition-fast);
+
+	&:hover {
+		color: $overlay-text-scss;
+	}
+
+	// Desktop styles
+	@include mq(tabletl) {
+		font-size: $menu-medium;
+		font-weight: $menu-weight;
+		color: $text-medium-color;
+		padding: 6px 12px;
+		border-radius: var(--radius-sm);
+
+		&:hover {
+			color: $text-dark-color;
+			background: $bg-alt-scss;
+		}
+
+		&.active-link {
+			color: $accent-color;
+			font-weight: $bold-weight;
+		}
+	}
+
+	@include mq(laptop) {
+		font-size: $menu-large;
+	}
+}
+
+.nav__list__item__link--accent {
+	@include mq(tabletl) {
+		color: $text-light-color;
+		font-size: $menu-small;
+
+		&:hover {
+			color: $accent-color;
+			background: $accent-subtle-scss;
+		}
+	}
+}
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Socials in nav
+
+.nav__socials {
+	margin-top: var(--space-8);
+
+	@include mq(tabletl) {
+		display: none;
+	}
+
+	.socials__item__link {
+		background: rgba($overlay-text-scss, 0.15);
+		color: $overlay-text-scss;
+
+		&:hover {
+			background: rgba($overlay-text-scss, 0.3);
+		}
+	}
+}

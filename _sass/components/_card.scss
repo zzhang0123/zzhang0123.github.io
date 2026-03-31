@@ -1,0 +1,62 @@
+// - - - - - - - - - - - - - - - - - -
+
+// Card Component
+
+// - - - - - - - - - - - - - - - - - -
+
+
+.card {
+	@include card-base;
+}
+
+// Featured post card
+.featured-post-card {
+	background: $bg-alt-scss;
+	border: 1px solid $border-scss;
+	border-left: 4px solid $accent-scss;
+	border-radius: var(--radius-md);
+	padding: var(--space-6);
+	margin: var(--space-6) 0 var(--space-8);
+}
+
+.featured-label {
+	display: inline-block;
+	background: $accent-scss;
+	color: #fff;
+	font-size: 0.7em;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	border-radius: var(--radius-sm);
+	padding: 0.2em 0.6em;
+	margin-bottom: var(--space-2);
+}
+
+.featured-post-card h4 {
+	font-size: 1.1rem;
+	font-weight: 700;
+	margin: var(--space-1) 0;
+	line-height: 1.35;
+}
+
+.featured-post-card h4 a {
+	color: $text-dark-scss;
+	text-decoration: none;
+}
+
+.featured-post-card h4 a:hover {
+	color: $accent-scss;
+}
+
+.featured-post-meta {
+	color: $text-medium-color;
+	font-size: 0.88em;
+	margin-bottom: var(--space-2);
+}
+
+.featured-post-excerpt {
+	color: $text-dark-scss;
+	font-size: 0.95rem;
+	line-height: 1.55;
+	margin-bottom: var(--space-3);
+}

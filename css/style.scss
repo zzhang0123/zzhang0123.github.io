@@ -2,19 +2,16 @@
 ---
 
 
-.margin-left {
-    margin-left: 150px; /* Adjust the value as needed */
-  }
-
 // - - - - - - - - - - Foundations
 
 @import "_reset";
 @import "_mixins";
+@import "_variables";
 @import "_plugins";
 
 
 
-// - - - - - - - - - - Variables
+// - - - - - - - - - - Variables (from settings.yml — Liquid-templated)
 
 
 // Colors
@@ -24,10 +21,8 @@ $background-alt-color: {{ site.data.settings.color_settings.background_alt_color
 $border-color: {{ site.data.settings.color_settings.border_color }};
 
 $text-dark-color: {{ site.data.settings.color_settings.text_dark_color }};
-//$text-medium-color: {{ site.data.settings.color_settings.text_medium_color }};
-//$text-light-color: {{ site.data.settings.color_settings.text_light_color }};
-$text-medium-color: {{ site.data.settings.color_settings.text_dark_color }};
-$text-light-color: {{ site.data.settings.color_settings.text_medium_color }};
+$text-medium-color: {{ site.data.settings.color_settings.text_medium_color }};
+$text-light-color: {{ site.data.settings.color_settings.text_light_color }};
 
 $accent-color: {{ site.data.settings.color_settings.accent_color }};
 
@@ -41,6 +36,7 @@ $error-color: {{ site.data.settings.color_settings.error_color }};
 
 $body-font: {{ site.data.settings.font_settings.body_font }};
 $title-font: {{ site.data.settings.font_settings.title_font }};
+$code-font: {{ site.data.settings.font_settings.code_font }};
 
 $regular-weight: {{ site.data.settings.font_settings.regular_weight }};
 $bold-weight: {{ site.data.settings.font_settings.bold_weight }};
@@ -135,7 +131,6 @@ $overlay-opacity: {{ site.data.settings.header_settings.overlay_opacity }};
 
 // Logo
 $logo-width: {{ site.data.settings.header_settings.logo_width }}px;
-$footer-logo-width: {{ site.data.settings.footer_settings.logo_width }}px;
 
 
 // Grid item
@@ -143,37 +138,29 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 
 
 
-// - - - - - - - - - - Global styles
+// - - - - - - - - - - Base styles
 
-@import "_basic";
+@import "_base";
 
-@import "_includes/_header";
-@import "_includes/_footer";
 
-@import "_includes/_content";
-@import "_includes/_socials";
-@import "_includes/_gallery";
+// - - - - - - - - - - Components
+
+@import "components/_nav";
+@import "components/_footer";
+@import "components/_content";
+@import "components/_card";
+@import "components/_badge";
+@import "components/_mermaid";
+@import "components/_gallery";
+@import "components/_socials";
+@import "components/_contact-form";
 @import "_includes/_syntax";
-@import "_includes/_contact-form";
 
 
+// - - - - - - - - - - Layouts
 
-// - - - - - - - - - - Section styles
-
-@import "_includes/_portfolio";
-@import "_includes/_blog";
-
-
-.flex-center {
-    display: flex;
-    justify-content: center;  /* Center the flowchart horizontally */
-    padding: 20px;            /* Optional padding around the flowchart */
-}
-
-.mermaid {
-    flex-basis: 50%;          /* This ensures the flowchart takes up 50% of the container's width */
-    min-width: 300px;         /* Prevent the flowchart from getting too small */
-    max-width: 600px;         /* Limit the maximum width of the flowchart */
-}
-
-
+@import "layouts/_about";
+@import "layouts/_blog";
+@import "layouts/_projects";
+@import "layouts/_notes";
+@import "layouts/_nk-archive";

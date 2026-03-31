@@ -2,9 +2,21 @@
 layout: default
 ---
 
+{% if page.featured_image %}
+<div class="project-hero">
+	<div class="project-hero__image" style="background-image: url({{ page.featured_image | relative_url }})"></div>
+</div>
+{% endif %}
+
 <section class="intro">
 
 	<div class="wrap">
+
+		{% if page.status %}
+		<div class="project-status">
+			<span class="status-badge status-badge--{{ page.status }}">{{ page.status | replace: '-', ' ' }}</span>
+		</div>
+		{% endif %}
 
 		<h1>{{ page.title }}</h1>
 		<p>{{ page.subtitle }}</p>
@@ -17,7 +29,15 @@ layout: default
 
 	<div class="wrap">
 
+		{% assign stripped = page.content | strip %}
+		{% if page.status == 'coming-soon' and stripped == '' %}
+		<div class="project-placeholder">
+			<h3>Coming Soon</h3>
+			<p>This project page is under construction. Check back later for detailed write-ups, results, and code.</p>
+		</div>
+		{% else %}
 		{{ page.content }}
+		{% endif %}
 
 	</div>
 

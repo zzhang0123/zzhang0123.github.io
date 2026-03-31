@@ -1,0 +1,411 @@
+// - - - - - - - - - - - - - - - - - -
+
+// Base Styles
+
+// - - - - - - - - - - - - - - - - - -
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Basics
+
+html {
+	height: 100%;
+	background: $background-color;
+}
+
+body {
+	min-height: 100%;
+}
+
+// Cosmic background canvas
+.cosmic-bg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	pointer-events: none;
+}
+
+// Ensure content sits above the canvas
+.header {
+	z-index: 100;
+	position: relative;
+}
+
+.page,
+.footer {
+	position: relative;
+	z-index: 1;
+}
+
+body {
+	background: transparent;
+	font-family: $body-font;
+	font-weight: $regular-weight;
+	font-style: normal;
+	line-height: 1;
+	color: $text-medium-color;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Typography
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $title-font;
+	color: $text-dark-color;
+
+	&:first-child {
+		margin-top: 0;
+	}
+}
+
+h1, .h1 {
+	font-size: $h1-small;
+	font-weight: $h1-weight;
+	line-height: $h1-lineheight;
+	letter-spacing: $h1-spacing;
+
+	@include mq(tabletp) {
+		font-size: $h1-medium;
+	}
+
+	@include mq(laptop) {
+		font-size: $h1-large;
+	}
+
+	a {
+		font-weight: $h1-weight;
+	}
+}
+
+h2, .h2 {
+	margin-top: 40px;
+	font-size: $h2-small;
+	font-weight: $h2-weight;
+	line-height: $h2-lineheight;
+	letter-spacing: $h2-spacing;
+
+	@include mq(tabletp) {
+		font-size: $h2-medium;
+	}
+
+	@include mq(laptop) {
+		font-size: $h2-large;
+	}
+
+	a {
+		font-weight: $h2-weight;
+	}
+}
+
+h3, .h3 {
+	margin-top: 36px;
+	font-size: $h3-small;
+	font-weight: $h3-weight;
+	line-height: $h3-lineheight;
+	letter-spacing: $h3-spacing;
+
+	@include mq(tabletp) {
+		font-size: $h3-medium;
+	}
+
+	@include mq(laptop) {
+		font-size: $h3-large;
+	}
+}
+
+h4, .h4 {
+	margin-top: 24px;
+	font-size: $h4-small;
+	font-weight: $h4-weight;
+	line-height: $h4-lineheight;
+	letter-spacing: $h4-spacing;
+
+	@include mq(tabletp) {
+		font-size: $h4-medium;
+	}
+
+	@include mq(laptop) {
+		font-size: $h4-large;
+	}
+}
+
+h5, .h5 {
+	margin-top: 16px;
+	font-size: $h5-small;
+	font-weight: $h5-weight;
+	line-height: $h5-lineheight;
+	letter-spacing: $h5-spacing;
+
+	@include mq(tabletp) {
+		font-size: $h5-medium;
+	}
+
+	@include mq(laptop) {
+		font-size: $h5-large;
+	}
+}
+
+h6, .h6 {
+	margin-top: 16px;
+	font-size: $h6-small;
+	font-weight: $h6-weight;
+	line-height: $h6-lineheight;
+	letter-spacing: $h6-spacing;
+
+	@include mq(tabletp) {
+		font-size: $h6-medium;
+	}
+
+	@include mq(laptop) {
+		font-size: $h6-large;
+	}
+}
+
+p, ul, ol {
+	margin-top: 14px;
+	font-size: $p-small;
+	font-weight: $p-weight;
+	line-height: $p-lineheight;
+	letter-spacing: $p-spacing;
+
+	@include mq(tabletp) {
+		font-size: $p-medium;
+	}
+
+	@include mq(laptop) {
+		font-size: $p-large;
+	}
+
+	strong {
+		font-weight: $bold-weight;
+	}
+
+	&:first-child {
+		margin-top: 0;
+	}
+}
+
+ul, ol {
+	list-style-position: inside;
+}
+
+blockquote {
+	margin-top: 16px;
+	border-left: 3px solid $accent-color;
+	padding-left: var(--space-6);
+	font-size: $blockquote-small;
+	font-weight: $blockquote-weight;
+	letter-spacing: $blockquote-spacing;
+	line-height: $blockquote-lineheight;
+	color: $text-dark-color;
+
+	@include mq(tabletp) {
+		font-size: $blockquote-medium;
+	}
+
+	@include mq(laptop) {
+		font-size: $blockquote-large;
+	}
+
+	p {
+		font-size: inherit;
+		font-weight: inherit;
+		letter-spacing: inherit;
+		line-height: inherit;
+	}
+}
+
+a {
+	text-decoration: none;
+	color: $text-dark-color;
+	font-weight: $bold-weight;
+	transition: color var(--transition-fast);
+
+	&:hover {
+		color: $accent-color;
+	}
+}
+
+.button {
+	display: inline-block;
+	padding: 10px 16px;
+	font-size: 14px;
+	line-height: 1;
+	border: 2px solid $accent-color;
+	border-radius: var(--radius-sm);
+	background: $accent-color;
+	color: $background-color;
+	font-weight: $button-weight;
+	letter-spacing: $button-spacing;
+	cursor: pointer;
+	transition: all var(--transition-fast);
+
+	@include mq(tabletp) {
+		padding: 12px 24px;
+		font-size: 15px;
+	}
+
+	&:hover {
+		background: $accent-hover-scss;
+		border-color: $accent-hover-scss;
+		color: $background-color;
+	}
+
+	svg {
+		margin-right: 5px;
+
+		&:last-child {
+			margin-right: 0;
+			margin-left: 5px;
+		}
+	}
+}
+
+.button--large {
+	padding: 14px 24px;
+	font-size: 14px;
+
+	@include mq(tabletp) {
+		padding: 16px 32px;
+		font-size: 16px;
+	}
+}
+
+.button--light {
+	background: transparent;
+	border-color: $text-dark-color;
+	color: $text-dark-color;
+
+	&:hover {
+		background: $accent-color;
+		border-color: $accent-color;
+		color: $background-color;
+	}
+}
+
+.button--overlay {
+	background: transparent;
+	border-color: $overlay-text-color;
+	color: $overlay-text-color;
+
+	&:hover {
+		background: $overlay-text-color;
+		border-color: $overlay-text-color;
+		color: $accent-color;
+	}
+}
+
+hr {
+	margin: 40px 0;
+	border: 0;
+	height: 1px;
+	background: $border-color;
+}
+
+::selection      { background: $accent-color; color: $background-color; }
+::-moz-selection { background: $accent-color; color: $background-color; }
+
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Page loading
+
+.page-loader {
+	display: none;
+}
+
+.page {
+	transition: opacity 0.3s ease;
+}
+
+body.loading {
+
+	.loader {
+		opacity: 1;
+		visibility: visible;
+		transition: all 0.4s ease-in-out 1s;
+	}
+
+	.page {
+		opacity: 0;
+		visibility: hidden;
+		transition: all 0.4s ease-in-out;
+	}
+
+	.footer {
+		opacity: 0;
+		visibility: hidden;
+		transition: all 0.4s ease-in-out;
+	}
+}
+
+.loader {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 60px;
+	height: 15px;
+
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.2s ease-in-out;
+
+	svg {
+		width: 100%;
+		height: 100%;
+		fill: rgba($text-dark-color, 0.2);
+	}
+}
+
+.page,
+.page__content {
+	width: 100%;
+}
+
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Page sections
+
+.featured-image {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 40%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	@include mq(tabletp) {
+		padding-bottom: 35%;
+	}
+
+	@include mq(laptop) {
+		padding-bottom: 30%;
+	}
+}
+
+section {
+	margin-top: 40px;
+
+	@include mq(tabletp) {
+		margin-top: 48px;
+	}
+
+	@include mq(tabletl) {
+		margin-top: 56px;
+	}
+
+	@include mq(laptop) {
+		margin-top: 64px;
+	}
+}
+
+.wrap {
+	position: relative;
+	@include container;
+}

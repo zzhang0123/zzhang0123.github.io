@@ -1,0 +1,39 @@
+// - - - - - - - - - - - - - - - - - -
+
+// Badge Component
+
+// - - - - - - - - - - - - - - - - - -
+
+
+.pub-badge {
+	display: inline-block;
+	background: $accent-scss;
+	color: #fff;
+	font-size: 0.75em;
+	font-weight: 700;
+	border-radius: var(--radius-sm);
+	padding: 0.12em 0.5em;
+	margin-right: 0.4em;
+	margin-bottom: 0.3em;
+	letter-spacing: 0.03em;
+}
+
+.status-badge {
+	display: inline-block;
+	font-size: 0.75em;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	border-radius: var(--radius-full);
+	padding: 0.25em 0.8em;
+}
+
+.status-badge--active {
+	background: #DEF7EC;
+	color: #03543F;
+}
+
+.status-badge--coming-soon {
+	background: #FEF3C7;
+	color: #92400E;
+}

@@ -1,0 +1,81 @@
+// - - - - - - - - - - - - - - - - - -
+
+// Contact Form
+
+// - - - - - - - - - - - - - - - - - -
+
+
+.contact-form {
+	background: $bg-alt-scss;
+	border-radius: var(--radius-lg);
+	padding: var(--space-8);
+	max-width: 600px;
+	margin: 0 auto;
+
+	@include mq(laptop) {
+		padding: var(--space-10);
+	}
+}
+
+.contact-form__item {
+	margin-top: var(--space-6);
+
+	&:first-child {
+		margin-top: 0;
+	}
+}
+
+.contact-form__label {
+	display: block;
+	font-weight: $bold-weight;
+	font-size: $p-small;
+	margin-bottom: var(--space-2);
+	color: $text-dark-color;
+
+	@include mq(tabletp) {
+		font-size: $p-medium;
+	}
+}
+
+.contact-form__input {
+	display: block;
+	width: 100%;
+	border: 1px solid $border-scss;
+	border-radius: var(--radius-sm);
+	padding: 12px 16px;
+	font-family: $body-font;
+	font-size: $p-small;
+	background: $bg-scss;
+	transition: border-color var(--transition-fast);
+
+	@include mq(tabletp) {
+		padding: 14px 18px;
+		font-size: $p-medium;
+	}
+
+	&:focus {
+		outline: none;
+		border-color: $accent-scss;
+		box-shadow: 0 0 0 3px $accent-subtle-scss;
+	}
+
+	&::placeholder {
+		color: $text-light-color;
+	}
+}
+
+textarea.contact-form__input {
+	resize: vertical;
+	min-height: 150px;
+}
+
+.contact-form__item--error {
+
+	.contact-form__input {
+		border-color: $error-scss;
+	}
+}
+
+.contact-form__gotcha {
+	display: none;
+}

@@ -4,17 +4,19 @@ basic_settings:
   favicon_image: /images/favicon.png
 
 header_settings:
-  logo_image: 
+  logo_image:
   logo_width: 200
   overlay_opacity: 0.8
 
 menu_settings:
   menu_items:
-    - title: 'About me'
+    - title: 'About'
       url: '/'
     - title: 'Posts'
       url: '/posts/'
-    - title: 'My Notes'
+    - title: 'Projects'
+      url: '/projects'
+    - title: 'Notes'
       url: '/notes'
     - title: 'Contact'
       url: '/contact'
@@ -60,106 +62,107 @@ social_settings:
   linkedin_url: 'https://www.linkedin.com/in/zhengzhang96/'
 
 color_settings:
-  background_color: '#ffffff'
-  background_alt_color: '#F5F7FA'
-  text_dark_color: '#2A2F36' 
-  text_medium_color: '#6C7A89'
-  text_light_color: '#ABB7B7'
-  accent_color: '#A2DED0'
-  border_color: '#dddddd'
-  overlay_background_color: '#161B21'
+  background_color: '#FAFBFC'
+  background_alt_color: '#F0F2F5'
+  text_dark_color: '#1A1F2B'
+  text_medium_color: '#4A5568'
+  text_light_color: '#8A94A6'
+  accent_color: '#3B82C4'
+  border_color: '#E2E6EC'
+  overlay_background_color: '#111827'
   overlay_text_color: '#ffffff'
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Source+Sans+Pro:400,600&display=swap" rel="stylesheet">'
-  title_font: '"Playfair Display", serif'
-  body_font: '"Source Sans Pro", sans-serif'
+  font_embed: '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">'
+  title_font: '"Inter", -apple-system, BlinkMacSystemFont, sans-serif'
+  body_font: '"Inter", -apple-system, BlinkMacSystemFont, sans-serif'
+  code_font: '"JetBrains Mono", monospace'
   regular_weight: 400
   bold_weight: 600
   site_title:
-    small_size: 25
-    medium_size: 30
-    large_size: 35
-    weight: 400
-    letter_spacing: 0
+    small_size: 20
+    medium_size: 22
+    large_size: 24
+    weight: 700
+    letter_spacing: -0.02
   site_tagline:
-    small_size: 16
-    medium_size: 17
-    large_size: 18
+    small_size: 14
+    medium_size: 15
+    large_size: 16
     weight: 400
     letter_spacing: 0
     line_height: 1.5
   menu:
-    small_size: 16
-    medium_size: 17
-    large_size: 18
-    larger_size: 23
-    weight: 400
-    weight_larger: 550
+    small_size: 15
+    medium_size: 15
+    large_size: 16
+    larger_size: 18
+    weight: 500
+    weight_larger: 600
     letter_spacing: 0
   h1:
-    small_size: 25
-    medium_size: 35
-    large_size: 45
-    weight: 400
+    small_size: 28
+    medium_size: 36
+    large_size: 42
+    weight: 700
     letter_spacing: -0.02
-    line_height: 1.2
+    line_height: 1.15
   h2:
-    small_size: 25
-    medium_size: 35
-    large_size: 45
-    weight: 400
+    small_size: 24
+    medium_size: 30
+    large_size: 36
+    weight: 700
     letter_spacing: -0.02
     line_height: 1.2
   h3:
-    small_size: 22
-    medium_size: 25
-    large_size: 30
-    weight: 400
-    letter_spacing: -0.02
+    small_size: 20
+    medium_size: 24
+    large_size: 28
+    weight: 600
+    letter_spacing: -0.01
     line_height: 1.3
   h4:
     small_size: 17
-    medium_size: 22
+    medium_size: 20
     large_size: 22
-    weight: 400
+    weight: 600
     letter_spacing: 0
-    line_height: 1.6
+    line_height: 1.4
   h5:
-    small_size: 17
-    medium_size: 20
-    large_size: 20
-    weight: 400
-    letter_spacing: 0
-    line_height: 1.6
-  h6:
-    small_size: 17
-    medium_size: 20
-    large_size: 20
-    weight: 400
-    letter_spacing: 0
-    line_height: 1.6
-  p:
     small_size: 16
     medium_size: 18
     large_size: 20
+    weight: 600
+    letter_spacing: 0
+    line_height: 1.5
+  h6:
+    small_size: 15
+    medium_size: 16
+    large_size: 18
+    weight: 600
+    letter_spacing: 0
+    line_height: 1.5
+  p:
+    small_size: 16
+    medium_size: 17
+    large_size: 18
     weight: 400
     letter_spacing: 0
-    line_height: 1.6
+    line_height: 1.7
   blockquote:
-    small_size: 25
-    medium_size: 35
-    large_size: 45
-    weight: 400
-    letter_spacing: -0.02
-    line_height: 1.6
+    small_size: 18
+    medium_size: 22
+    large_size: 26
+    weight: 500
+    letter_spacing: -0.01
+    line_height: 1.5
   buttons:
     weight: 600
     letter_spacing: 0
 
 advanced_settings:
-  ajax_loading: true # Set to true to enable AJAX page loading
+  ajax_loading: false
   analytics_code: ""
   custom_styles: ""
   header_js: ""

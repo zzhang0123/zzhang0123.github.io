@@ -6,52 +6,66 @@ tags: [Kaiser]
 kaiser: true
 ---
 
+<div class="nk-lecture-grid">
 
----
+  <a href="https://zh-zhang.com/NKarchive/GR/GR-M1-1.pdf" class="nk-lecture-card" target="_blank" rel="noopener noreferrer">
+    <span class="nk-lecture-card__number">Lecture 1</span>
+    <span class="nk-lecture-card__title">Review of Special Relativity</span>
+    <span class="nk-lecture-card__format">PDF</span>
+  </a>
 
-<a href="https://zh-zhang.com/NKarchive/GR/GR-M1-1.pdf" class="button button--large" target="_blank" rel="noopener noreferrer">
-Lecture 1: Review of Special Relativity
-</a>
-    
-<a href="https://zh-zhang.com/NKarchive/GR/GR-M1-1b.pdf" class="button button--large" target="_blank" rel="noopener noreferrer">
-Lecture 1b: Covariance and Gauge Invariance of Electromagnetism
-</a>
+  <a href="https://zh-zhang.com/NKarchive/GR/GR-M1-1b.pdf" class="nk-lecture-card" target="_blank" rel="noopener noreferrer">
+    <span class="nk-lecture-card__number">Lecture 1b</span>
+    <span class="nk-lecture-card__title">Covariance and Gauge Invariance of Electromagnetism</span>
+    <span class="nk-lecture-card__format">PDF</span>
+  </a>
 
-<a href="https://zh-zhang.com/NKarchive/GR/GR-M1-2.pdf" class="button button--large" target="_blank" rel="noopener noreferrer">
-Lecture 2: Historical sketch of GR
-</a>
-   
+  <a href="https://zh-zhang.com/NKarchive/GR/GR-M1-2.pdf" class="nk-lecture-card" target="_blank" rel="noopener noreferrer">
+    <span class="nk-lecture-card__number">Lecture 2</span>
+    <span class="nk-lecture-card__title">Historical sketch of GR</span>
+    <span class="nk-lecture-card__format">PDF</span>
+  </a>
 
-<a href="https://zh-zhang.com/NKarchive/GR/GR-M1-3.pdf" class="button button--large" target="_blank" rel="noopener noreferrer">
-Lecture 3: Tensor Calculus
-</a>
-    
+  <a href="https://zh-zhang.com/NKarchive/GR/GR-M1-3.pdf" class="nk-lecture-card" target="_blank" rel="noopener noreferrer">
+    <span class="nk-lecture-card__number">Lecture 3</span>
+    <span class="nk-lecture-card__title">Tensor Calculus</span>
+    <span class="nk-lecture-card__format">PDF</span>
+  </a>
 
-<a href="https://zh-zhang.com/NKarchive/GR/GR-M1-4.pdf" class="button button--large" target="_blank" rel="noopener noreferrer"> 
-Lecture 4: Space-time curvature
-</a>
+  <a href="https://zh-zhang.com/NKarchive/GR/GR-M1-4.pdf" class="nk-lecture-card" target="_blank" rel="noopener noreferrer">
+    <span class="nk-lecture-card__number">Lecture 4</span>
+    <span class="nk-lecture-card__title">Space-time curvature</span>
+    <span class="nk-lecture-card__format">PDF</span>
+  </a>
 
+  <a href="https://zh-zhang.com/NKarchive/GR/GR-M1-5.pdf" class="nk-lecture-card" target="_blank" rel="noopener noreferrer">
+    <span class="nk-lecture-card__number">Lecture 5</span>
+    <span class="nk-lecture-card__title">Weak Field Gravity</span>
+    <span class="nk-lecture-card__format">PDF</span>
+  </a>
 
+  <a href="https://zh-zhang.com/NKarchive/GR/GR-M1-6.pdf" class="nk-lecture-card" target="_blank" rel="noopener noreferrer">
+    <span class="nk-lecture-card__number">Lecture 6</span>
+    <span class="nk-lecture-card__title">Gravitational Waves</span>
+    <span class="nk-lecture-card__format">PDF</span>
+  </a>
 
-<a href="https://zh-zhang.com/NKarchive/GR/GR-M1-5.pdf" class="button button--large" target="_blank" rel="noopener noreferrer">
-Lecture 5: Weak Field Gravity
-</a>
+  <a href="https://zh-zhang.com/NKarchive/GR/GR-M1-7.pdf" class="nk-lecture-card" target="_blank" rel="noopener noreferrer">
+    <span class="nk-lecture-card__number">Lecture 7</span>
+    <span class="nk-lecture-card__title">Black-Holes and Stellar Structure</span>
+    <span class="nk-lecture-card__format">PDF</span>
+  </a>
 
+  <a href="https://zh-zhang.com/NKarchive/GR/GR-M1-8.pdf" class="nk-lecture-card" target="_blank" rel="noopener noreferrer">
+    <span class="nk-lecture-card__number">Lecture 8</span>
+    <span class="nk-lecture-card__title">The Gravitational Action Principle</span>
+    <span class="nk-lecture-card__format">PDF</span>
+  </a>
 
-<a href="https://zh-zhang.com/NKarchive/GR/GR-M1-6.pdf" class="button button--large" target="_blank" rel="noopener noreferrer">
-Lecture 6: Gravitational Waves
-</a>
-    
+  <a href="https://zh-zhang.com/NKarchive/GR/gauge-invariance-notes.pdf" class="nk-lecture-card" target="_blank" rel="noopener noreferrer">
+    <span class="nk-lecture-card__number">Supplementary</span>
+    <span class="nk-lecture-card__title">Lecture Notes on Electromagnetism and Gauge Invariance</span>
+    <span class="nk-lecture-card__format">PDF</span>
+  </a>
 
-<a href="https://zh-zhang.com/NKarchive/GR/GR-M1-7.pdf" class="button button--large" target="_blank" rel="noopener noreferrer">
-Lecture 7: Black-Holes and Stellar Structure
-</a>
-
-<a href="https://zh-zhang.com/NKarchive/GR/GR-M1-8.pdf" class="button button--large" target="_blank" rel="noopener noreferrer">
-Lecture 8: The Gravitational Action Principle
-</a>
-
-<a href="https://zh-zhang.com/NKarchive/GR/gauge-invariance-notes.pdf" class="button button--large" target="_blank" rel="noopener noreferrer">
-Lecture Notes on Electromagnetism and Gauge Invariance
-</a>
-
+</div>

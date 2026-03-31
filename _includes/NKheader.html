@@ -1,50 +1,32 @@
 <header class="header">
+	<div class="header__inner">
 
-	<div class="header-image header-image--on" style="background-image: url({{ page.featured_image | relative_url }});"></div>
-	<div class="header-image"></div>
-
-	<div class="header-overlay"></div>
-
-	<div class="header__content">
-
-		{% if site.data.settings.header_settings.logo_image %}
-		<a href="{{ site.baseurl }}/" class="header__logo">
-			<img src="{{ site.data.settings.header_settings.logo_image | relative_url }}" class="header__logo__img">
-		</a>
-		{% else %}
 		<a href="{{ site.baseurl }}/NickKaiserNotes/" class="header__title">
-			{{ "Nick Kaiser" }}
+			Nick Kaiser
 		</a>
-		{% endif %}
 
-		<p class="header__tagline">{{"15 September 1954 - 13 June 2023" }}</p>
-
-		
-
-		<div class="menu">
-			<div class="menu__toggle js-menu-toggle">
-				<div class="menu__toggle__icon"><span></span></div>
-			</div>
-			<div class="menu__wrap">
-				<ul class="menu__list">
-					{% for project in site.NickKaiserNotes reversed %}
-					<li class="menu__list__item">
-						<a href="{{ project.url | relative_url }}" class="menu__list__item__link_larger">{{ project.title }}</a>
+		<nav class="nav">
+			<button class="nav__toggle js-menu-toggle" aria-label="Toggle menu">
+				<div class="nav__toggle__icon"><span></span></div>
+			</button>
+			<div class="nav__wrap">
+				<ul class="nav__list">
+					{% for note in site.NickKaiserNotes reversed %}
+					<li class="nav__list__item">
+						<a href="{{ note.url | relative_url }}" class="nav__list__item__link">{{ note.title }}</a>
 					</li>
 					{% endfor %}
-				</ul>
+					</ul>
 			</div>
-		</div>
-
-		<!-- Add extra space -->
-		<br> 
-		<br> 
-		
-		<a href="{{ site.baseurl }}/" class="header__tagline">
-			{{ "Maintainer: Zheng Zhang" }}
-		</a>
-
+		</nav>
 
 	</div>
-
 </header>
+
+<div class="nk-header-info">
+	<div class="nk-portrait">
+		<img src="/images/Nick.jpg" alt="Nick Kaiser">
+	</div>
+	<h2 class="nk-header-info__title">Nick Kaiser</h2>
+	<p class="nk-header-info__dates">15 September 1954 &mdash; 13 June 2023</p>
+</div>

@@ -10,7 +10,7 @@
 
 	<!-- Page Info -->
 	<link rel="shortcut icon" href="{{ site.data.settings.basic_settings.favicon_image | relative_url }}">
-	<title>{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }}{% endif %}</title>
+	<title>{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – Astrophysicist &amp; Cosmologist{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}</title>
 	<meta name="description" content="{% if page.description %}{{ page.description | strip_html | xml_escape }}{% else %}{{ page.excerpt | strip_html | xml_escape }}{% endif %}">
 
 	<!-- Twitter Card -->
@@ -18,7 +18,7 @@
 	{%if page.kaiser %}
 	<meta name="twitter:title" content="{{ page.title }}">
 	{% else %}
-	<meta name="twitter:title" content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} {% endif %}">
+	<meta name="twitter:title" content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – Astrophysicist &amp; Cosmologist{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}">
 	{% endif %}
 	<meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | xml_escape }}{% else %}{{ page.excerpt | strip_html | xml_escape }}{% endif %}">
 	<meta name="twitter:image:src" content="{{ page.featured_image | absolute_url }}">
@@ -37,11 +37,13 @@
 	<!-- Styles -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
-	
+
 	<!-- Icons -->
 	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" crossorigin="anonymous"></script>
 
+	{% if page.mermaid %}
 	{% include mermaid.html %}
+	{% endif %}
 
 	{% if site.data.settings.advanced_settings.custom_styles %}
 	<!-- Custom Styles -->
@@ -57,26 +59,26 @@
 	<!-- Extra Header JS Code -->
 	{{ site.data.settings.advanced_settings.header_js }}
 	{% endif %}
-	
+
+	<!-- Prefetch likely navigation targets -->
+	{% for item in site.data.settings.menu_settings.menu_items %}
+	<link rel="prefetch" href="{{ item.url | relative_url }}">
+	{% endfor %}
+
 </head>
 
 
-<body class="loading{% if site.data.settings.advanced_settings.ajax_loading == true %} ajax-loading{% endif %}" data-site-url="{{ site.url }}" data-page-url="{{ page.url | replace: 'index.html', '' }}">
+<body class="{% if page.kaiser %}nk-archive{% endif %}" data-site-url="{{ site.url }}" data-page-url="{{ page.url | replace: 'index.html', '' }}">
 
 	{% if page.kaiser %}
 	{% include NKheader.html %}
 	{% else %}
 	{% include header.html %}
-	{% endif %}	
+	{% endif %}
 
 
-	<div class="loader"><svg width="120" height="30" viewBox="0 0 120 30" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="15" r="15"><animate attributeName="r" from="15" to="15" begin="0s" dur="0.8s" values="15;9;15" calcMode="linear" repeatCount="indefinite" /><animate attributeName="fill-opacity" from="1" to="1" begin="0s" dur="0.8s" values="1;.5;1" calcMode="linear" repeatCount="indefinite" /></circle><circle cx="60" cy="15" r="9" fill-opacity="0.3"><animate attributeName="r" from="9" to="9" begin="0s" dur="0.8s" values="9;15;9" calcMode="linear" repeatCount="indefinite" /><animate attributeName="fill-opacity" from="0.5" to="0.5" begin="0s" dur="0.8s" values=".5;1;.5" calcMode="linear" repeatCount="indefinite" /></circle><circle cx="105" cy="15" r="15"><animate attributeName="r" from="15" to="15" begin="0s" dur="0.8s" values="15;9;15" calcMode="linear" repeatCount="indefinite" /><animate attributeName="fill-opacity" from="1" to="1" begin="0s" dur="0.8s" values="1;.5;1" calcMode="linear" repeatCount="indefinite" /></circle></svg></div>
-
-	<div class="page-loader"></div>
-
-	
 	<div class="page">
-		<div class="page__content" data-page-title="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }}{% endif %}" data-image="{{ page.featured_image | relative_url }}">
+		<div class="page__content" data-page-title="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – Astrophysicist &amp; Cosmologist{% else %}{{ page.title }}{% endif %}" data-image="{{ page.featured_image | relative_url }}">
 
 			{{ content }}
 
@@ -87,61 +89,14 @@
 
 	{% include footer.html %}
 
-	<!-- Javascript Assets -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="{{ '/js/plugins-min.js' | relative_url }}"></script>
-	<script src="{{ '/js/journal-min.js' | relative_url }}"></script>
-	<script src="{{ '/js/site-custom.js' | relative_url }}"></script>
+	<!-- Javascript -->
+	<script src="{{ '/js/main.js' | relative_url }}"></script>
+	<script src="{{ '/js/cosmic-bg.js' | relative_url }}"></script>
 
 	{% if site.data.settings.advanced_settings.footer_js %}
 	<!-- Extra Footer JS Code -->
 	{{ site.data.settings.advanced_settings.footer_js }}
 	{% endif %}
-
-	<!-- AJAX Page Loading -->
-	<!--
-	<script>
-		document.addEventListener('DOMContentLoaded', function() {
-			// Attach a click event listener to all links
-			attachLinkEventListeners();
-	
-			function attachLinkEventListeners() {
-				document.querySelectorAll('a').forEach(function(link) {
-					link.addEventListener('click', function(event) {
-						event.preventDefault(); // Prevent the default page load
-						const url = this.getAttribute('href');
-	
-						// Fetch the new page content
-						fetch(url)
-							.then(response => response.text())
-							.then(html => {
-								// Parse the HTML from the response
-								const newPage = new DOMParser().parseFromString(html, 'text/html');
-	
-								// Replace the content section
-								document.querySelector('.page__content').innerHTML = newPage.querySelector('.page__content').innerHTML;
-	
-								// Replace the header (to update the menu)
-								document.querySelector('header').innerHTML = newPage.querySelector('header').innerHTML;
-	
-								// Optionally update the URL (to reflect the new page)
-								history.pushState(null, '', url);
-	
-								// Reinitialize any required JS for the new menu or page
-								initializeMenuLogic();
-							});
-					});
-				});
-			}
-	
-			function initializeMenuLogic() {
-				// Reattach event listeners to the newly loaded links
-				attachLinkEventListeners();
-	
-				// Additional logic to initialize any page-specific JavaScript (if needed)
-			}
-		});
-	</script> -->
 
 
 </body>

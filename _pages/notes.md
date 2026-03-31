@@ -23,38 +23,48 @@ featured_image: /images/MontBlanc.jpg
 
 </section>
 
-<section class="blog single">
+<section class="single">
 
-	<div class="wrap">
+	<div class="wrap" style="max-width: 900px;">
 
-	<h3>Measurements and Data Analysis</h3>
-	<ul>
-		<li><a href="https://zh-zhang.com/myNotes/RadioInterferometryNote.pdf" target="_blank" rel="noopener noreferrer">A Perspective on Radio Interferometry: Local Beam, Local Fringes, and Global Sky</a></li>
-		<li><a href="https://zh-zhang.com/myNotes/PSEnote.pdf" target="_blank" rel="noopener noreferrer">On the power spectrum estimation: likelihood based methods and quadratic estimators</a></li>
-		<li><a href="https://zh-zhang.com/myNotes/MmodeNote.pdf" target="_blank" rel="noopener noreferrer">Radio Interferometer Measurement Equation for M-mode Analysis</a></li>
-	</ul>
+	<details class="notes-section" open>
+		<summary>Measurements and Data Analysis</summary>
+		<ul>
+			<li><a class="note-item" href="https://zh-zhang.com/myNotes/RadioInterferometryNote.pdf" target="_blank" rel="noopener noreferrer">A Perspective on Radio Interferometry: Local Beam, Local Fringes, and Global Sky</a></li>
+			<li><a class="note-item" href="https://zh-zhang.com/myNotes/PSEnote.pdf" target="_blank" rel="noopener noreferrer">On the power spectrum estimation: likelihood based methods and quadratic estimators</a></li>
+			<li><a class="note-item" href="https://zh-zhang.com/myNotes/MmodeNote.pdf" target="_blank" rel="noopener noreferrer">Radio Interferometer Measurement Equation for M-mode Analysis</a></li>
+		</ul>
+	</details>
 
-	<h3>21 cm Cosmology</h3>
-	<ul>
-		<li><a href="https://theses.hal.science/tel-04750721v1/file/va_Zhang_Zheng.pdf" target="_blank" rel="noopener noreferrer">Role of polarisation in 21cm surveys (PhD thesis)</a></li>
-		<li><a href="https://zh-zhang.com/myNotes/Global_transfer.pdf" target="_blank" rel="noopener noreferrer">On the global (directional averaged) radiative transfer</a></li>
-		<li><a href="https://zh-zhang.com/myNotes/21_CM_physics.pdf" target="_blank" rel="noopener noreferrer">21 cm physics (<a href="https://theses.hal.science/tel-04750721v1/file/va_Zhang_Zheng.pdf" style="font-style: italic;">See my thesis for an improved overview.</a>)</a></li>
-	</ul>
+	<details class="notes-section" open>
+		<summary>21 cm Cosmology</summary>
+		<ul>
+			<li><a class="note-item" href="https://theses.hal.science/tel-04750721v1/file/va_Zhang_Zheng.pdf" target="_blank" rel="noopener noreferrer">Role of polarisation in 21cm surveys (PhD thesis)</a></li>
+			<li><a class="note-item" href="https://zh-zhang.com/myNotes/Global_transfer.pdf" target="_blank" rel="noopener noreferrer">On the global (directional averaged) radiative transfer</a></li>
+			<li><a class="note-item" href="https://zh-zhang.com/myNotes/21_CM_physics.pdf" target="_blank" rel="noopener noreferrer">21 cm physics</a></li>
+		</ul>
+	</details>
 
-	<h3>Radio Sky</h3>
-	<ul>
-		<li><a href="https://zh-zhang.com/myNotes/Polarized_FG_Simu.pdf" target="_blank" rel="noopener noreferrer">Simulating the polarised synchrotron foregrounds</a></li>
-	</ul>
+	<details class="notes-section" open>
+		<summary>Radio Sky</summary>
+		<ul>
+			<li><a class="note-item" href="https://zh-zhang.com/myNotes/Polarized_FG_Simu.pdf" target="_blank" rel="noopener noreferrer">Simulating the polarised synchrotron foregrounds</a></li>
+		</ul>
+	</details>
 
-	<h3>Techniques</h3>
-	<ul>
-		<li><a href="https://zh-zhang.com/myNotes/CovarianceSamplerNote.pdf" target="_blank" rel="noopener noreferrer">On the covariance sampler (via inverse Wishart)</a></li>
-	</ul>
+	<details class="notes-section" open>
+		<summary>Techniques</summary>
+		<ul>
+			<li><a class="note-item" href="https://zh-zhang.com/myNotes/CovarianceSamplerNote.pdf" target="_blank" rel="noopener noreferrer">On the covariance sampler (via inverse Wishart)</a></li>
+		</ul>
+	</details>
 
-	<h3>Theory</h3>
-	<ul>
-		<li><a href="https://zh-zhang.com/myNotes/topological_WF.pdf" target="_blank" rel="noopener noreferrer">Quantum mechanics in topological sense <span style="font-style: italic;">(Disclaimer: Existing ideas in the literature.)</span></a></li>
-	</ul>
+	<details class="notes-section" open>
+		<summary>Theory</summary>
+		<ul>
+			<li><a class="note-item" href="https://zh-zhang.com/myNotes/topological_WF.pdf" target="_blank" rel="noopener noreferrer">Quantum mechanics in topological sense <span style="font-style: italic;">(Disclaimer: Existing ideas in the literature.)</span></a></li>
+		</ul>
+	</details>
 
 	</div>
 

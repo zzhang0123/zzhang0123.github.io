@@ -34,103 +34,82 @@ $break-desktop: 1600px;
 
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Transitions
-// Usage: @include transition(color .3s ease);
 
 @mixin transition($args...) {
-  -webkit-transition: $args;
-  -moz-transition: $args;
-  -ms-transition: $args;
-  -o-transition: $args;
   transition: $args;
 }
 
 
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Animations
-// Usage:
-// @include keyframes(slide-down) {
-//   0% { opacity: 1; }
-//   90% { opacity: 0; }
-// }
-// .element {
-//   @include animation('slide-down 5s 3');
-// }
-
-@mixin keyframes($animation-name) {
-    @-webkit-keyframes #{$animation-name} {
-        @content;
-    }
-    @-moz-keyframes #{$animation-name} {
-        @content;
-    }  
-    @-ms-keyframes #{$animation-name} {
-        @content;
-    }
-    @-o-keyframes #{$animation-name} {
-        @content;
-    }  
-    @keyframes #{$animation-name} {
-        @content;
-    }
-}
-
-@mixin animation($str) {
-  -webkit-animation: #{$str};
-  -moz-animation: #{$str};
-  -ms-animation: #{$str};
-  -o-animation: #{$str};
-  animation: #{$str};      
-}
-
-
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Transforms
-// Usage:
-// @include skew(25,10);
-// @include transform-origin(top left);
 
 @mixin transform($transforms) {
-     -moz-transform: $transforms;
-       -o-transform: $transforms;
-      -ms-transform: $transforms;
-  -webkit-transform: $transforms;
-          transform: $transforms;
+  transform: $transforms;
 }
 
-@mixin rotate ($deg) {
-  @include transform(rotate(#{$deg}deg));
+@mixin rotate($deg) {
+  transform: rotate(#{$deg}deg);
 }
+
 @mixin scale($scale) {
-  @include transform(scale($scale));
-} 
-@mixin translate ($x, $y) {
-  @include transform(translate($x, $y));
+  transform: scale($scale);
 }
-@mixin skew ($x, $y) {
-  @include transform(skew(#{$x}deg, #{$y}deg));
+
+@mixin translate($x, $y) {
+  transform: translate($x, $y);
 }
-@mixin transform-origin ($origin) {
-    moz-transform-origin: $origin;
-       -o-transform-origin: $origin;
-      -ms-transform-origin: $origin;
-  -webkit-transform-origin: $origin;
-          transform-origin: $origin;
+
+@mixin transform-origin($origin) {
+  transform-origin: $origin;
 }
 
 
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Styles
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Shadows
 
 @mixin box-shadow($top, $left, $blur, $color, $inset: false) {
   @if $inset {
-    -webkit-box-shadow:inset $top $left $blur $color;
-    -moz-box-shadow:inset $top $left $blur $color;
-    box-shadow:inset $top $left $blur $color;
+    box-shadow: inset $top $left $blur $color;
   } @else {
-    -webkit-box-shadow: $top $left $blur $color;
-    -moz-box-shadow: $top $left $blur $color;
     box-shadow: $top $left $blur $color;
   }
 }
 
 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Focus ring
+
+@mixin focus-ring {
+  outline: 2px solid $accent-scss;
+  outline-offset: 2px;
+}
 
 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Container
+
+@mixin container {
+  width: 100%;
+  max-width: var(--content-max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--space-6);
+  padding-right: var(--space-6);
+
+  @include mq(laptop) {
+    padding-left: var(--space-8);
+    padding-right: var(--space-8);
+  }
+}
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Card base
+
+@mixin card-base {
+  background: $bg-alt-scss;
+  border: 1px solid $border-scss;
+  border-radius: var(--radius-md);
+  padding: var(--space-6);
+  transition: box-shadow var(--transition-base), transform var(--transition-base);
+
+  &:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+  }
+}
