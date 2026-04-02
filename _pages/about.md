@@ -3,7 +3,7 @@ layout: page
 custom_hero: true
 title: Zheng Zhang
 subtitle: I do physics and cosmology (and ask a lot of questions about the Universe)
-description: "Postdoctoral researcher in cosmology at the University of Manchester. Working on 21cm intensity mapping, foreground science, and Bayesian inference for next-generation radio telescopes."
+description: "Postdoctoral researcher in cosmology at the University of Manchester. Working on 21cm intensity mapping, weak lensing, astrophysical foreground modelling, Bayesian inference, and theoretical cosmology."
 featured_image: /images/me/hiking3.jpg
 permalink: /
 mermaid: true

@@ -6,5 +6,7 @@
 
 .claudeignore
 
+.claude/
+
 CLAUDE.md
 
