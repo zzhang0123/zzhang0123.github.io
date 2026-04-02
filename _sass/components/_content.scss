@@ -59,6 +59,28 @@
 		}
 	}
 
+	// Major section headers — strong visual anchor
+	h2 {
+		margin-top: var(--space-16);
+		padding-top: var(--space-10);
+		position: relative;
+
+		&::before {
+			content: '';
+			display: block;
+			width: 40px;
+			height: 3px;
+			background: $accent-color;
+			margin-bottom: var(--space-3);
+			border-radius: 2px;
+		}
+	}
+
+	// Sub-section headers — lighter separation
+	h3 {
+		margin-top: var(--space-10);
+	}
+
 	ul, ol {
 		ul, ol {
 			max-width: 100%;
@@ -67,12 +89,15 @@
 	}
 
 	hr {
-		margin: 24px auto;
+		margin: var(--space-12) auto;
 		max-width: 900px;
+		border: none;
+		height: 1px;
+		background: $border-color;
 
 		@include mq(tabletp) {
-			margin-top: 40px;
-			margin-bottom: 40px;
+			margin-top: var(--space-16);
+			margin-bottom: var(--space-16);
 		}
 	}
 

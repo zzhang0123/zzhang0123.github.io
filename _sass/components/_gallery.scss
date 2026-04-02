@@ -8,7 +8,7 @@
 .gallery {
 	position: relative;
 	margin: var(--space-6) auto;
-	max-width: 900px;
+	max-width: var(--content-max-width);
 	padding: 0 var(--space-6);
 
 	@include mq(tabletp) {
@@ -79,6 +79,11 @@
 
 	.gallery__item {
 		aspect-ratio: 3 / 2;
+	}
+
+	// Portrait variant — square for people/pet photos
+	&.gallery--portrait .gallery__item {
+		aspect-ratio: 1 / 1;
 	}
 }
 

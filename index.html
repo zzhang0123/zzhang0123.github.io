@@ -9,25 +9,26 @@ featured_image: /images/me/zzhang1.jpg
 
 	<div class="wrap">
 
+		<h1 class="blog__title">Posts</h1>
+
 		{% for post in paginator.posts %}
 
-		<article class="blog-post">
-
-			<div class="blog-post__header">
-				<h2 class="blog-post__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-				<p class="blog-post__subtitle">{{ post.date | date_to_long_string }}</p>
-			</div>
+		<a href="{{ post.url | relative_url }}" class="blog-post">
 
 			{% if post.featured_image %}
-			<a href="{{ post.url | relative_url }}" class="blog-post__image" style="background-image: url({{ post.featured_image | relative_url }});"></a>
+			<div class="blog-post__image" style="background-image: url({{ post.featured_image | relative_url }});"></div>
 			{% endif %}
 
-			<div class="blog-post__content">
-				<p>{{ post.excerpt }}</p>
-				<p><a href="{{ post.url | relative_url }}" class="button">Read More</a>
+			<div class="blog-post__body">
+				<h2 class="blog-post__title">{{ post.title }}</h2>
+				<p class="blog-post__date">{{ post.date | date: "%B %d, %Y" }}</p>
+				{% if post.excerpt %}
+				<p class="blog-post__excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+				{% endif %}
+				<span class="blog-post__cta">Read more &rarr;</span>
 			</div>
 
-		</article>
+		</a>
 
 		{% endfor %}
 

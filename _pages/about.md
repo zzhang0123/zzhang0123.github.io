@@ -1,4 +1,6 @@
 ---
+layout: page
+custom_hero: true
 title: Zheng Zhang
 subtitle: I do physics and cosmology (and ask a lot of questions about the Universe)
 description: "Postdoctoral researcher in cosmology at the University of Manchester. Working on 21cm intensity mapping, foreground science, and Bayesian inference for next-generation radio telescopes."
@@ -6,16 +8,32 @@ featured_image: /images/me/hiking3.jpg
 permalink: /
 mermaid: true
 ---
-<!--
-![](/images/Manchester.jpg)
--->
-
-<div class="gallery" data-columns="3">
-	<img src="/images/demo/Lovell.jpg">
-	<img src="/images/demo/cosmology.jpg">
-	<img src="/images/demo/meerkat.jpg">
+<div class="about-hero">
+  <div class="about-hero__portrait">
+    <img src="/images/me/zzhang1.jpg" alt="Zheng Zhang">
+  </div>
+  <div class="about-hero__text">
+    <h1>Zheng Zhang</h1>
+    <p class="about-hero__subtitle">{{ page.subtitle }}</p>
+    <p class="about-hero__description">{{ page.description }}</p>
+    <div class="about-hero__links">
+      {% include socials.html %}
+    </div>
+  </div>
 </div>
----
+
+<div class="highlight-projects">
+  {% assign highlighted = site.projects | where: "highlight", true %}
+  {% for project in highlighted %}
+  <a href="{{ project.url | relative_url }}" class="highlight-project-card">
+    {% assign card_img = project.card_image | default: project.featured_image %}
+    <div class="highlight-project-card__image" style="background-image: url({{ card_img | relative_url }})"></div>
+    <div class="highlight-project-card__body">
+      <h4 class="highlight-project-card__title">{{ project.title }}</h4>
+    </div>
+  </a>
+  {% endfor %}
+</div>
 
 {% if page.pinned_post %}
   {% assign featured = site.posts | where: "url", page.pinned_post | first %}
@@ -160,8 +178,6 @@ Selected codes I have developed or contributed to, many used in the papers below
   </div>
 </div>
 
----
-
 ## More about me
 
 ### Bio
@@ -206,16 +222,16 @@ flowchart LR
 
 I can't go back too far. My grandfather was adopted. The man who adopted him, my great-grandfather, was a tofu maker/seller in the village, but unfortunately the craft was not passed on.
 
-###  The Home Team
+### Family
 
 Our little family includes my wife and myself, our Bengal cat, Youzi, along with two cherished baobab trees, Jumbo and Zhuangzhuang, which we brought with us from Paris to Manchester. While living in the US, I raised a loving German Shepherd named Summer, who now enjoys life with my parents in my faraway hometown.
 
-<div class="gallery" data-columns="3">
+<div class="gallery gallery--grid gallery--portrait" data-columns="3">
 	<img src="/images/me/baobab.jpg">
 	<img src="/images/me/family.jpg">
 	<img src="/images/me/couple.jpg">
 	<img src="/images/me/summer1.jpg">
-	<img src="/images/me/summer2.jpg">
+	<!-- <img src="/images/me/summer2.jpg"> -->
 	<img src="/images/me/youzi_1.jpeg">
   <img src="/images/me/youzi_2.jpeg">
 </div>

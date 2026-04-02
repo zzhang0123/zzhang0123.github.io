@@ -9,14 +9,19 @@
 	@include card-base;
 }
 
-// Featured post card
-.featured-post-card {
+// Featured post card — centered within text column
+.single .featured-post-card {
 	background: $bg-alt-scss;
 	border: 1px solid $border-scss;
 	border-left: 4px solid $accent-scss;
 	border-radius: var(--radius-md);
 	padding: var(--space-6);
-	margin: var(--space-6) 0 var(--space-8);
+	margin: var(--space-6) auto var(--space-8);
+	max-width: 900px;
+
+	@include mq(laptop) {
+		padding: var(--space-6) var(--space-8);
+	}
 }
 
 .featured-label {

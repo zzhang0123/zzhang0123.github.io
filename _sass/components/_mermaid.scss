@@ -8,10 +8,13 @@
 	overflow-x: auto;
 	-webkit-overflow-scrolling: touch;
 	margin: var(--space-6) auto var(--space-8);
-	max-width: 80%;
+	max-width: var(--content-max-width);
+	padding: var(--space-8) var(--space-6);
+	background: $bg-alt-scss;
+	border-radius: var(--radius-lg);
 
-	@include mq(desktop) {
-		max-width: 75%;
+	@include mq(laptop) {
+		padding: var(--space-10) var(--space-8);
 	}
 }
 
@@ -19,16 +22,4 @@
 	display: block;
 	height: auto;
 	margin: 0 auto;
-}
-
-.flex-center {
-	display: flex;
-	justify-content: center;
-	padding: 20px;
-}
-
-.mermaid {
-	flex-basis: 50%;
-	min-width: 300px;
-	max-width: 600px;
 }

@@ -5,18 +5,32 @@
 // - - - - - - - - - - - - - - - - - -
 
 
-// Hero section
+// Hero section — portrait + text side-by-side
 .about-hero {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	text-align: center;
-	padding: var(--space-12) var(--space-6) var(--space-8);
+	gap: var(--space-8);
+	padding: var(--space-10) var(--space-6) var(--space-8);
+	max-width: var(--content-max-width);
+	margin: 0 auto;
 
 	@include mq(tabletp) {
+		flex-direction: row;
+		text-align: left;
+		align-items: center;
+		padding: var(--space-12) var(--space-8) var(--space-10);
+		gap: var(--space-12);
+	}
+
+	@include mq(laptop) {
 		padding: var(--space-16) var(--space-8) var(--space-12);
 	}
 
 	h1 {
 		font-size: $h1-small;
-		margin-bottom: var(--space-3);
+		margin-bottom: var(--space-1);
 
 		@include mq(tabletp) {
 			font-size: $h1-medium;
@@ -26,28 +40,154 @@
 			font-size: $h1-large;
 		}
 	}
+}
 
-	.about-hero__subtitle {
+.about-hero__portrait {
+	flex-shrink: 0;
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: var(--shadow-lg);
+	border: 4px solid rgba($accent-scss, 0.15);
+
+	@include mq(tabletp) {
+		width: 190px;
+		height: 190px;
+	}
+
+	@include mq(laptop) {
+		width: 220px;
+		height: 220px;
+	}
+
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center 20%;
+	}
+}
+
+.about-hero__text {
+	flex: 1;
+	min-width: 0;
+}
+
+.about-hero__subtitle {
+	font-size: $p-medium;
+	color: $text-medium-color;
+	line-height: 1.6;
+	margin-top: var(--space-2);
+
+	@include mq(laptop) {
+		font-size: $p-large;
+	}
+}
+
+.about-hero__description {
+	margin-top: var(--space-3);
+	font-size: $p-small;
+	color: $text-light-color;
+	line-height: 1.6;
+
+	@include mq(laptop) {
 		font-size: $p-medium;
-		color: $text-medium-color;
-		max-width: 600px;
-		margin: 0 auto;
-		line-height: 1.6;
+	}
+}
 
-		@include mq(laptop) {
-			font-size: $p-large;
+.about-hero__links {
+	margin-top: var(--space-4);
+
+	.socials {
+		@include mq(tabletp) {
+			justify-content: flex-start;
 		}
 	}
+}
 
-	.about-hero__description {
-		margin-top: var(--space-4);
-		font-size: $p-small;
-		color: $text-light-color;
-		max-width: 700px;
-		margin-left: auto;
-		margin-right: auto;
-		line-height: 1.6;
+
+// Highlighted project cards — 3-column grid below hero
+.highlight-projects {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: var(--space-4);
+	max-width: var(--content-max-width);
+	margin: var(--space-6) auto var(--space-4);
+	padding: 0 var(--space-6);
+
+	@include mq(phonel) {
+		grid-template-columns: repeat(2, 1fr);
 	}
+
+	@include mq(tabletl) {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	@include mq(laptop) {
+		padding: 0 var(--space-8);
+	}
+}
+
+.highlight-project-card {
+	display: block;
+	border-radius: var(--radius-lg);
+	overflow: hidden;
+	border: 1px solid $border-scss;
+	background: $bg-scss;
+	text-decoration: none;
+	color: inherit;
+	transition: box-shadow var(--transition-base), transform var(--transition-base);
+
+	&:hover {
+		box-shadow: var(--shadow-lg);
+		transform: translateY(-3px);
+		color: inherit;
+
+		.highlight-project-card__image {
+			transform: scale(1.04);
+		}
+	}
+}
+
+.highlight-project-card__image {
+	width: 100%;
+	aspect-ratio: 3 / 2;
+	background-size: cover;
+	background-position: center;
+	transition: transform var(--transition-slow);
+	position: relative;
+
+	&::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 40%;
+		background: linear-gradient(to top, rgba(0,0,0,0.06), transparent);
+		pointer-events: none;
+	}
+}
+
+.highlight-project-card__body {
+	padding: var(--space-3) var(--space-4) var(--space-4);
+}
+
+.highlight-project-card__title {
+	font-size: var(--text-sm);
+	font-weight: 600;
+	color: $text-dark-scss;
+	margin: 0;
+	line-height: 1.35;
+	letter-spacing: -0.01em;
+}
+
+.highlight-project-card__subtitle {
+	margin-top: var(--space-1);
+	font-size: var(--text-sm);
+	color: $text-medium-color;
+	line-height: 1.4;
 }
 
 
@@ -59,36 +199,45 @@
 	gap: var(--space-4);
 	margin-top: var(--space-6);
 	margin-bottom: var(--space-10);
-	max-width: 900px;
+	max-width: var(--content-max-width);
 	margin-left: auto;
 	margin-right: auto;
-	padding: 0 var(--space-6);
+	padding: var(--space-6);
+	background: $bg-alt-scss;
+	border-radius: var(--radius-lg);
 
 	@include mq(phonel) {
-		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@include mq(tabletl) {
+		grid-template-columns: repeat(3, 1fr);
+		gap: var(--space-3);
 	}
 
 	@include mq(laptop) {
-		padding: 0 var(--space-8);
+		grid-template-columns: repeat(4, 1fr);
+		padding: var(--space-8);
 	}
 }
 
 .pub-card,
 .code-card {
 	@include card-base;
-	padding: var(--space-4) var(--space-6);
+	padding: var(--space-3) var(--space-4);
+	background: $bg-scss;
 }
 
 .pub-title {
-	font-size: 1.0rem;
+	font-size: 0.9rem;
 	font-weight: 600;
 	margin-bottom: var(--space-1);
 	color: $text-dark-scss;
-	line-height: 1.45;
+	line-height: 1.4;
 }
 
 .code-title {
-	font-size: 1.05rem;
+	font-size: 0.95rem;
 	font-weight: 700;
 	margin-bottom: var(--space-1);
 	font-family: $code-font;
@@ -106,9 +255,9 @@
 .pub-authors,
 .code-desc {
 	color: $text-medium-color;
-	font-size: 0.9rem;
+	font-size: 0.82rem;
 	margin-bottom: var(--space-1);
-	line-height: 1.5;
+	line-height: 1.45;
 }
 
 .pub-links,
@@ -120,7 +269,7 @@
 .code-links a {
 	color: $accent-scss;
 	text-decoration: none;
-	font-size: 0.9em;
+	font-size: 0.82em;
 	font-weight: 600;
 	transition: color var(--transition-fast);
 	border-bottom: none;
