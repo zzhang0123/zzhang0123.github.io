@@ -1,0 +1,90 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Zheng Zhang" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e5]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "About" [ref=e9] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e10]:
+            - link "Posts" [ref=e11] [cursor=pointer]:
+              - /url: /posts/
+          - listitem [ref=e12]:
+            - link "Projects" [ref=e13] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=e14]:
+            - link "Notes" [ref=e15] [cursor=pointer]:
+              - /url: /notes
+          - listitem [ref=e16]:
+            - link "Contact" [ref=e17] [cursor=pointer]:
+              - /url: /contact
+          - listitem [ref=e18]:
+            - link "Nick Kaiser Lectures" [ref=e19] [cursor=pointer]:
+              - /url: /NickKaiserNotes/
+  - generic [ref=e21]:
+    - generic [ref=e23]:
+      - heading "Projects" [level=1] [ref=e24]
+      - paragraph [ref=e25]: Ongoing and past research projects in cosmology, radio astronomy, and astrophysics.
+    - generic [ref=e28]:
+      - link "Anomalous Microwave Emission active Anomalous Microwave Emission Advanced Modeling of Spinning Dust Radiation View project →" [ref=e29] [cursor=pointer]:
+        - /url: /projects/ame
+        - img "Anomalous Microwave Emission" [ref=e31]
+        - generic [ref=e32]:
+          - generic [ref=e33]: active
+          - heading "Anomalous Microwave Emission" [level=3] [ref=e34]
+          - paragraph [ref=e35]: Advanced Modeling of Spinning Dust Radiation
+          - generic [ref=e36]: View project →
+      - link "Advanced Methods active Advanced Methods Computational Tools for Cosmology and Applied Mathematics View project →" [ref=e37] [cursor=pointer]:
+        - /url: /projects/advancedmethods
+        - img "Advanced Methods" [ref=e39]
+        - generic [ref=e40]:
+          - generic [ref=e41]: active
+          - heading "Advanced Methods" [level=3] [ref=e42]
+          - paragraph [ref=e43]: Computational Tools for Cosmology and Applied Mathematics
+          - generic [ref=e44]: View project →
+      - link "Role of polarisation in 21cm cosmology coming soon Role of polarisation in 21cm cosmology Understanding polarisation leakage and its impact on 21cm intensity mapping. View project →" [ref=e45] [cursor=pointer]:
+        - /url: /projects/polarisation
+        - img "Role of polarisation in 21cm cosmology" [ref=e47]
+        - generic [ref=e48]:
+          - generic [ref=e49]: coming soon
+          - heading "Role of polarisation in 21cm cosmology" [level=3] [ref=e50]
+          - paragraph [ref=e51]: Understanding polarisation leakage and its impact on 21cm intensity mapping.
+          - generic [ref=e52]: View project →
+      - link "Software for Radio Cosmology active Software for Radio Cosmology Open-source Python projects for 21cm intensity mapping — beam modelling, data simulation, Bayesian calibration, and power spectrum estimation View project →" [ref=e53] [cursor=pointer]:
+        - /url: /projects/radiocosmology
+        - img "Software for Radio Cosmology" [ref=e55]
+        - generic [ref=e56]:
+          - generic [ref=e57]: active
+          - heading "Software for Radio Cosmology" [level=3] [ref=e58]
+          - paragraph [ref=e59]: Open-source Python projects for 21cm intensity mapping — beam modelling, data simulation, Bayesian calibration, and power spectrum estimation
+          - generic [ref=e60]: View project →
+      - link "Stochastic Gravitational Weak Lensing coming soon Stochastic Gravitational Weak Lensing View project →" [ref=e61] [cursor=pointer]:
+        - /url: /projects/sft
+        - img "Stochastic Gravitational Weak Lensing" [ref=e63]
+        - generic [ref=e64]:
+          - generic [ref=e65]: coming soon
+          - heading "Stochastic Gravitational Weak Lensing" [level=3] [ref=e66]
+          - paragraph
+          - generic [ref=e67]: View project →
+  - contentinfo [ref=e68]:
+    - generic [ref=e69]:
+      - list [ref=e70]:
+        - listitem [ref=e71]:
+          - link "Google scholar" [ref=e72] [cursor=pointer]:
+            - /url: https://scholar.google.com/citations?user=TemNJQ0AAAAJ&hl=en&oi=sra
+            - img [ref=e73]
+        - listitem [ref=e75]:
+          - link "Orcid" [ref=e76] [cursor=pointer]:
+            - /url: https://orcid.org/0000-0002-9154-2803
+            - img [ref=e77]
+        - listitem [ref=e79]:
+          - link "Github" [ref=e80] [cursor=pointer]:
+            - /url: https://github.com/zzhang0123
+            - img [ref=e81]
+        - listitem [ref=e83]:
+          - link "Linkedin" [ref=e84] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/zhengzhang96/
+            - img [ref=e85]
+      - generic [ref=e87]: © 2026 Zheng Zhang

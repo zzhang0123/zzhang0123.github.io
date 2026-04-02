@@ -1,0 +1,287 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Zheng Zhang" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e5]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "About" [ref=e9] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e10]:
+            - link "Posts" [ref=e11] [cursor=pointer]:
+              - /url: /posts/
+          - listitem [ref=e12]:
+            - link "Projects" [ref=e13] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=e14]:
+            - link "Notes" [ref=e15] [cursor=pointer]:
+              - /url: /notes
+          - listitem [ref=e16]:
+            - link "Contact" [ref=e17] [cursor=pointer]:
+              - /url: /contact
+          - listitem [ref=e18]:
+            - link "Nick Kaiser Lectures" [ref=e19] [cursor=pointer]:
+              - /url: /NickKaiserNotes/
+  - generic [ref=e21]:
+    - generic [ref=e23]:
+      - generic [ref=e25]: active
+      - heading "Software for Radio Cosmology" [level=1] [ref=e26]
+      - paragraph [ref=e27]: Open-source Python projects for 21cm intensity mapping — beam modelling, data simulation, Bayesian calibration, and power spectrum estimation
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - heading "Software for Radio Cosmology" [level=2] [ref=e31]
+        - paragraph [ref=e32]: Open-source Python projects for 21cm intensity mapping — beam modelling, data simulation, Bayesian calibration, and power spectrum estimation
+      - heading "The 21cm Challenge" [level=3] [ref=e33]
+      - generic [ref=e34]:
+        - img "Cosmic 21cm signal history across redshift" [ref=e36]
+        - paragraph [ref=e38]: Detecting the cosmological 21cm signal from neutral hydrogen is one of the great observational challenges in modern astrophysics. The signal is buried beneath astrophysical foregrounds four to five orders of magnitude brighter, corrupted by instrumental systematics — beam chromaticity, gain drifts, correlated 1/f noise — and contaminated by radio frequency interference. Every stage of the data pipeline must be handled with care — motivating the projects presented here.
+      - separator [ref=e39]
+      - heading "Projects at a Glance" [level=3] [ref=e40]
+      - paragraph [ref=e41]: Over the past several years I have developed a collection of Python packages that address different aspects of single-dish radio cosmology — from characterizing antenna beams to estimating power spectra. Each project is self-contained, though they naturally complement one another.
+      - document [ref=e44]:
+        - generic [ref=e45]:
+          - generic [ref=e49]: TIBECBeam Transforms
+          - generic [ref=e53]: limTODTOD Simulator
+          - generic [ref=e57]: hydra-todBayesian Calibration
+          - generic [ref=e61]: comatFast Toeplitz Ops
+          - generic [ref=e65]: weighted QPSEPower Spectrum
+          - generic [ref=e69]: MERSForeground Modelling
+          - generic [ref=e73]: Global21cmSignal Emulation
+      - separator [ref=e74]
+      - heading "Full Stokes Beam Integration — TIBEC" [level=3] [ref=e75]
+      - generic [ref=e76]:
+        - img "Full Stokes antenna beam patterns (I, Q, U, V)" [ref=e78]
+        - generic [ref=e79]:
+          - paragraph [ref=e80]:
+            - strong [ref=e81]: TIBEC
+            - text: (Time Integrated Beam pattern in Equatorial Coordinates) transforms antenna far-field E-field patterns into full Stokes (I, Q, U, V) beam matrices in equatorial coordinates, with support for time integration over Local Sidereal Time.
+          - list [ref=e82]:
+            - listitem [ref=e83]: Reads FEKO/CST E-field data formats
+            - listitem [ref=e84]: Computes Stokes beams via Pauli matrix algebra
+            - listitem [ref=e85]:
+              - text: "Two APIs:"
+              - code [ref=e86]: E_field
+              - text: (LST-based, multi-frequency) and
+              - code [ref=e87]: EFieldBeamAngle
+              - text: (beam-angle-based, HEALPix)
+      - separator [ref=e88]
+      - heading "TOD Simulation — limTOD" [level=3] [ref=e89]
+      - generic [ref=e90]:
+        - img "Coordinate system transformations for beam pointing" [ref=e92]
+        - generic [ref=e93]:
+          - paragraph [ref=e94]:
+            - strong [ref=e95]: limTOD
+            - text: simulates realistic time-ordered data for single-dish intensity mapping experiments such as MeerKAT/MeerKLASS. It handles asymmetric beam rotation in spherical harmonic space, sky convolution via HEALPix, and correlated 1/f gain noise generation.
+          - list [ref=e96]:
+            - listitem [ref=e97]: Full Stokes (I, Q, U, V) beam convolution
+            - listitem [ref=e98]: "Coordinate transforms: telescope (az/el) to equatorial via ZYZYZ Euler decomposition"
+            - listitem [ref=e99]:
+              - text: Built-in high-pass + Wiener filter map-making (
+              - code [ref=e100]: HPW_mapmaking
+              - text: )
+            - listitem [ref=e101]: MPI parallelization over frequencies
+      - separator [ref=e102]
+      - heading "Bayesian Calibration — hydra-tod" [level=3] [ref=e103]
+      - generic [ref=e104]:
+        - img "Reconstructed sky maps from Bayesian Gibbs sampling" [ref=e106]
+        - generic [ref=e107]:
+          - paragraph [ref=e108]:
+            - strong [ref=e109]: hydra-tod
+            - text: performs joint Bayesian inference of sky temperature maps, instrument gains, and correlated noise parameters from radio telescope time-ordered data. Using Gibbs sampling with MPI parallelization, it alternates between sampling sky, gain, and noise conditional distributions.
+          - list [ref=e110]:
+            - listitem [ref=e111]:
+              - text: "Data model: TOD = T"
+              - subscript [ref=e112]: sys
+              - text: × (1 + noise) × gain
+            - listitem [ref=e113]: "Three gain parameterizations: linear, log-linear, factorized"
+            - listitem [ref=e114]:
+              - text: Flicker noise (1/f
+              - superscript [ref=e115]: α
+              - text: ) covariance via incomplete gamma functions
+            - listitem [ref=e116]: Polynomial emulators for ~1700× speedup of covariance evaluation
+            - listitem [ref=e117]:
+              - text: Published in RAS Techniques and Instruments (
+              - link "arXiv:2509.10992" [ref=e118] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2509.10992
+              - text: )
+      - heading "Gibbs sampling for calibration, map-making, and noise estimation" [level=4] [ref=e119]
+      - paragraph [ref=e120]: The Gibbs sampler alternates between four conditional updates per iteration. Steps (a)–(c) run independently per TOD on each MPI rank; step (d) synchronises the shared sky parameters across all ranks.
+      - generic [ref=e121]:
+        - generic [ref=e122]:
+          - generic [ref=e123]: Init
+          - generic [ref=e124]:
+            - strong [ref=e125]: Initialise
+            - emphasis [ref=e126]: p
+            - subscript [ref=e127]: sky
+            - superscript [ref=e128]: (0)
+            - text: ", {"
+            - emphasis [ref=e129]: p
+            - subscript [ref=e130]:
+              - text: loc,
+              - emphasis [ref=e131]: j
+            - superscript [ref=e132]: (0)
+            - text: "}, {"
+            - emphasis [ref=e133]: p
+            - subscript [ref=e134]:
+              - emphasis [ref=e135]: g,j
+            - superscript [ref=e136]: (0)
+            - text: "}, {"
+            - emphasis [ref=e137]: p
+            - subscript [ref=e138]:
+              - emphasis [ref=e139]: n,j
+            - superscript [ref=e140]: (0)
+            - text: "}"
+        - generic [ref=e141]: →
+        - generic [ref=e142]:
+          - generic [ref=e143]:
+            - text: Per TOD
+            - emphasis [ref=e144]: j
+            - text: (parallel over MPI ranks)
+          - generic [ref=e145]:
+            - generic [ref=e146]: (a)
+            - generic [ref=e147]:
+              - text: Sample gains
+              - emphasis [ref=e148]: p
+              - subscript [ref=e149]:
+                - emphasis [ref=e150]: g,j
+              - superscript [ref=e151]:
+                - text: (
+                - emphasis [ref=e152]: i
+                - text: )
+          - generic [ref=e153]: ↓
+          - generic [ref=e154]:
+            - generic [ref=e155]: (b)
+            - generic [ref=e156]:
+              - text: Sample local temp
+              - emphasis [ref=e157]: p
+              - subscript [ref=e158]:
+                - text: loc,
+                - emphasis [ref=e159]: j
+              - superscript [ref=e160]:
+                - text: (
+                - emphasis [ref=e161]: i
+                - text: )
+          - generic [ref=e162]: ↓
+          - generic [ref=e163]:
+            - generic [ref=e164]: (c)
+            - generic [ref=e165]:
+              - text: Sample noise
+              - emphasis [ref=e166]: p
+              - subscript [ref=e167]:
+                - emphasis [ref=e168]: n,j
+              - superscript [ref=e169]:
+                - text: (
+                - emphasis [ref=e170]: i
+                - text: )
+        - generic [ref=e171]:
+          - text: →
+          - generic [ref=e172]: sync
+        - generic [ref=e173]:
+          - generic [ref=e174]: Global (MPI allreduce)
+          - generic [ref=e175]:
+            - generic [ref=e176]: (d)
+            - generic [ref=e177]:
+              - text: Sample sky temp
+              - emphasis [ref=e178]: p
+              - subscript [ref=e179]: sky
+              - superscript [ref=e180]:
+                - text: (
+                - emphasis [ref=e181]: i
+                - text: )
+        - generic [ref=e182]: →
+        - generic [ref=e184]:
+          - emphasis [ref=e185]: i
+          - text: <
+          - emphasis [ref=e186]: "N"
+          - subscript [ref=e187]: samp
+          - text: "?"
+          - text: Yes ↻ No ↓
+      - separator [ref=e188]
+      - heading "Fast Toeplitz Operations — comat" [level=3] [ref=e189]
+      - paragraph [ref=e190]:
+        - text: The flicker noise covariance matrices in hydra-tod are Toeplitz-structured.
+        - strong [ref=e191]: comat
+        - text: provides a Cython + OpenMP implementation of the Levinson-Durbin algorithm for O(N
+        - superscript [ref=e192]: "2"
+        - text: ") computation of:"
+      - list [ref=e193]:
+        - listitem [ref=e194]:
+          - strong [ref=e195]: Log-determinant
+          - text: ": log|C| for the noise covariance matrix"
+        - listitem [ref=e196]:
+          - strong [ref=e197]: Quadratic form
+          - text: ": x"
+          - superscript [ref=e198]: T
+          - text: C
+          - superscript [ref=e199]: −1
+          - text: x for likelihood evaluation
+      - paragraph [ref=e200]:
+        - text: These two quantities are the computational bottleneck of the noise parameter sampler. By exploiting Toeplitz structure, comat avoids the O(N
+        - superscript [ref=e201]: "3"
+        - text: ) cost of general matrix factorization, making the Gibbs sampler tractable for long time streams.
+      - separator [ref=e202]
+      - heading "Power Spectrum Estimation — weighted QPSE" [level=3] [ref=e203]
+      - generic [ref=e204]:
+        - img "Power spectrum mode selection and k-space coverage" [ref=e206]
+        - generic [ref=e207]:
+          - paragraph [ref=e208]:
+            - text: The
+            - strong [ref=e209]: weighted Quadratic Power Spectrum Estimator
+            - text: extracts cosmological 21cm power spectra from interferometric visibility data, with principled handling of non-uniform frequency weighting caused by RFI flagging.
+          - list [ref=e210]:
+            - listitem [ref=e211]: Half-cosine apodization around flagged channels to minimize spectral leakage
+            - listitem [ref=e212]: Comprehensive window function analysis
+            - listitem [ref=e213]: Automatic noise bias correction
+            - listitem [ref=e214]: Both theoretical (Gaussian) and Monte Carlo covariance estimation
+      - separator [ref=e215]
+      - heading "Foreground Modelling — MERS" [level=3] [ref=e216]
+      - generic [ref=e217]:
+        - img "Synchrotron emission mechanism — the dominant radio foreground" [ref=e219]
+        - generic [ref=e220]:
+          - paragraph [ref=e221]:
+            - strong [ref=e222]: MERS
+            - text: (Moment Expanded Radio Sky) characterizes radio foregrounds using a power-law ensemble moment expansion formalism. It enables systematic comparison of sky models (CNN-PL vs GSM), quantifies the impact of beam chromaticity and point sources on foreground subtraction, and provides foreground mitigation strategies for both global 21cm and interferometric experiments.
+          - paragraph [ref=e223]:
+            - text: Companion emulators in
+            - strong [ref=e224]: Global21cm
+            - text: (21cmVAE, Poly21cm) provide fast neural-network-based predictions of the 21cm signal for use in forecasting and analysis pipelines.
+      - separator [ref=e225]
+      - generic [ref=e226]:
+        - heading "Key Takeaways" [level=4] [ref=e227]
+        - list [ref=e228]:
+          - listitem [ref=e229]:
+            - strong [ref=e230]: Broad coverage
+            - text: ": Python packages addressing key challenges in single-dish 21cm intensity mapping — beam transforms, TOD simulation, Bayesian calibration, map-making, power spectrum estimation, and foreground modelling."
+          - listitem [ref=e231]:
+            - strong [ref=e232]: Full Stokes support
+            - text: ": Beam integration, TOD simulation, and map-making all handle the full polarization state (I, Q, U, V)."
+          - listitem [ref=e233]:
+            - strong [ref=e234]: Production-ready
+            - text: ": MPI-parallelized solvers, Cython/OpenMP routines (comat), and polynomial emulators for computationally intensive operations."
+          - listitem [ref=e235]:
+            - strong [ref=e236]: Open-source
+            - text: ": All packages available as installable Python libraries with Jupyter notebook examples and comprehensive documentation."
+          - listitem [ref=e237]:
+            - strong [ref=e238]: Actively developed
+            - text: ": Ongoing work on MeerKLASS and RHINO telescope applications."
+  - contentinfo [ref=e239]:
+    - generic [ref=e240]:
+      - list [ref=e241]:
+        - listitem [ref=e242]:
+          - link "Google scholar" [ref=e243] [cursor=pointer]:
+            - /url: https://scholar.google.com/citations?user=TemNJQ0AAAAJ&hl=en&oi=sra
+            - img [ref=e244]
+        - listitem [ref=e246]:
+          - link "Orcid" [ref=e247] [cursor=pointer]:
+            - /url: https://orcid.org/0000-0002-9154-2803
+            - img [ref=e248]
+        - listitem [ref=e250]:
+          - link "Github" [ref=e251] [cursor=pointer]:
+            - /url: https://github.com/zzhang0123
+            - img [ref=e252]
+        - listitem [ref=e254]:
+          - link "Linkedin" [ref=e255] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/zhengzhang96/
+            - img [ref=e256]
+      - generic [ref=e258]: © 2026 Zheng Zhang

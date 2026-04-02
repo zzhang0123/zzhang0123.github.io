@@ -1,0 +1,176 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Zheng Zhang" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e5]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "About" [ref=e9] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e10]:
+            - link "Posts" [ref=e11] [cursor=pointer]:
+              - /url: /posts/
+          - listitem [ref=e12]:
+            - link "Projects" [ref=e13] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=e14]:
+            - link "Notes" [ref=e15] [cursor=pointer]:
+              - /url: /notes
+          - listitem [ref=e16]:
+            - link "Contact" [ref=e17] [cursor=pointer]:
+              - /url: /contact
+          - listitem [ref=e18]:
+            - link "Nick Kaiser Lectures" [ref=e19] [cursor=pointer]:
+              - /url: /NickKaiserNotes/
+  - generic [ref=e21]:
+    - generic [ref=e23]:
+      - generic [ref=e25]: active
+      - heading "Advanced Methods" [level=1] [ref=e26]
+      - paragraph [ref=e27]: Computational Tools for Cosmology and Applied Mathematics
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - heading "Advanced Methods" [level=2] [ref=e31]
+        - paragraph [ref=e32]: Open-source computational tools spanning polynomial emulation, Monte Carlo post-analysis, and stochastic dynamics — bridging modern numerical methods with cosmological and mathematical applications.
+      - heading "Overview" [level=2] [ref=e33]
+      - paragraph [ref=e34]: "This workspace brings together four independent but complementary Python packages, each addressing a different facet of computational science. From building fast, interpretable emulators for cosmological observables to performing global sensitivity analysis on Monte Carlo chains and solving Fokker-Planck equations, these tools share a common philosophy: make advanced numerical methods accessible, efficient, and scientifically transparent."
+      - heading "Projects" [level=2] [ref=e35]
+      - generic [ref=e36]:
+        - generic [ref=e37]: Emulation
+        - heading "MomentEmu" [level=3] [ref=e38]
+        - paragraph [ref=e39]:
+          - text: A general-purpose polynomial emulator based on
+          - strong [ref=e40]: moment projection
+          - text: ", introduced in"
+          - link "Zhang (2025)" [ref=e41] [cursor=pointer]:
+            - /url: https://arxiv.org/abs/2507.02179
+          - text: ". Given simulation data {(θ"
+          - superscript [ref=e42]: (i)
+          - text: ", y"
+          - superscript [ref=e43]: (i)
+          - text: ")}, MomentEmu constructs a moment matrix"
+          - emphasis [ref=e44]: M
+          - subscript [ref=e45]: αβ
+          - text: and moment vector
+          - emphasis [ref=e46]: ν
+          - subscript [ref=e47]: α
+          - text: ", then solves the linear system"
+          - emphasis [ref=e48]: M c
+          - text: =
+          - emphasis [ref=e49]: ν
+          - text: to obtain closed-form polynomial coefficients — no iterative optimisation needed.
+        - paragraph [ref=e50]:
+          - strong [ref=e51]: "Key properties:"
+          - text: millisecond-level evaluation, negligible training cost (seconds, not hours), fully symbolic & differentiable output, forward (
+          - emphasis [ref=e52]: θ → y
+          - text: ) and inverse (
+          - emphasis [ref=e53]: y → θ
+          - text: ) modes, auto-differentiation via JAX, PyTorch, and SymPy.
+        - 'img "MomentEmu workflow: data standardisation, moment matrix assembly, polynomial fitting, and model selection" [ref=e54]'
+        - paragraph [ref=e55]: "The MomentEmu workflow: standardise data, assemble moment matrices, solve for polynomial coefficients, and select the optimal degree via validation RMSE."
+        - link "View on GitHub →" [ref=e56] [cursor=pointer]:
+          - /url: https://github.com/zzhang0123/MomentEmu
+      - generic [ref=e57]:
+        - generic [ref=e58]: Cosmology
+        - heading "PolyCAMB — CMB Emulation with MomentEmu" [level=3] [ref=e59]
+        - paragraph [ref=e60]:
+          - text: Proof-of-concept application of MomentEmu to cosmological parameter estimation using
+          - link "CAMB" [ref=e61] [cursor=pointer]:
+            - /url: https://camb.info
+          - text: ". Two emulators are provided:"
+        - list [ref=e62]:
+          - listitem [ref=e63]:
+            - strong [ref=e64]: PolyCAMB-Dℓ
+            - text: — maps six ΛCDM parameters to the CMB power spectra (TT, EE, BB, TE) at sub-percent accuracy over ℓ ≤ 4050. Training on ~47k simulations takes ~9 s; a full spectrum evaluation takes ~1.5 ms.
+          - listitem [ref=e65]:
+            - strong [ref=e66]: PolyCAMB-peak
+            - text: — bidirectional mapping between cosmological parameters and acoustic peak features (locations & amplitudes of the first five peaks). The resulting symbolic expressions recover the known analytic dependences of peak-height ratios on Ω
+            - subscript [ref=e67]: b
+            - text: h², Ω
+            - subscript [ref=e68]: c
+            - text: h², and n
+            - subscript [ref=e69]: s
+            - text: .
+      - generic [ref=e70]:
+        - 'figure "PolyCAMB-Dℓ validation: emulated spectrum (orange) vs CAMB (dashed), with residuals < 0.02%. Stars mark acoustic peaks predicted by PolyCAMB-peak." [ref=e71]':
+          - 'img "PolyCAMB validation: emulated vs CAMB power spectrum and fractional residuals below 0.02%" [ref=e72]'
+          - generic [ref=e73]: "PolyCAMB-Dℓ validation: emulated spectrum (orange) vs CAMB (dashed), with residuals < 0.02%. Stars mark acoustic peaks predicted by PolyCAMB-peak."
+        - figure "Training performance vs polynomial degree. A degree-5 fit achieves ~0.05% RMSE in ~9 seconds." [ref=e74]:
+          - 'img "Training performance: RMSE and training time vs polynomial degree" [ref=e75]'
+          - generic [ref=e76]: Training performance vs polynomial degree. A degree-5 fit achieves ~0.05% RMSE in ~9 seconds.
+      - generic [ref=e77]:
+        - 'figure "MCMC posteriors (Planck TT/TE/EE+lowE+lowT): PolyCAMB (orange) vs CAMB (blue). Best-fit shifts ≤ 0.01σ; ~140× speed-up." [ref=e78]':
+          - 'img "Corner plot: MCMC posteriors from PolyCAMB vs raw CAMB are nearly identical" [ref=e79]'
+          - generic [ref=e80]: "MCMC posteriors (Planck TT/TE/EE+lowE+lowT): PolyCAMB (orange) vs CAMB (blue). Best-fit shifts ≤ 0.01σ; ~140× speed-up."
+        - 'figure "Symbolic peak-height ratios H2, H3: PolyCAMB-peak (orange) recovers known analytic dependences (blue) at ~0.04% accuracy vs CAMB (gray)." [ref=e81]':
+          - 'img "Symbolic peak-height ratios H2 and H3: PolyCAMB vs Hu & Sugiyama analytic approximations" [ref=e82]'
+          - generic [ref=e83]:
+            - text: Symbolic peak-height ratios H
+            - subscript [ref=e84]: "2"
+            - text: ", H"
+            - subscript [ref=e85]: "3"
+            - text: ": PolyCAMB-peak (orange) recovers known analytic dependences (blue) at ~0.04% accuracy vs CAMB (gray)."
+      - link "PolyCAMB Examples on GitHub →" [ref=e87] [cursor=pointer]:
+        - /url: https://github.com/MomentEmu/MomentEmu-PolyCAMB-examples
+      - generic [ref=e88]:
+        - generic [ref=e89]: Statistics
+        - heading "MCPost" [level=3] [ref=e90]
+        - paragraph [ref=e91]:
+          - text: Comprehensive Monte Carlo post-analysis package. Provides
+          - strong [ref=e92]: global sensitivity analysis
+          - text: (mutual information, distance correlation, permutation importance, GP surrogates with ARD, Sobol’ indices) and
+          - strong [ref=e93]: Monte Carlo / quasi-Monte Carlo integration
+          - text: with importance sampling. Modular, typed, and extensible via a registry-based plugin system.
+        - link "View on GitHub →" [ref=e94] [cursor=pointer]:
+          - /url: https://github.com/zzhang0123/mcpost
+      - generic [ref=e95]:
+        - generic [ref=e96]: Stochastic Processes
+        - heading "KME" [level=3] [ref=e97]
+        - paragraph [ref=e98]:
+          - text: Numerical solver for the
+          - strong [ref=e99]: Fokker-Planck equation
+          - text: using the Kramers-Moyal expansion. Tracks the time evolution of probability density functions for stochastic processes, with built-in visualisation of PDF evolution at different time slices. Supports user-defined drift and diffusion coefficients.
+        - link "View on GitHub →" [ref=e100] [cursor=pointer]:
+          - /url: https://github.com/zzhang0123/KME
+      - separator [ref=e101]
+      - heading "Get Started" [level=2] [ref=e102]
+      - generic [ref=e103]:
+        - heading "Key Takeaway" [level=4] [ref=e104]
+        - paragraph [ref=e105]:
+          - text: These four packages demonstrate the breadth of modern computational methods in cosmology and applied mathematics — from
+          - strong [ref=e106]: polynomial emulation
+          - text: with symbolic transparency to
+          - strong [ref=e107]: sensitivity analysis
+          - text: of Monte Carlo chains and
+          - strong [ref=e108]: stochastic process modelling
+          - text: . Each is pip-installable, documented with Jupyter notebooks, and designed for scientific transparency.
+      - paragraph [ref=e109]: "All packages are available on GitHub:"
+      - list [ref=e110]:
+        - listitem [ref=e111]:
+          - strong [ref=e112]: MomentEmu
+          - text: ":"
+          - code [ref=e113]: pip install git+https://github.com/zzhang0123/MomentEmu.git
+        - listitem [ref=e114]:
+          - strong [ref=e115]: MCPost
+          - text: ":"
+          - code [ref=e116]: pip install MC-post
+        - listitem [ref=e117]:
+          - strong [ref=e118]: PolyCAMB examples
+          - text: ":"
+          - code [ref=e119]: git clone https://github.com/MomentEmu/MomentEmu-PolyCAMB-examples.git
+  - contentinfo [ref=e120]:
+    - generic [ref=e121]:
+      - list [ref=e122]:
+        - listitem [ref=e123]:
+          - link "Google scholar" [ref=e124] [cursor=pointer]:
+            - /url: https://scholar.google.com/citations?user=TemNJQ0AAAAJ&hl=en&oi=sra
+        - listitem [ref=e125]:
+          - link "Orcid" [ref=e126] [cursor=pointer]:
+            - /url: https://orcid.org/0000-0002-9154-2803
+        - listitem [ref=e127]:
+          - link "Github" [ref=e128] [cursor=pointer]:
+            - /url: https://github.com/zzhang0123
+        - listitem [ref=e129]:
+          - link "Linkedin" [ref=e130] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/zhengzhang96/
+      - generic [ref=e131]: © 2026 Zheng Zhang
